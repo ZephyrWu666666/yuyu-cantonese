@@ -53,7 +53,8 @@ export function LyricsView({ songId, lyrics, onPlayLine }: LyricsViewProps) {
             key={index}
             id={`line-${index}`}
             onClick={() => playLine(index)}
-            className={`p-4 rounded-lg cursor-pointer transition-all duration-300 ${
+            style={{ animationDelay: `${index * 0.05}s` }}
+            className={`p-4 rounded-lg cursor-pointer transition-all duration-300 opacity-0 animate-fadeIn ${
               currentIndex === index
                 ? 'bg-primary/20 border border-primary/50 scale-[1.02]'
                 : 'bg-white/5 hover:bg-white/10'
