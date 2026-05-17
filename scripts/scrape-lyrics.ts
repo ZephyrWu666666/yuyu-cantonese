@@ -1,7 +1,11 @@
 import * as fs from 'fs'
 import * as path from 'path'
+import { fileURLToPath } from 'url'
 import axios from 'axios'
 import * as cheerio from 'cheerio'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 // Complete song list with IDs, titles, albums, and years
 const SONGS = [
@@ -48,129 +52,172 @@ const SONGS = [
 
 interface ScrapedLine {
   cantonese: string
-  pinyin: string
-  mandarin: string
+  jyutping: string
 }
 
-// ============================================================
-// TODO: 用户需要提供翡翠粤语歌词网站的具体URL格式
-// 以下是通用抓取逻辑框架，需要根据实际网站结构调整
-// ============================================================
+const SINGER_PAGE = 'https://www.feitsui.com/zh-hans/singer/1' // 陈奕迅
+const LYRICS_BASE = 'https://www.feitsui.com/zh-hans/lyrics/'
 
-// 基础URL - TODO: 替换为翡翠粤语歌词的实际域名
-const BASE_URL = 'https://www.example.com'
+const HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+}
 
-// 请求延迟，避免被封
 function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-// 搜索歌曲，获取歌词页面URL
-async function searchSongUrl(songTitle: string): Promise<string | null> {
-  try {
-    // TODO: 替换为实际的搜索URL格式
-    // 示例: const searchUrl = `${BASE_URL}/search?q=${encodeURIComponent(songTitle)}`
-    const searchUrl = `${BASE_URL}/search?q=${encodeURIComponent(songTitle)}`
-    console.log(`  搜索URL: ${searchUrl}`)
-
-    const response = await axios.get(searchUrl, {
-      timeout: 10000,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-      },
-    })
-
-    const $ = cheerio.load(response.data)
-
-    // TODO: 替换为实际的选择器，找到歌曲链接
-    // 示例: const songLink = $('a.lyrics-link').first().attr('href')
-    const songLink = $('a').first().attr('href')
-
-    if (!songLink) {
-      console.log(`  未找到歌曲链接: ${songTitle}`)
-      return null
-    }
-
-    // 如果是相对路径，拼接完整URL
-    if (songLink.startsWith('/')) {
-      return `${BASE_URL}${songLink}`
-    }
-    return songLink
-  } catch (error) {
-    console.error(`  搜索失败 "${songTitle}":`, error)
-    return null
-  }
-}
-
-// 从歌词页面提取歌词数据
-async function scrapeLyricsFromPage(url: string): Promise<ScrapedLine[]> {
-  try {
-    const response = await axios.get(url, {
-      timeout: 10000,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-      },
-    })
-
-    const $ = cheerio.load(response.data)
-    const lines: ScrapedLine[] = []
-
-    // TODO: 替换为实际的HTML选择器
-    // 翡翠粤语歌词网站通常有粤语歌词、粤拼注音、普通话翻译三个部分
-    // 需要根据实际HTML结构调整以下选择器:
-    //
-    // 示例模式1: 粤语歌词在 <div class="cantonese-lyrics">
-    // 示例模式2: 粤拼在 ruby 注音中
-    // 示例模式3: 翻译在 <div class="mandarin-translation">
-    //
-    // 以下是一个假设的解析模式:
-    $('div.lyrics-line').each((_, element) => {
-      const cantonese = $(element).find('.cantonese').text().trim()
-      const pinyin = $(element).find('.pinyin').text().trim()
-      const mandarin = $(element).find('.mandarin').text().trim()
-
-      if (cantonese) {
-        lines.push({ cantonese, pinyin, mandarin })
+/** Retry wrapper with exponential backoff for 429 errors */
+async function fetchWithRetry(url: string, maxRetries = 3): Promise<any> {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await axios.get(url, { timeout: 15000, headers: HEADERS })
+    } catch (err: any) {
+      if (err.response?.status === 429 && attempt < maxRetries) {
+        const waitMs = (attempt + 1) * 15000 // 15s, 30s, 45s
+        console.log(`  限流，等待 ${waitMs / 1000}s 后重试 (${attempt + 1}/${maxRetries})...`)
+        await delay(waitMs)
+        continue
       }
-    })
-
-    return lines
-  } catch (error) {
-    console.error(`  获取歌词失败 (${url}):`, error)
-    return []
-  }
-}
-
-// 主抓取函数
-async function scrapeSongLyrics(songTitle: string): Promise<ScrapedLine[]> {
-  try {
-    // 1. 搜索歌曲
-    const songUrl = await searchSongUrl(songTitle)
-    if (!songUrl) {
-      return []
+      throw err
     }
-
-    // 2. 获取歌词
-    await delay(1000) // 请求间隔
-    return await scrapeLyricsFromPage(songUrl)
-  } catch (error) {
-    console.error(`Failed to scrape "${songTitle}":`, error)
-    return []
   }
 }
 
-function extractWords(line: ScrapedLine): { cantonese: string; pinyin: string; mandarin: string; audioPath: string }[] {
-  const words: { cantonese: string; pinyin: string; mandarin: string; audioPath: string }[] = []
-  const jyutpingSyllables = line.pinyin.split(' ')
-  const characters = line.cantonese.split('')
+/**
+ * Fetch the singer page and build a map: normalized title -> feitsui lyrics URL
+ * This avoids the rate-limited search API entirely.
+ */
+async function buildSongUrlMap(): Promise<Map<string, string>> {
+  console.log('正在获取歌手页面，构建歌曲 URL 映射...')
+  const resp = await fetchWithRetry(SINGER_PAGE)
+  const $ = cheerio.load(resp.data)
+  const map = new Map<string, string>()
 
-  for (let i = 0; i < Math.min(characters.length, jyutpingSyllables.length); i++) {
-    words.push({
-      cantonese: characters[i],
-      pinyin: jyutpingSyllables[i],
-      mandarin: '', // Needs manual annotation
-      audioPath: `/audio/words/${jyutpingSyllables[i]}.mp3`,
-    })
+  $('a[href*="/zh-hans/lyrics/"]').each((_, el) => {
+    const href = $(el).attr('href')
+    const title = $(el).text().trim()
+    if (href && title) {
+      // Normalize: lowercase, remove spaces and punctuation
+      const normalized = normalizeTitle(title)
+      map.set(normalized, `https://www.feitsui.com${href}`)
+    }
+  })
+
+  console.log(`  找到 ${map.size} 首歌曲`)
+  return map
+}
+
+/** Normalize a title for fuzzy matching */
+function normalizeTitle(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[\s,.\-!？。，、！·'"()（）\-]/g, '')
+    .replace(/^(the|a|an)\s+/i, '')
+    .trim()
+}
+
+/** Find the best matching URL for a song title from the map */
+function findSongUrl(title: string, map: Map<string, string>): string | null {
+  const normalized = normalizeTitle(title)
+
+  // Exact match
+  if (map.has(normalized)) return map.get(normalized)!
+
+  // Try partial match: our title is contained in map key, or vice versa
+  for (const [key, url] of map) {
+    if (key.includes(normalized) || normalized.includes(key)) {
+      return url
+    }
+  }
+
+  // Try matching without numbers/special chars
+  const alphaOnly = normalized.replace(/[^a-z一-鿿]/g, '')
+  for (const [key, url] of map) {
+    const keyAlpha = key.replace(/[^a-z一-鿿]/g, '')
+    if (keyAlpha === alphaOnly || keyAlpha.includes(alphaOnly) || alphaOnly.includes(keyAlpha)) {
+      return url
+    }
+  }
+
+  return null
+}
+
+/** Fetch and parse lyrics from a feitsui lyrics page */
+async function scrapeLyricsFromPage(url: string): Promise<ScrapedLine[]> {
+  const resp = await fetchWithRetry(url)
+  const $ = cheerio.load(resp.data)
+
+  const lines: ScrapedLine[] = []
+
+  $('article.romanization p').each((_, el) => {
+    const html = $(el).html()
+    if (!html) return
+
+    // Split by <br> tags to get alternating lines
+    const parts = html.split(/<br\s*\/?>/i).map(s => {
+      return s.replace(/<[^>]*>/g, '').trim()
+    }).filter(Boolean)
+
+    // Parts alternate: chinese, jyutping, (watermark), chinese, jyutping, ...
+    for (let i = 0; i < parts.length; i++) {
+      const text = parts[i]
+
+      // Skip watermark lines
+      if (text.includes('翡翠粤语歌词') || text.includes('feitsui.com')) {
+        continue
+      }
+
+      // Check if this looks like Chinese text (contains CJK)
+      const isChinese = /[一-鿿]/.test(text)
+      // Check if the next part is jyutping (no CJK chars)
+      const nextPart = parts[i + 1]
+      const isNextJyutping = nextPart
+        && /[一-鿿]/.test(nextPart) === false
+        && !nextPart.includes('翡翠') && !nextPart.includes('feitsui')
+
+      if (isChinese && isNextJyutping) {
+        lines.push({
+          cantonese: text,
+          jyutping: nextPart,
+        })
+        i++ // skip the jyutping line we just consumed
+      }
+    }
+  })
+
+  return lines
+}
+
+function extractWords(cantonese: string, jyutping: string) {
+  const words: { cantonese: string; pinyin: string; mandarin: string; audioPath: string }[] = []
+  const syllables = jyutping.split(/\s+/).filter(Boolean)
+
+  let sylIdx = 0
+  const chars = cantonese.split('')
+
+  for (let i = 0; i < chars.length && sylIdx < syllables.length; i++) {
+    const char = chars[i]
+    if (!/[一-鿿]/.test(char)) continue
+
+    const syl = syllables[sylIdx]
+    // Multi-char reading (contains '-' or '/')
+    if ((syl.includes('-') || syl.includes('/')) && i + 1 < chars.length && /[一-鿿]/.test(chars[i + 1])) {
+      words.push({
+        cantonese: char + chars[i + 1],
+        pinyin: syl,
+        mandarin: '',
+        audioPath: `/audio/words/${syl}.mp3`,
+      })
+      i++
+    } else {
+      words.push({
+        cantonese: char,
+        pinyin: syl,
+        mandarin: '',
+        audioPath: `/audio/words/${syl}.mp3`,
+      })
+    }
+    sylIdx++
   }
 
   return words
@@ -181,11 +228,14 @@ async function main() {
   console.log(`共 ${SONGS.length} 首歌曲待处理`)
   console.log('')
 
-  // 确保输出目录存在
   const outputDir = path.join(__dirname, '../src/data')
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true })
   }
+
+  // Step 1: Build song URL map from singer page (single request)
+  const urlMap = await buildSongUrlMap()
+  console.log('')
 
   const songs: any[] = []
   let successCount = 0
@@ -193,38 +243,49 @@ async function main() {
 
   for (let i = 0; i < SONGS.length; i++) {
     const song = SONGS[i]
-    console.log(`[${i + 1}/${SONGS.length}] 正在处理: ${song.title} (${song.album}, ${song.year})`)
+    console.log(`[${i + 1}/${SONGS.length}] 正在处理: ${song.title}`)
 
-    const lines = await scrapeSongLyrics(song.title)
+    try {
+      // Step 2: Find lyrics URL from the map
+      const lyricsUrl = findSongUrl(song.title, urlMap)
+      if (!lyricsUrl) {
+        console.log(`  未在歌手页面找到: ${song.title}`)
+        failCount++
+        continue
+      }
+      console.log(`  歌词页: ${lyricsUrl}`)
 
-    if (lines.length > 0) {
-      successCount++
-      songs.push({
-        id: song.id,
-        title: song.title,
-        album: song.album,
-        year: song.year,
-        lyrics: lines.map((line) => ({
-          cantonese: line.cantonese,
-          pinyin: line.pinyin,
-          mandarin: line.mandarin,
-          words: extractWords(line),
-        })),
-      })
-      console.log(`  成功: ${lines.length} 行歌词`)
-    } else {
+      // Step 3: Delay then fetch lyrics
+      await delay(2000 + Math.random() * 1000)
+
+      const lines = await scrapeLyricsFromPage(lyricsUrl)
+
+      if (lines.length > 0) {
+        successCount++
+        songs.push({
+          id: song.id,
+          title: song.title,
+          album: song.album,
+          year: song.year,
+          lyrics: lines.map(line => ({
+            cantonese: line.cantonese,
+            pinyin: line.jyutping,
+            mandarin: '',
+            words: extractWords(line.cantonese, line.jyutping),
+          })),
+        })
+        console.log(`  成功: ${lines.length} 行歌词`)
+      } else {
+        failCount++
+        console.log(`  歌词为空`)
+      }
+    } catch (err: any) {
       failCount++
-      console.log(`  失败: 未获取到歌词`)
-    }
-
-    // 每处理5首歌暂停一下，避免请求过快
-    if ((i + 1) % 5 === 0) {
-      console.log('  等待2秒...')
-      await delay(2000)
+      console.error(`  处理失败:`, err.message || err)
     }
   }
 
-  // 保存结果
+  // Save results
   const outputPath = path.join(outputDir, 'songs.json')
   fs.writeFileSync(outputPath, JSON.stringify(songs, null, 2), 'utf-8')
 
