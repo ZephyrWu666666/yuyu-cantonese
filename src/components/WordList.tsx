@@ -3,13 +3,18 @@
 import { useState, useMemo } from 'react'
 import { LyricLine } from '@/lib/types'
 import { WordCard } from './WordCard'
+import { getProgress, saveMasteredWord } from '@/lib/storage'
 
 interface WordListProps {
   lyrics: LyricLine[]
 }
 
 export function WordList({ lyrics }: WordListProps) {
-  const [masteredWords, setMasteredWords] = useState<Set<string>>(new Set())
+  const [masteredWords, setMasteredWords] = useState<Set<string>>(() => {
+    if (typeof window === 'undefined') return new Set()
+    const progress = getProgress()
+    return new Set(progress.masteredWords)
+  })
 
   // Extract all unique words from lyrics
   const allWords = useMemo(() => {
@@ -32,7 +37,10 @@ export function WordList({ lyrics }: WordListProps) {
       <div className="text-center py-12">
         <p className="text-xl text-primary mb-4">所有词汇已掌握！</p>
         <button
-          onClick={() => setMasteredWords(new Set())}
+          onClick={() => {
+            setMasteredWords(new Set())
+            localStorage.removeItem('yuyu-progress')
+          }}
           className="px-4 py-2 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors"
         >
           重置
@@ -53,6 +61,7 @@ export function WordList({ lyrics }: WordListProps) {
             word={word}
             onMastered={() => {
               setMasteredWords(prev => new Set([...prev, word.cantonese]))
+              saveMasteredWord(word.cantonese)
             }}
           />
         ))}
