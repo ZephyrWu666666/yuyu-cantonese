@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { ModeSwitch } from '@/components/ModeSwitch'
+import { LyricsView } from '@/components/LyricsView'
 import { LearningMode, Song } from '@/lib/types'
 import Link from 'next/link'
 
@@ -29,7 +30,7 @@ export function SongContent({ song }: SongContentProps) {
 
       <div className="min-h-[400px]">
         {mode === 'lyrics' ? (
-          <div className="text-gray-400 text-center py-12">歌词模式（待实现）</div>
+          <LyricsView songId={song.id} lyrics={song.lyrics} />
         ) : (
           <div className="text-gray-400 text-center py-12">词汇模式（待实现）</div>
         )}
