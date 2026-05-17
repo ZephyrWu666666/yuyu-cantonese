@@ -1,1 +1,188 @@
-[]
+[
+  {
+    "id": "fushishanxia",
+    "title": "富士山下",
+    "album": "What's Going On...?",
+    "year": 2006,
+    "lyrics": [
+      {
+        "cantonese": "拦路雨偏似雪花",
+        "pinyin": "laan4 lou6 jyu5 pin1 ci5 syut3 faa1",
+        "mandarin": "拦路的雨偏偏像雪花",
+        "words": [
+          { "cantonese": "拦", "pinyin": "laan4", "mandarin": "拦", "audioPath": "/audio/words/laan4.mp3" },
+          { "cantonese": "路", "pinyin": "lou6", "mandarin": "路", "audioPath": "/audio/words/lou6.mp3" },
+          { "cantonese": "雨", "pinyin": "jyu5", "mandarin": "雨", "audioPath": "/audio/words/jyu5.mp3" },
+          { "cantonese": "偏", "pinyin": "pin1", "mandarin": "偏偏", "audioPath": "/audio/words/pin1.mp3" },
+          { "cantonese": "似", "pinyin": "ci5", "mandarin": "像", "audioPath": "/audio/words/ci5.mp3" },
+          { "cantonese": "雪花", "pinyin": "syut3-faa1", "mandarin": "雪花", "audioPath": "/audio/words/syut3-faa1.mp3" }
+        ]
+      },
+      {
+        "cantonese": "饮泣的你冻吗",
+        "pinyin": "jam5 jap1 dik1 nei5 dung3 maa3",
+        "mandarin": "哭泣的你冷吗",
+        "words": [
+          { "cantonese": "饮泣", "pinyin": "jam5-jap1", "mandarin": "哭泣", "audioPath": "/audio/words/jam5-jap1.mp3" },
+          { "cantonese": "的", "pinyin": "dik1", "mandarin": "的", "audioPath": "/audio/words/dik1.mp3" },
+          { "cantonese": "你", "pinyin": "nei5", "mandarin": "你", "audioPath": "/audio/words/nei5.mp3" },
+          { "cantonese": "冻", "pinyin": "dung3", "mandarin": "冷", "audioPath": "/audio/words/dung3.mp3" },
+          { "cantonese": "吗", "pinyin": "maa3", "mandarin": "吗", "audioPath": "/audio/words/maa3.mp3" }
+        ]
+      },
+      {
+        "cantonese": "这风褛我给你磨到有襟花",
+        "pinyin": "ze5 fung1 lau1 ngo5 kap1 nei5 mo4 dou3 jau5 kam1 faa1",
+        "mandarin": "这件风衣我给你磨到有补丁",
+        "words": [
+          { "cantonese": "这", "pinyin": "ze5", "mandarin": "这", "audioPath": "/audio/words/ze5.mp3" },
+          { "cantonese": "风褛", "pinyin": "fung1-lau1", "mandarin": "风衣", "audioPath": "/audio/words/fung1-lau1.mp3" },
+          { "cantonese": "我", "pinyin": "ngo5", "mandarin": "我", "audioPath": "/audio/words/ngo5.mp3" },
+          { "cantonese": "给", "pinyin": "kap1", "mandarin": "给", "audioPath": "/audio/words/kap1.mp3" },
+          { "cantonese": "你", "pinyin": "nei5", "mandarin": "你", "audioPath": "/audio/words/nei5.mp3" },
+          { "cantonese": "磨", "pinyin": "mo4", "mandarin": "磨", "audioPath": "/audio/words/mo4.mp3" },
+          { "cantonese": "到", "pinyin": "dou3", "mandarin": "到", "audioPath": "/audio/words/dou3.mp3" },
+          { "cantonese": "有", "pinyin": "jau5", "mandarin": "有", "audioPath": "/audio/words/jau5.mp3" },
+          { "cantonese": "襟花", "pinyin": "kam1-faa1", "mandarin": "补丁", "audioPath": "/audio/words/kam1-faa1.mp3" }
+        ]
+      },
+      {
+        "cantonese": "连调了职也不怕",
+        "pinyin": "lin4 diu6 liu5 zik1 jaa5 bat1 paa3",
+        "mandarin": "连调了职也不怕",
+        "words": [
+          { "cantonese": "连", "pinyin": "lin4", "mandarin": "连", "audioPath": "/audio/words/lin4.mp3" },
+          { "cantonese": "调了", "pinyin": "diu6-liu5", "mandarin": "调了", "audioPath": "/audio/words/diu6-liu5.mp3" },
+          { "cantonese": "职", "pinyin": "zik1", "mandarin": "职位", "audioPath": "/audio/words/zik1.mp3" },
+          { "cantonese": "也", "pinyin": "jaa5", "mandarin": "也", "audioPath": "/audio/words/jaa5.mp3" },
+          { "cantonese": "不怕", "pinyin": "bat1-paa3", "mandarin": "不怕", "audioPath": "/audio/words/bat1-paa3.mp3" }
+        ]
+      },
+      {
+        "cantonese": "怎么始终牵挂",
+        "pinyin": "zam2 mo6 ci2 zung1 hin1 gwaa3",
+        "mandarin": "怎么始终牵挂",
+        "words": [
+          { "cantonese": "怎么", "pinyin": "zam2-mo6", "mandarin": "怎么", "audioPath": "/audio/words/zam2-mo6.mp3" },
+          { "cantonese": "始终", "pinyin": "ci2-zung1", "mandarin": "始终", "audioPath": "/audio/words/ci2-zung1.mp3" },
+          { "cantonese": "牵挂", "pinyin": "hin1-gwaa3", "mandarin": "牵挂", "audioPath": "/audio/words/hin1-gwaa3.mp3" }
+        ]
+      },
+      {
+        "cantonese": "心心念念是你是他",
+        "pinyin": "sam1 sam1 nim6 nim6 si6 nei5 si6 taa1",
+        "mandarin": "心心念念是你也是他",
+        "words": [
+          { "cantonese": "心心念念", "pinyin": "sam1-sam1-nim6-nim6", "mandarin": "心心念念", "audioPath": "/audio/words/sam1-sam1-nim6-nim6.mp3" },
+          { "cantonese": "是", "pinyin": "si6", "mandarin": "是", "audioPath": "/audio/words/si6.mp3" },
+          { "cantonese": "你", "pinyin": "nei5", "mandarin": "你", "audioPath": "/audio/words/nei5.mp3" },
+          { "cantonese": "是", "pinyin": "si6", "mandarin": "是", "audioPath": "/audio/words/si6.mp3" },
+          { "cantonese": "他", "pinyin": "taa1", "mandarin": "他", "audioPath": "/audio/words/taa1.mp3" }
+        ]
+      },
+      {
+        "cantonese": "凭何让你选中我",
+        "pinyin": "pang4 ho4 joeng6 nei5 syun2 zung1 ngo5",
+        "mandarin": "凭什么让你选中我",
+        "words": [
+          { "cantonese": "凭何", "pinyin": "pang4-ho4", "mandarin": "凭什么", "audioPath": "/audio/words/pang4-ho4.mp3" },
+          { "cantonese": "让", "pinyin": "joeng6", "mandarin": "让", "audioPath": "/audio/words/joeng6.mp3" },
+          { "cantonese": "你", "pinyin": "nei5", "mandarin": "你", "audioPath": "/audio/words/nei5.mp3" },
+          { "cantonese": "选中", "pinyin": "syun2-zung1", "mandarin": "选中", "audioPath": "/audio/words/syun2-zung1.mp3" },
+          { "cantonese": "我", "pinyin": "ngo5", "mandarin": "我", "audioPath": "/audio/words/ngo5.mp3" }
+        ]
+      },
+      {
+        "cantonese": "能成为个幸运儿",
+        "pinyin": "nang1 sing4 wai4 go3 hang6 wan6 ji4",
+        "mandarin": "能成为一个幸运儿",
+        "words": [
+          { "cantonese": "能", "pinyin": "nang1", "mandarin": "能", "audioPath": "/audio/words/nang1.mp3" },
+          { "cantonese": "成为", "pinyin": "sing4-wai4", "mandarin": "成为", "audioPath": "/audio/words/sing4-wai4.mp3" },
+          { "cantonese": "个", "pinyin": "go3", "mandarin": "个", "audioPath": "/audio/words/go3.mp3" },
+          { "cantonese": "幸运儿", "pinyin": "hang6-wan6-ji4", "mandarin": "幸运儿", "audioPath": "/audio/words/hang6-wan6-ji4.mp3" }
+        ]
+      },
+      {
+        "cantonese": "我只得这么知",
+        "pinyin": "ngo5 zi2 dak1 ze2 mo1 zi1",
+        "mandarin": "我只知道这些",
+        "words": [
+          { "cantonese": "我", "pinyin": "ngo5", "mandarin": "我", "audioPath": "/audio/words/ngo5.mp3" },
+          { "cantonese": "只得", "pinyin": "zi2-dak1", "mandarin": "只得", "audioPath": "/audio/words/zi2-dak1.mp3" },
+          { "cantonese": "这么", "pinyin": "ze2-mo1", "mandarin": "这么", "audioPath": "/audio/words/ze2-mo1.mp3" },
+          { "cantonese": "知", "pinyin": "zi1", "mandarin": "知道", "audioPath": "/audio/words/zi1.mp3" }
+        ]
+      },
+      {
+        "cantonese": "如何令你靠近我",
+        "pinyin": "jyu4 ho4 ling6 nei5 kau3 gan6 ngo5",
+        "mandarin": "如何让你靠近我",
+        "words": [
+          { "cantonese": "如何", "pinyin": "jyu4-ho4", "mandarin": "如何", "audioPath": "/audio/words/jyu4-ho4.mp3" },
+          { "cantonese": "令", "pinyin": "ling6", "mandarin": "让", "audioPath": "/audio/words/ling6.mp3" },
+          { "cantonese": "你", "pinyin": "nei5", "mandarin": "你", "audioPath": "/audio/words/nei5.mp3" },
+          { "cantonese": "靠近", "pinyin": "kau3-gan6", "mandarin": "靠近", "audioPath": "/audio/words/kau3-gan6.mp3" },
+          { "cantonese": "我", "pinyin": "ngo5", "mandarin": "我", "audioPath": "/audio/words/ngo5.mp3" }
+        ]
+      },
+      {
+        "cantonese": "完全为了甚麼",
+        "pinyin": "jyun4 cyun4 wai6 liu5 sam6 mo1",
+        "mandarin": "完全为了什么",
+        "words": [
+          { "cantonese": "完全", "pinyin": "jyun4-cyun4", "mandarin": "完全", "audioPath": "/audio/words/jyun4-cyun4.mp3" },
+          { "cantonese": "为了", "pinyin": "wai6-liu5", "mandarin": "为了", "audioPath": "/audio/words/wai6-liu5.mp3" },
+          { "cantonese": "甚麼", "pinyin": "sam6-mo1", "mandarin": "什么", "audioPath": "/audio/words/sam6-mo1.mp3" }
+        ]
+      },
+      {
+        "cantonese": "能同渡过十年",
+        "pinyin": "nang1 tung4 dou6 gwo3 sap6 nin4",
+        "mandarin": "能共同度过十年",
+        "words": [
+          { "cantonese": "能", "pinyin": "nang1", "mandarin": "能", "audioPath": "/audio/words/nang1.mp3" },
+          { "cantonese": "同", "pinyin": "tung4", "mandarin": "共同", "audioPath": "/audio/words/tung4.mp3" },
+          { "cantonese": "渡过", "pinyin": "dou6-gwo3", "mandarin": "度过", "audioPath": "/audio/words/dou6-gwo3.mp3" },
+          { "cantonese": "十年", "pinyin": "sap6-nin4", "mandarin": "十年", "audioPath": "/audio/words/sap6-nin4.mp3" }
+        ]
+      },
+      {
+        "cantonese": "仍舍不得放下",
+        "pinyin": "jing4 se2 bat1 dak1 fong3 haa5",
+        "mandarin": "仍舍不得放下",
+        "words": [
+          { "cantonese": "仍", "pinyin": "jing4", "mandarin": "仍然", "audioPath": "/audio/words/jing4.mp3" },
+          { "cantonese": "舍不得", "pinyin": "se2-bat1-dak1", "mandarin": "舍不得", "audioPath": "/audio/words/se2-bat1-dak1.mp3" },
+          { "cantonese": "放下", "pinyin": "fong3-haa5", "mandarin": "放下", "audioPath": "/audio/words/fong3-haa5.mp3" }
+        ]
+      },
+      {
+        "cantonese": "期望记紧别太快别离",
+        "pinyin": "kei4 mong6 gei3 gan2 bit6 taai3 faai3 bit6 lei4",
+        "mandarin": "期望记住别太快别离",
+        "words": [
+          { "cantonese": "期望", "pinyin": "kei4-mong6", "mandarin": "期望", "audioPath": "/audio/words/kei4-mong6.mp3" },
+          { "cantonese": "记紧", "pinyin": "gei3-gan2", "mandarin": "记住", "audioPath": "/audio/words/gei3-gan2.mp3" },
+          { "cantonese": "别", "pinyin": "bit6", "mandarin": "别", "audioPath": "/audio/words/bit6.mp3" },
+          { "cantonese": "太快", "pinyin": "taai3-faai3", "mandarin": "太快", "audioPath": "/audio/words/taai3-faai3.mp3" },
+          { "cantonese": "别离", "pinyin": "bit6-lei4", "mandarin": "离别", "audioPath": "/audio/words/bit6-lei4.mp3" }
+        ]
+      },
+      {
+        "cantonese": "谁能凭爱意要富士山私有",
+        "pinyin": "seoi4 nang1 pang4 oi3 ji3 jiu3 fu3 si6 saan1 si1 jau5",
+        "mandarin": "谁能凭爱意要富士山私有",
+        "words": [
+          { "cantonese": "谁", "pinyin": "seoi4", "mandarin": "谁", "audioPath": "/audio/words/seoi4.mp3" },
+          { "cantonese": "能", "pinyin": "nang1", "mandarin": "能", "audioPath": "/audio/words/nang1.mp3" },
+          { "cantonese": "凭", "pinyin": "pang4", "mandarin": "凭", "audioPath": "/audio/words/pang4.mp3" },
+          { "cantonese": "爱意", "pinyin": "oi3-ji3", "mandarin": "爱意", "audioPath": "/audio/words/oi3-ji3.mp3" },
+          { "cantonese": "要", "pinyin": "jiu3", "mandarin": "要", "audioPath": "/audio/words/jiu3.mp3" },
+          { "cantonese": "富士山", "pinyin": "fu3-si6-saan1", "mandarin": "富士山", "audioPath": "/audio/words/fu3-si6-saan1.mp3" },
+          { "cantonese": "私有", "pinyin": "si1-jau5", "mandarin": "私有", "audioPath": "/audio/words/si1-jau5.mp3" }
+        ]
+      }
+    ]
+  }
+]
