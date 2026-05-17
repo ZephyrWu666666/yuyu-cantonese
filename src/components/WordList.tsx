@@ -1,0 +1,62 @@
+'use client'
+
+import { useState, useMemo } from 'react'
+import { LyricLine } from '@/lib/types'
+import { WordCard } from './WordCard'
+
+interface WordListProps {
+  lyrics: LyricLine[]
+}
+
+export function WordList({ lyrics }: WordListProps) {
+  const [masteredWords, setMasteredWords] = useState<Set<string>>(new Set())
+
+  // Extract all unique words from lyrics
+  const allWords = useMemo(() => {
+    const wordMap = new Map<string, { cantonese: string; pinyin: string; mandarin: string; audioPath: string }>()
+    for (const line of lyrics) {
+      for (const word of line.words) {
+        if (!wordMap.has(word.cantonese)) {
+          wordMap.set(word.cantonese, word)
+        }
+      }
+    }
+    return Array.from(wordMap.values())
+  }, [lyrics])
+
+  // Filter out mastered words
+  const unmasteredWords = allWords.filter(w => !masteredWords.has(w.cantonese))
+
+  if (unmasteredWords.length === 0) {
+    return (
+      <div className="text-center py-12">
+        <p className="text-xl text-primary mb-4">所有词汇已掌握！</p>
+        <button
+          onClick={() => setMasteredWords(new Set())}
+          className="px-4 py-2 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors"
+        >
+          重置
+        </button>
+      </div>
+    )
+  }
+
+  return (
+    <div>
+      <div className="text-sm text-gray-400 mb-4">
+        剩余 {unmasteredWords.length} / {allWords.length} 个词汇
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {unmasteredWords.map((word) => (
+          <WordCard
+            key={word.cantonese}
+            word={word}
+            onMastered={() => {
+              setMasteredWords(prev => new Set([...prev, word.cantonese]))
+            }}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
