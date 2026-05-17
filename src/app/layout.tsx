@@ -1,0 +1,15 @@
+import type { Metadata } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: '语于 — 通过陈奕迅的歌学粤语',
+  description: '在陈奕迅的粤语歌曲中逐步学会粤语',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="zh-Hant">
+      <body className="antialiased">{children}</body>
+    </html>
+  )
+}
