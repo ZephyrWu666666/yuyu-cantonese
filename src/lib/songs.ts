@@ -2,16 +2,18 @@ import { Song } from './types'
 import songsData from '@/data/songs.json'
 
 export function getAllSongs(): Song[] {
-  return songsData as Song[]
+  return (songsData as unknown) as Song[]
 }
 
 export function getSongById(id: string): Song | undefined {
-  return songsData.find(song => song.id === id) as Song | undefined
+  const songs = (songsData as unknown) as Song[]
+  return songs.find(song => song.id === id)
 }
 
 export function getAllUniqueWords(): { word: string; pinyin: string; mandarin: string; audioPath: string; songIds: string[] }[] {
+  const songs = (songsData as unknown) as Song[]
   const wordMap = new Map<string, { pinyin: string; mandarin: string; audioPath: string; songIds: Set<string> }>()
-  for (const song of songsData as Song[]) {
+  for (const song of songs) {
     for (const line of song.lyrics) {
       for (const word of line.words) {
         const existing = wordMap.get(word.cantonese)
