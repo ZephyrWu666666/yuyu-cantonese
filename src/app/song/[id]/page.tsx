@@ -9,8 +9,9 @@ export function generateStaticParams() {
   }))
 }
 
-export default function SongPage({ params }: { params: { id: string } }) {
-  const song = getSongById(params.id)
+export default async function SongPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const song = getSongById(id)
 
   if (!song) {
     return (
