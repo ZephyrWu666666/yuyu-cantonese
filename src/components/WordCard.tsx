@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Word } from '@/lib/types'
 import { Volume2 } from 'lucide-react'
+import { useLang } from '@/lib/use-traditional'
 
 interface WordCardProps {
   word: Word
@@ -12,6 +13,7 @@ interface WordCardProps {
 
 export function WordCard({ word, onPlay, onMastered }: WordCardProps) {
   const [isFlipped, setIsFlipped] = useState(false)
+  const { convert } = useLang()
 
   const playAudio = (e: React.MouseEvent) => {
     e.stopPropagation()
@@ -30,8 +32,8 @@ export function WordCard({ word, onPlay, onMastered }: WordCardProps) {
       >
         {/* Front */}
         <div className="absolute inset-0 bg-white/10 rounded-xl p-6 flex flex-col items-center justify-center [backface-visibility:hidden]">
-          <p className="text-3xl font-bold text-white mb-2">{word.cantonese}</p>
-          <p className="text-lg text-primary mb-3">{word.pinyin}</p>
+          <p className="text-3xl font-bold text-white mb-2">{convert(word.cantonese)}</p>
+          <p className="text-lg text-primary mb-3">{word.jyutping}</p>
           <button
             onClick={playAudio}
             className="p-2 rounded-full bg-white/10 hover:bg-primary/30 transition-colors"
@@ -42,7 +44,7 @@ export function WordCard({ word, onPlay, onMastered }: WordCardProps) {
 
         {/* Back */}
         <div className="absolute inset-0 bg-primary/20 rounded-xl p-6 flex flex-col items-center justify-center [backface-visibility:hidden] [transform:rotateY(180deg)]">
-          <p className="text-2xl font-bold text-white mb-2">{word.cantonese}</p>
+          <p className="text-2xl font-bold text-white mb-2">{convert(word.cantonese)}</p>
           <p className="text-lg text-gray-300 mb-4">{word.mandarin}</p>
           <button
             onClick={(e) => {

@@ -26,7 +26,7 @@ export function WordList({ lyrics }: WordListProps) {
 
   // Extract all unique words from lyrics
   const allWords = useMemo(() => {
-    const wordMap = new Map<string, { cantonese: string; pinyin: string; mandarin: string; audioPath: string }>()
+    const wordMap = new Map<string, { cantonese: string; jyutping: string; mandarin: string; audioPath: string }>()
     for (const line of lyrics) {
       for (const word of line.words) {
         if (!wordMap.has(word.cantonese)) {

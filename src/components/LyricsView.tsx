@@ -1,17 +1,21 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { LyricLine } from '@/lib/types'
+import { useLang } from '@/lib/use-traditional'
 
 interface LyricsViewProps {
   songId: string
   lyrics: LyricLine[]
+  isAutoPlay?: boolean
+  onAutoPlayEnd?: () => void
   onPlayLine?: (index: number, audioPath: string) => void
 }
 
-export function LyricsView({ songId, lyrics, onPlayLine }: LyricsViewProps) {
+export function LyricsView({ songId, lyrics, isAutoPlay, onAutoPlayEnd, onPlayLine }: LyricsViewProps) {
   const [currentIndex, setCurrentIndex] = useState<number | null>(null)
-  const [isAutoPlay, setIsAutoPlay] = useState(false)
+  const autoPlayRef = useRef(false)
+  const { convert } = useLang()
 
   const playLine = (index: number) => {
     setCurrentIndex(index)
@@ -24,48 +28,42 @@ export function LyricsView({ songId, lyrics, onPlayLine }: LyricsViewProps) {
     }
   }
 
+  useEffect(() => {
+    autoPlayRef.current = isAutoPlay ?? false
+    if (isAutoPlay) {
+      playLine(0)
+    } else {
+      setCurrentIndex(null)
+    }
+  }, [isAutoPlay])
+
+  const handleLineClick = (index: number) => {
+    if (!isAutoPlay) {
+      playLine(index)
+    }
+  }
+
   return (
-    <div>
-      <div className="flex justify-end mb-4">
-        <button
-          onClick={() => {
-            if (isAutoPlay) {
-              setIsAutoPlay(false)
-              setCurrentIndex(null)
-            } else {
-              setIsAutoPlay(true)
-              playLine(0)
-            }
-          }}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            isAutoPlay
-              ? 'bg-accent text-black'
-              : 'bg-white/10 text-white hover:bg-white/20'
+    <div className="space-y-4">
+      {lyrics.map((line, index) => (
+        <div
+          key={index}
+          id={`line-${index}`}
+          onClick={() => handleLineClick(index)}
+          style={{ animationDelay: `${index * 0.05}s` }}
+          className={`p-4 rounded-lg transition-all duration-300 opacity-0 animate-fadeIn ${
+            isAutoPlay ? 'cursor-default' : 'cursor-pointer'
+          } ${
+            currentIndex === index
+              ? 'bg-primary/20 border border-primary/50 scale-[1.02]'
+              : 'bg-white/5 hover:bg-white/10'
           }`}
         >
-          {isAutoPlay ? '退出跟唱' : '跟唱'}
-        </button>
-      </div>
-
-      <div className="space-y-4">
-        {lyrics.map((line, index) => (
-          <div
-            key={index}
-            id={`line-${index}`}
-            onClick={() => playLine(index)}
-            style={{ animationDelay: `${index * 0.05}s` }}
-            className={`p-4 rounded-lg cursor-pointer transition-all duration-300 opacity-0 animate-fadeIn ${
-              currentIndex === index
-                ? 'bg-primary/20 border border-primary/50 scale-[1.02]'
-                : 'bg-white/5 hover:bg-white/10'
-            }`}
-          >
-            <p className="text-xl text-white mb-1">{line.cantonese}</p>
-            <p className="text-sm text-primary mb-1">{line.pinyin}</p>
-            <p className="text-sm text-gray-400">{line.mandarin}</p>
-          </div>
-        ))}
-      </div>
+          <p className="text-xl text-white mb-1">{convert(line.cantonese)}</p>
+          <p className="text-sm text-primary mb-1">{line.jyutping}</p>
+          <p className="text-sm text-gray-400">{line.mandarin}</p>
+        </div>
+      ))}
     </div>
   )
 }
