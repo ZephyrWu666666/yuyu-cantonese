@@ -1703,7 +1703,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/live-in-hong-kong.jpg"
   },
   {
     "id": "danche",
@@ -3783,7 +3784,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/shall-we-dance-shall-we-talk.jpg"
   },
   {
     "id": "shilianshaotai",
@@ -5127,7 +5129,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/u87.jpg"
   },
   {
     "id": "shallwetalk",
@@ -7259,7 +7262,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/shall-we-dance-shall-we-talk.jpg"
   },
   {
     "id": "huozhuoduohao",
@@ -8117,7 +8121,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/the-easy-ride.jpg"
   },
   {
     "id": "redaiyulin",
@@ -9514,7 +9519,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/the-line-up.jpg"
   },
   {
     "id": "1874",
@@ -11257,7 +11263,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/the-line-up.jpg"
   },
   {
     "id": "mingjinjintian",
@@ -12519,7 +12526,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/the-line-up.jpg"
   },
   {
     "id": "suiyueruge",
@@ -13923,7 +13931,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/live-for-today.jpg"
   },
   {
     "id": "shimianmaifu",
@@ -16014,7 +16023,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/live-for-today.jpg"
   },
   {
     "id": "fukua",
@@ -18701,7 +18711,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/u87.jpg"
   },
   {
     "id": "xiyangwuxianhao",
@@ -20255,7 +20266,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/u87.jpg"
   },
   {
     "id": "aniu",
@@ -22390,7 +22402,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/great-5000-secs.jpg"
   },
   {
     "id": "luohualiushui",
@@ -24134,7 +24147,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/life-continues.jpg"
   },
   {
     "id": "tiangongdidao",
@@ -26895,7 +26909,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/life-continues.jpg"
   },
   {
     "id": "yueyucanpian",
@@ -29346,7 +29361,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/shall-we-dance-shall-we-talk.jpg"
   },
   {
     "id": "burubujian",
@@ -30254,7 +30270,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/whats-going-on.jpg"
   },
   {
     "id": "fushishanxia",
@@ -32367,7 +32384,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/whats-going-on.jpg"
   },
   {
     "id": "heizeming",
@@ -34310,7 +34328,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/whats-going-on.jpg"
   },
   {
     "id": "baimeigui",
@@ -36857,7 +36876,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/whats-going-on.jpg"
   },
   {
     "id": "qunxiazhichen",
@@ -39092,7 +39112,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/whats-going-on.jpg"
   },
   {
     "id": "shalong",
@@ -41198,7 +41219,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/solidays.jpg"
   },
   {
     "id": "bulaibuyequ",
@@ -42984,7 +43006,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/solidays.jpg"
   },
   {
     "id": "taiyangzhaochangshengqi",
@@ -44329,7 +44352,8 @@
         ]
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "albumCover": "/albums/solidays.jpg"
   },
   {
     "id": "qibainianhou",
@@ -46893,7 +46917,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/solidays.jpg"
   },
   {
     "id": "yuxinyoukui",
@@ -49451,7 +49476,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/solidays.jpg"
   },
   {
     "id": "haiyoushenmekeyisonggeini",
@@ -51227,7 +51253,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/solidays.jpg"
   },
   {
     "id": "allegro",
@@ -53038,7 +53065,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/time-flies.jpg"
   },
   {
     "id": "tuofeilun",
@@ -55472,7 +55500,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/time-flies.jpg"
   },
   {
     "id": "yisibuagua",
@@ -57949,7 +57978,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/time-flies.jpg"
   },
   {
     "id": "wurenzhijing",
@@ -59960,7 +59990,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/time-flies.jpg"
   },
   {
     "id": "kugua",
@@ -62458,7 +62489,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/stranger-under-my-skin.jpg"
   },
   {
     "id": "zuijisunyou",
@@ -65202,7 +65234,8 @@
         ]
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "albumCover": "/albums/life-continues.jpg"
   },
   {
     "id": "wan",
@@ -67922,7 +67955,8 @@
         ]
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "albumCover": "/albums/3mm.jpg"
   },
   {
     "id": "yuanzaizhichi",
@@ -70431,7 +70465,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/3mm.jpg"
   },
   {
     "id": "sidegeermoqingren",
@@ -74197,7 +74232,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/3mm.jpg"
   },
   {
     "id": "renwoxing",
@@ -77789,7 +77825,8 @@
         ]
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "albumCover": "/albums/the-key.jpg"
   },
   {
     "id": "putaochengshushi",
@@ -79911,7 +79948,8 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/the-key.jpg"
   },
   {
     "id": "kgezhiwang",
@@ -81899,6 +81937,7 @@
         ]
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "albumCover": "/albums/68c.jpg"
   }
 ]

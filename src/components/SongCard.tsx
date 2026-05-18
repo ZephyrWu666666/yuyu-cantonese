@@ -20,18 +20,30 @@ export function SongCard({ song, isLearned }: SongCardProps) {
   const { convert } = useLang()
   return (
     <Link href={`/song/${song.id}`}>
-      <div className="group bg-white/5 backdrop-blur-sm rounded-xl p-5 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/10 relative">
-        {isLearned && (
-          <div className="absolute top-3 right-3 w-2 h-2 rounded-full bg-primary" title="已学习" />
+      <div className="group bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/10 relative">
+        {song.albumCover && (
+          <div className="aspect-square overflow-hidden">
+            <img
+              src={song.albumCover}
+              alt={song.album}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            />
+          </div>
         )}
-        <div className="flex items-center justify-between mb-3">
-          <span className="text-xs text-gray-500">{song.year}</span>
-          <span className={`px-2 py-0.5 rounded text-xs font-medium ${diff.color}`}>{diff.text}</span>
+        <div className="p-4">
+          {isLearned && (
+            <div className="absolute top-3 right-3 w-2 h-2 rounded-full bg-primary" title="已学习" />
+          )}
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-xs text-gray-500">{song.year}</span>
+            <span className={`px-2 py-0.5 rounded text-xs font-medium ${diff.color}`}>{diff.text}</span>
+          </div>
+          <h3 className="text-base font-semibold text-white group-hover:text-primary transition-colors mb-1 truncate">
+            {convert(song.title)}
+          </h3>
+          <p className="text-xs text-gray-400 truncate">{convert(song.album)}</p>
         </div>
-        <h3 className="text-lg font-semibold text-white group-hover:text-primary transition-colors mb-1">
-          {convert(song.title)}
-        </h3>
-        <p className="text-sm text-gray-400">{convert(song.album)}</p>
       </div>
     </Link>
   )

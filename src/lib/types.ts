@@ -18,6 +18,7 @@ export interface Song {
   album: string        // "What's Going On...?"
   year: number         // 2006
   difficulty?: 'easy' | 'medium' | 'hard'
+  albumCover?: string  // "/albums/whats-going-on.jpg"
   lyrics: LyricLine[]
 }
 
