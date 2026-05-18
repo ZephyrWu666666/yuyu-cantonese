@@ -39,7 +39,7 @@ export function SongContent({ song }: SongContentProps) {
         )}
       </div>
 
-      <AudioPlayer src={currentAudio} />
+      {mode === 'lyrics' && <AudioPlayer src={currentAudio} />}
     </main>
   )
 }

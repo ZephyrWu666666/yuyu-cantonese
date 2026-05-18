@@ -1,24 +1,21 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import { Word } from '@/lib/types'
 import { Volume2 } from 'lucide-react'
 
 interface WordCardProps {
   word: Word
+  onPlay: (src: string) => void
   onMastered: () => void
 }
 
-export function WordCard({ word, onMastered }: WordCardProps) {
+export function WordCard({ word, onPlay, onMastered }: WordCardProps) {
   const [isFlipped, setIsFlipped] = useState(false)
-  const audioRef = useRef<HTMLAudioElement | null>(null)
 
   const playAudio = (e: React.MouseEvent) => {
     e.stopPropagation()
-    if (audioRef.current) {
-      audioRef.current.currentTime = 0
-      audioRef.current.play()
-    }
+    onPlay(word.audioPath)
   }
 
   return (
@@ -26,9 +23,8 @@ export function WordCard({ word, onMastered }: WordCardProps) {
       className="w-full h-48 cursor-pointer [perspective:1000px]"
       onClick={() => setIsFlipped(!isFlipped)}
     >
-      <audio ref={audioRef} src={word.audioPath} preload="auto" />
       <div
-        className={`relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] ${
+        className={`relative w-full h-full transition-transform duration-200 [transform-style:preserve-3d] active:scale-95 ${
           isFlipped ? '[transform:rotateY(180deg)]' : ''
         }`}
       >

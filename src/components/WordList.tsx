@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useRef, useCallback } from 'react'
 import { LyricLine } from '@/lib/types'
 import { WordCard } from './WordCard'
 import { getProgress, saveMasteredWord } from '@/lib/storage'
@@ -15,6 +15,14 @@ export function WordList({ lyrics }: WordListProps) {
     const progress = getProgress()
     return new Set(progress.masteredWords)
   })
+  const audioRef = useRef<HTMLAudioElement | null>(null)
+
+  const playAudio = useCallback((src: string) => {
+    if (!audioRef.current) return
+    audioRef.current.src = src
+    audioRef.current.currentTime = 0
+    audioRef.current.play().catch(() => {})
+  }, [])
 
   // Extract all unique words from lyrics
   const allWords = useMemo(() => {
@@ -51,6 +59,7 @@ export function WordList({ lyrics }: WordListProps) {
 
   return (
     <div>
+      <audio ref={audioRef} preload="auto" />
       <div className="text-sm text-gray-400 mb-4">
         剩余 {unmasteredWords.length} / {allWords.length} 个词汇
       </div>
@@ -59,6 +68,7 @@ export function WordList({ lyrics }: WordListProps) {
           <WordCard
             key={word.cantonese}
             word={word}
+            onPlay={playAudio}
             onMastered={() => {
               setMasteredWords(prev => new Set([...prev, word.cantonese]))
               saveMasteredWord(word.cantonese)
