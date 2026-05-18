@@ -200,23 +200,14 @@ function extractWords(cantonese: string, jyutping: string) {
     if (!/[一-鿿]/.test(char)) continue
 
     const syl = syllables[sylIdx]
-    // Multi-char reading (contains '-' or '/')
-    if ((syl.includes('-') || syl.includes('/')) && i + 1 < chars.length && /[一-鿿]/.test(chars[i + 1])) {
-      words.push({
-        cantonese: char + chars[i + 1],
-        pinyin: syl,
-        mandarin: '',
-        audioPath: `/audio/words/${syl}.mp3`,
-      })
-      i++
-    } else {
-      words.push({
-        cantonese: char,
-        pinyin: syl,
-        mandarin: '',
-        audioPath: `/audio/words/${syl}.mp3`,
-      })
-    }
+    // '/' indicates alternative readings (多音字), sanitize for filename
+    const safeSyl = syl.replace(/\//g, '-')
+    words.push({
+      cantonese: char,
+      pinyin: syl,
+      mandarin: '',
+      audioPath: `/audio/words/${safeSyl}.mp3`,
+    })
     sylIdx++
   }
 

@@ -37,6 +37,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# generated audio files
+public/audio/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+.venv/

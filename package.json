@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate-audio": "ts-node scripts/generate-audio.ts"
+    "generate-audio": "source .venv/bin/activate && python scripts/generate-audio.py",
+    "generate-audio-azure": "ts-node scripts/generate-audio.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -29,6 +30,7 @@
     "microsoft-cognitiveservices-speech-sdk": "^1.50.0",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.92.0"
   }
 }
