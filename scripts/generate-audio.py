@@ -7,8 +7,10 @@ import sys
 from pathlib import Path
 
 import edge_tts
+from opencc import OpenCC
 
 VOICE = "zh-HK-HiuMaanNeural"
+cc = OpenCC('s2t')  # simplified to traditional
 BASE_DIR = Path(__file__).resolve().parent.parent
 SONGS_PATH = BASE_DIR / "src" / "data" / "songs.json"
 WORDS_DIR = BASE_DIR / "public" / "audio" / "words"
@@ -23,9 +25,10 @@ RETRY_DELAY = 2
 
 async def generate_audio(text: str, output_path: Path, rate: str = "+0%") -> bool:
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    trad_text = cc.convert(text)
     for attempt in range(MAX_RETRIES):
         try:
-            communicate = edge_tts.Communicate(text, VOICE, rate=rate)
+            communicate = edge_tts.Communicate(trad_text, VOICE, rate=rate)
             await communicate.save(str(output_path))
             return True
         except Exception as e:
