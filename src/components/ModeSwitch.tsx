@@ -1,6 +1,7 @@
 'use client'
 
 import { LearningMode } from '@/lib/types'
+import { useLang } from '@/lib/use-traditional'
 
 interface ModeSwitchProps {
   mode: LearningMode
@@ -8,27 +9,28 @@ interface ModeSwitchProps {
 }
 
 export function ModeSwitch({ mode, onModeChange }: ModeSwitchProps) {
+  const { convert } = useLang()
   return (
-    <div className="flex bg-white/5 rounded-lg p-1">
+    <div className="flex bg-white/[0.03] border border-primary/10 rounded-lg p-1">
       <button
         onClick={() => onModeChange('lyrics')}
-        className={`px-6 py-2 rounded-md text-sm font-medium transition-all ${
+        className={`px-6 py-2 rounded-md text-sm font-medium transition-all cursor-pointer ${
           mode === 'lyrics'
-            ? 'bg-primary text-black'
-            : 'text-gray-400 hover:text-white'
+            ? 'bg-primary text-cream'
+            : 'text-cream-muted hover:text-cream'
         }`}
       >
-        逐句学习
+        {convert('逐句学习')}
       </button>
       <button
         onClick={() => onModeChange('vocabulary')}
-        className={`px-6 py-2 rounded-md text-sm font-medium transition-all ${
+        className={`px-6 py-2 rounded-md text-sm font-medium transition-all cursor-pointer ${
           mode === 'vocabulary'
-            ? 'bg-primary text-black'
-            : 'text-gray-400 hover:text-white'
+            ? 'bg-primary text-cream'
+            : 'text-cream-muted hover:text-cream'
         }`}
       >
-        词汇学习
+        {convert('词汇学习')}
       </button>
     </div>
   )

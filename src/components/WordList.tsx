@@ -4,6 +4,7 @@ import { useState, useMemo, useRef, useCallback } from 'react'
 import { LyricLine } from '@/lib/types'
 import { WordCard } from './WordCard'
 import { getProgress, saveMasteredWord } from '@/lib/storage'
+import { useLang } from '@/lib/use-traditional'
 
 interface WordListProps {
   lyrics: LyricLine[]
@@ -16,6 +17,7 @@ export function WordList({ lyrics }: WordListProps) {
     return new Set(progress.masteredWords)
   })
   const audioRef = useRef<HTMLAudioElement | null>(null)
+  const { convert } = useLang()
 
   const playAudio = useCallback((src: string) => {
     if (!audioRef.current) return
@@ -43,15 +45,15 @@ export function WordList({ lyrics }: WordListProps) {
   if (unmasteredWords.length === 0) {
     return (
       <div className="text-center py-12">
-        <p className="text-xl text-primary mb-4">所有词汇已掌握！</p>
+        <p className="text-xl text-primary mb-4">{convert('所有词汇已掌握！')}</p>
         <button
           onClick={() => {
             setMasteredWords(new Set())
             localStorage.removeItem('yuyu-progress')
           }}
-          className="px-4 py-2 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors"
+          className="px-4 py-2 bg-white/[0.04] text-cream rounded-lg hover:bg-white/[0.08] transition-colors cursor-pointer"
         >
-          重置
+          {convert('重置')}
         </button>
       </div>
     )
@@ -60,8 +62,8 @@ export function WordList({ lyrics }: WordListProps) {
   return (
     <div>
       <audio ref={audioRef} preload="auto" />
-      <div className="text-sm text-gray-400 mb-4">
-        剩余 {unmasteredWords.length} / {allWords.length} 个词汇
+      <div className="text-sm text-cream-muted mb-4">
+        {convert('剩余')} {unmasteredWords.length} / {allWords.length} {convert('个词汇')}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {unmasteredWords.map((word) => (

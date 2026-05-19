@@ -7,7 +7,7 @@ export function LangToggle() {
   return (
     <button
       onClick={toggle}
-      className="fixed top-4 right-4 z-50 px-3 py-1.5 bg-white/10 hover:bg-white/20 text-white text-sm rounded-lg transition-colors backdrop-blur-sm"
+      className="fixed top-4 right-4 z-50 px-3 py-1.5 bg-primary/10 hover:bg-primary/20 border border-primary/20 text-cream text-sm rounded-lg transition-colors backdrop-blur-sm cursor-pointer"
     >
       {traditional ? '简' : '繁'}
     </button>

@@ -39,19 +39,20 @@ export default function Home() {
   return (
     <main className="min-h-screen px-6 py-12 max-w-6xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold text-primary mb-4">语于</h1>
-        <p className="text-gray-400 text-lg">在陈奕迅的粤语歌曲中，一步步学会粤语</p>
+        <h1 className="text-5xl font-bold text-primary mb-4 neon-red" style={{ fontFamily: "'Noto Serif SC', serif" }}>
+          {convert('语于')}
+        </h1>
       </div>
 
-      <div className="bg-white/5 rounded-xl p-6 mb-10 max-w-2xl mx-auto">
-        <h2 className="text-white font-semibold mb-2">新手推荐</h2>
-        <p className="text-gray-400 text-sm mb-4">从这几首开始，歌词简单、节奏适中</p>
+      <div className="bg-white/[0.03] border border-primary/10 rounded-xl p-6 mb-10 max-w-2xl mx-auto">
+        <h2 className="text-cream font-semibold mb-2">{convert('新手推荐')}</h2>
+        <p className="text-cream-muted text-sm mb-4">{convert('从这几首开始，歌词简单、节奏适中')}</p>
         <div className="flex flex-wrap gap-2">
           {songs.filter(s => BEGINNER_SONGS.includes(s.id)).map(song => (
             <a
               key={song.id}
               href={`/song/${song.id}`}
-              className="px-3 py-1.5 bg-primary/20 text-primary rounded-lg text-sm hover:bg-primary/30 transition-colors"
+              className="px-3 py-1.5 bg-primary/15 text-primary rounded-lg text-sm hover:bg-primary/25 transition-colors cursor-pointer"
             >
               {convert(song.title)}
             </a>
@@ -62,23 +63,23 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
         <input
           type="text"
-          placeholder="搜索歌曲..."
+          placeholder={convert('搜索歌曲...')}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="w-full max-w-md bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors"
+          className="w-full max-w-md bg-white/[0.03] border border-primary/10 rounded-lg px-4 py-3 text-cream placeholder-cream-muted/50 focus:outline-none focus:border-primary/40 transition-colors"
         />
-        <div className="flex gap-1 bg-white/5 rounded-lg p-1">
+        <div className="flex gap-1 bg-white/[0.03] border border-primary/10 rounded-lg p-1">
           {SORT_OPTIONS.map(opt => (
             <button
               key={opt.key}
               onClick={() => setSortBy(opt.key)}
-              className={`px-3 py-1.5 rounded-md text-sm transition-all ${
+              className={`px-3 py-1.5 rounded-md text-sm transition-all cursor-pointer ${
                 sortBy === opt.key
-                  ? 'bg-primary text-black font-medium'
-                  : 'text-gray-400 hover:text-white'
+                  ? 'bg-primary text-cream font-medium'
+                  : 'text-cream-muted hover:text-cream'
               }`}
             >
-              {opt.label}
+              {convert(opt.label)}
             </button>
           ))}
         </div>
@@ -90,7 +91,7 @@ export default function Home() {
         ))}
       </div>
       {filteredSongs.length === 0 && (
-        <p className="text-center text-gray-500 mt-8">没有找到匹配的歌曲</p>
+        <p className="text-center text-cream-muted mt-8">{convert('没有找到匹配的歌曲')}</p>
       )}
     </main>
   )

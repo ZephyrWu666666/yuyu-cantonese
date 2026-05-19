@@ -9,15 +9,16 @@ import { LearningMode, Song } from '@/lib/types'
 import { getAdjacentSongs } from '@/lib/songs'
 import { useLang } from '@/lib/use-traditional'
 import Link from 'next/link'
+import { ArrowLeft } from 'lucide-react'
 
 interface SongContentProps {
   song: Song
 }
 
 const DIFF_LABEL = {
-  easy: { text: '入门', color: 'bg-green-700/40 text-green-300' },
-  medium: { text: '进阶', color: 'bg-yellow-700/40 text-yellow-300' },
-  hard: { text: '挑战', color: 'bg-red-700/40 text-red-300' },
+  easy: { text: '入门', color: 'bg-jade-dark/50 text-jade border border-jade/20' },
+  medium: { text: '进阶', color: 'bg-accent/20 text-accent border border-accent/20' },
+  hard: { text: '挑战', color: 'bg-primary/20 text-primary border border-primary/20' },
 }
 
 export function SongContent({ song }: SongContentProps) {
@@ -30,15 +31,17 @@ export function SongContent({ song }: SongContentProps) {
 
   return (
     <main className="min-h-screen px-6 py-8 max-w-4xl mx-auto pb-32">
-      <Link href="/" className="text-gray-400 hover:text-primary mb-6 inline-block">
-        ← 返回
+      <Link href="/" className="text-cream-muted hover:text-primary mb-6 inline-flex items-center gap-1 transition-colors cursor-pointer">
+        <ArrowLeft className="w-4 h-4" /> {convert('返回')}
       </Link>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-white mb-2">{convert(song.title)}</h1>
-        <div className="flex items-center gap-3 text-gray-400">
+        <h1 className="text-3xl font-bold text-cream mb-2 neon-red" style={{ fontFamily: "'Noto Serif SC', serif" }}>
+          {convert(song.title)}
+        </h1>
+        <div className="flex items-center gap-3 text-cream-muted">
           <span>{convert(song.album)} · {song.year}</span>
-          <span className={`px-2 py-0.5 rounded text-xs font-medium ${diff.color}`}>{diff.text}</span>
+          <span className={`px-2 py-0.5 rounded text-xs font-medium ${diff.color}`}>{convert(diff.text)}</span>
         </div>
       </div>
 
@@ -53,13 +56,13 @@ export function SongContent({ song }: SongContentProps) {
                 setIsAutoPlay(true)
               }
             }}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all cursor-pointer ${
               isAutoPlay
-                ? 'bg-accent text-black'
-                : 'bg-white/10 text-white hover:bg-white/20'
+                ? 'btn-retro text-cream'
+                : 'bg-white/[0.03] text-cream-muted hover:text-cream border border-primary/10'
             }`}
           >
-            {isAutoPlay ? '退出跟唱' : '跟唱'}
+            {isAutoPlay ? convert('退出跟唱') : convert('跟唱')}
           </button>
         )}
       </div>
@@ -80,14 +83,14 @@ export function SongContent({ song }: SongContentProps) {
 
       {mode === 'lyrics' && <AudioPlayer src={currentAudio} />}
 
-      <div className="flex justify-between mt-12 pt-8 border-t border-white/10">
+      <div className="flex justify-between mt-12 pt-8 border-t border-primary/10">
         {prev ? (
-          <Link href={`/song/${prev.id}`} className="text-gray-400 hover:text-primary transition-colors">
+          <Link href={`/song/${prev.id}`} className="text-cream-muted hover:text-primary transition-colors cursor-pointer">
             ← {convert(prev.title)}
           </Link>
         ) : <div />}
         {next ? (
-          <Link href={`/song/${next.id}`} className="text-gray-400 hover:text-primary transition-colors">
+          <Link href={`/song/${next.id}`} className="text-cream-muted hover:text-primary transition-colors cursor-pointer">
             {convert(next.title)} →
           </Link>
         ) : <div />}

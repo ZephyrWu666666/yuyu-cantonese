@@ -44,24 +44,22 @@ export function LyricsView({ songId, lyrics, isAutoPlay, onAutoPlayEnd, onPlayLi
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       {lyrics.map((line, index) => (
         <div
           key={index}
           id={`line-${index}`}
           onClick={() => handleLineClick(index)}
           style={{ animationDelay: `${index * 0.05}s` }}
-          className={`p-4 rounded-lg transition-all duration-300 opacity-0 animate-fadeIn ${
-            isAutoPlay ? 'cursor-default' : 'cursor-pointer'
-          } ${
+          className={`p-4 rounded-lg transition-all duration-300 opacity-0 animate-fadeIn cursor-pointer ${
             currentIndex === index
-              ? 'bg-primary/20 border border-primary/50 scale-[1.02]'
-              : 'bg-white/5 hover:bg-white/10'
+              ? 'lyric-active scale-[1.01]'
+              : 'bg-white/[0.03] hover:bg-white/[0.06] border-l-3 border-transparent'
           }`}
         >
-          <p className="text-xl text-white mb-1">{convert(line.cantonese)}</p>
-          <p className="text-sm text-primary mb-1">{line.jyutping}</p>
-          <p className="text-sm text-gray-400">{line.mandarin}</p>
+          <p className="text-xl text-cream mb-1">{convert(line.cantonese)}</p>
+          <p className="text-sm text-jade mb-1 font-medium neon-green">{line.jyutping}</p>
+          <p className="text-sm text-cream-muted/40">{line.mandarin}</p>
         </div>
       ))}
     </div>

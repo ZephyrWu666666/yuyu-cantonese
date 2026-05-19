@@ -61,7 +61,7 @@ export function AudioPlayer({ src, onEnded }: AudioPlayerProps) {
   const percent = duration > 0 ? (progress / duration) * 100 : 0
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-black/90 backdrop-blur-lg border-t border-white/10 p-4">
+    <div className="fixed bottom-0 left-0 right-0 bg-surface/95 backdrop-blur-lg border-t border-primary/10 p-4">
       <audio
         ref={audioRef}
         onLoadedMetadata={() => {
@@ -85,16 +85,16 @@ export function AudioPlayer({ src, onEnded }: AudioPlayerProps) {
       />
 
       <div className="max-w-4xl mx-auto flex items-center gap-4">
-        <button onClick={togglePlay} className="text-white hover:text-primary transition-colors">
+        <button onClick={togglePlay} className="text-cream hover:text-primary transition-colors cursor-pointer">
           {isPlaying ? <Pause size={24} /> : <Play size={24} />}
         </button>
 
         <div className="flex-1 flex items-center gap-2">
-          <span className="text-xs text-gray-400 w-10 text-right">{formatTime(progress)}</span>
+          <span className="text-xs text-cream-muted w-10 text-right">{formatTime(progress)}</span>
           <div className="flex-1 relative h-6 flex items-center">
-            <div className="absolute w-full h-1 bg-white/20 rounded-full" />
+            <div className="absolute w-full h-1 bg-white/10 rounded-full" />
             <div
-              className="absolute h-1 bg-primary rounded-full transition-none"
+              className="absolute h-1 bg-primary rounded-full transition-none shadow-[0_0_6px_rgba(196,30,58,0.4)]"
               style={{ width: `${percent}%` }}
             />
             <input
@@ -107,11 +107,11 @@ export function AudioPlayer({ src, onEnded }: AudioPlayerProps) {
               className="absolute w-full h-1 appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:relative [&::-webkit-slider-thumb]:z-10"
             />
           </div>
-          <span className="text-xs text-gray-400 w-10">{formatTime(duration)}</span>
+          <span className="text-xs text-cream-muted w-10">{formatTime(duration)}</span>
         </div>
 
         <div className="flex items-center gap-2">
-          <Volume2 size={16} className="text-gray-400" />
+          <Volume2 size={16} className="text-cream-muted" />
           <input
             type="range"
             min={0}
@@ -119,7 +119,7 @@ export function AudioPlayer({ src, onEnded }: AudioPlayerProps) {
             step={0.1}
             value={volume}
             onChange={(e) => setVolume(parseFloat(e.target.value))}
-            className="w-20 h-1 bg-white/20 rounded-full appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary"
+            className="w-20 h-1 bg-white/10 rounded-full appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-jade"
           />
         </div>
       </div>

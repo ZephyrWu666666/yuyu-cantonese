@@ -31,29 +31,29 @@ export function WordCard({ word, onPlay, onMastered }: WordCardProps) {
         }`}
       >
         {/* Front */}
-        <div className="absolute inset-0 bg-white/10 rounded-xl p-6 flex flex-col items-center justify-center [backface-visibility:hidden]">
-          <p className="text-3xl font-bold text-white mb-2">{convert(word.cantonese)}</p>
-          <p className="text-lg text-primary mb-3">{word.jyutping}</p>
+        <div className="absolute inset-0 bg-white/[0.04] border border-white/[0.06] rounded-xl p-6 flex flex-col items-center justify-center [backface-visibility:hidden]">
+          <p className="text-3xl font-bold text-cream mb-2">{convert(word.cantonese)}</p>
+          <p className="text-lg text-jade mb-3 neon-green">{word.jyutping}</p>
           <button
             onClick={playAudio}
-            className="p-2 rounded-full bg-white/10 hover:bg-primary/30 transition-colors"
+            className="p-2 rounded-full bg-white/[0.06] hover:bg-primary/20 transition-colors cursor-pointer"
           >
-            <Volume2 className="w-5 h-5 text-primary" />
+            <Volume2 className="w-5 h-5 text-jade" />
           </button>
         </div>
 
         {/* Back */}
-        <div className="absolute inset-0 bg-primary/20 rounded-xl p-6 flex flex-col items-center justify-center [backface-visibility:hidden] [transform:rotateY(180deg)]">
-          <p className="text-2xl font-bold text-white mb-2">{convert(word.cantonese)}</p>
-          <p className="text-lg text-gray-300 mb-4">{word.mandarin}</p>
+        <div className="absolute inset-0 bg-primary/10 border border-primary/20 rounded-xl p-6 flex flex-col items-center justify-center [backface-visibility:hidden] [transform:rotateY(180deg)]">
+          <p className="text-2xl font-bold text-cream mb-2">{convert(word.cantonese)}</p>
+          <p className="text-lg text-cream-muted mb-4">{word.mandarin}</p>
           <button
             onClick={(e) => {
               e.stopPropagation()
               onMastered()
             }}
-            className="px-4 py-2 bg-primary text-black rounded-lg text-sm font-medium hover:bg-primary/80 transition-colors"
+            className="btn-retro px-4 py-2 text-cream rounded-lg text-sm font-medium cursor-pointer"
           >
-            已掌握
+            {convert('已掌握')}
           </button>
         </div>
       </div>
