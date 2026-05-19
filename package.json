@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "generate-audio": "source .venv/bin/activate && python scripts/generate-audio.py",
-    "generate-audio-azure": "ts-node scripts/generate-audio.ts"
+    "lint": "eslint"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -22,14 +20,9 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "axios": "^1.16.1",
-    "cheerio": "^1.2.0",
-    "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
-    "microsoft-cognitiveservices-speech-sdk": "^1.50.0",
     "tailwindcss": "^4",
-    "ts-node": "^10.9.2",
     "typescript": "^5",
     "wrangler": "^4.92.0"
   }

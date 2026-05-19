@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { ModeSwitch } from '@/components/ModeSwitch'
 import { LyricsView } from '@/components/LyricsView'
 import { WordList } from '@/components/WordList'
@@ -30,6 +30,16 @@ export function SongContent({ song }: SongContentProps) {
   const { prev, next } = getAdjacentSongs(song.id)
   const diff = DIFF_LABEL[song.difficulty || 'medium']
   const { convert } = useLang()
+
+  // Preload song MP3 on mount
+  useEffect(() => {
+    const link = document.createElement('link')
+    link.rel = 'preload'
+    link.as = 'audio'
+    link.href = `/songs/${song.id}.mp3`
+    document.head.appendChild(link)
+    return () => { document.head.removeChild(link) }
+  }, [song.id])
 
   const handlePlaySong = () => {
     if (isPlayingSong) {
