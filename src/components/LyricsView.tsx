@@ -10,12 +10,15 @@ interface LyricsViewProps {
   isAutoPlay?: boolean
   onAutoPlayEnd?: () => void
   onPlayLine?: (index: number, audioPath: string) => void
+  activeIndex?: number | null
 }
 
-export function LyricsView({ songId, lyrics, isAutoPlay, onAutoPlayEnd, onPlayLine }: LyricsViewProps) {
+export function LyricsView({ songId, lyrics, isAutoPlay, onAutoPlayEnd, onPlayLine, activeIndex }: LyricsViewProps) {
   const [currentIndex, setCurrentIndex] = useState<number | null>(null)
   const autoPlayRef = useRef(false)
   const { convert } = useLang()
+
+  const displayIndex = activeIndex !== undefined ? activeIndex : currentIndex
 
   const playLine = (index: number) => {
     setCurrentIndex(index)
@@ -27,6 +30,15 @@ export function LyricsView({ songId, lyrics, isAutoPlay, onAutoPlayEnd, onPlayLi
       lineElement.scrollIntoView({ behavior: 'smooth', block: 'center' })
     }
   }
+
+  useEffect(() => {
+    if (activeIndex !== undefined) {
+      const el = document.getElementById(`line-${activeIndex}`)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    }
+  }, [activeIndex])
 
   useEffect(() => {
     autoPlayRef.current = isAutoPlay ?? false
@@ -52,7 +64,7 @@ export function LyricsView({ songId, lyrics, isAutoPlay, onAutoPlayEnd, onPlayLi
           onClick={() => handleLineClick(index)}
           style={{ animationDelay: `${index * 0.05}s` }}
           className={`p-4 rounded-lg transition-all duration-300 opacity-0 animate-fadeIn cursor-pointer ${
-            currentIndex === index
+            displayIndex === index
               ? 'lyric-active scale-[1.01]'
               : 'bg-white/[0.03] hover:bg-white/[0.06] border-l-3 border-transparent'
           }`}

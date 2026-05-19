@@ -6,9 +6,10 @@ import { Play, Pause, Volume2 } from 'lucide-react'
 interface AudioPlayerProps {
   src: string | null
   onEnded?: () => void
+  onTimeUpdate?: (currentTime: number) => void
 }
 
-export function AudioPlayer({ src, onEnded }: AudioPlayerProps) {
+export function AudioPlayer({ src, onEnded, onTimeUpdate }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null)
   const endedRef = useRef(false)
   const [isPlaying, setIsPlaying] = useState(false)
@@ -71,7 +72,9 @@ export function AudioPlayer({ src, onEnded }: AudioPlayerProps) {
         }}
         onTimeUpdate={() => {
           if (audioRef.current && !endedRef.current) {
-            setProgress(audioRef.current.currentTime)
+            const ct = audioRef.current.currentTime
+            setProgress(ct)
+            onTimeUpdate?.(ct)
           }
         }}
         onEnded={() => {

@@ -25,9 +25,49 @@ export function SongContent({ song }: SongContentProps) {
   const [mode, setMode] = useState<LearningMode>('lyrics')
   const [currentAudio, setCurrentAudio] = useState<string | null>(null)
   const [isAutoPlay, setIsAutoPlay] = useState(false)
+  const [isPlayingSong, setIsPlayingSong] = useState(false)
+  const [activeLineIndex, setActiveLineIndex] = useState<number | null>(null)
   const { prev, next } = getAdjacentSongs(song.id)
   const diff = DIFF_LABEL[song.difficulty || 'medium']
   const { convert } = useLang()
+
+  const handlePlaySong = () => {
+    if (isPlayingSong) {
+      setIsPlayingSong(false)
+      setCurrentAudio(null)
+      setActiveLineIndex(null)
+    } else {
+      setIsPlayingSong(true)
+      setIsAutoPlay(false)
+      setCurrentAudio(`/songs/${song.id}.mp3`)
+      setActiveLineIndex(0)
+    }
+  }
+
+  const handleAudioTimeUpdate = (currentTime: number) => {
+    if (!isPlayingSong) return
+    let idx = 0
+    for (let i = 0; i < song.lyrics.length; i++) {
+      const st = (song.lyrics[i] as any).startTime
+      if (typeof st === 'number' && currentTime >= st) {
+        idx = i
+      } else {
+        break
+      }
+    }
+    setActiveLineIndex(prev => prev === idx ? prev : idx)
+  }
+
+  const handleAudioEnded = () => {
+    setIsPlayingSong(false)
+    setActiveLineIndex(null)
+  }
+
+  const handlePlayLine = (index: number, audioPath: string) => {
+    setIsPlayingSong(false)
+    setActiveLineIndex(null)
+    setCurrentAudio(audioPath)
+  }
 
   return (
     <main className="min-h-screen px-6 py-8 max-w-4xl mx-auto pb-32">
@@ -45,25 +85,37 @@ export function SongContent({ song }: SongContentProps) {
         </div>
       </div>
 
-      <div className="mb-8 flex justify-center items-center gap-3">
+      <div className="mb-8 flex justify-center items-center gap-3 flex-wrap">
         <ModeSwitch mode={mode} onModeChange={setMode} />
         {mode === 'lyrics' && (
-          <button
-            onClick={() => {
-              if (isAutoPlay) {
-                setIsAutoPlay(false)
-              } else {
-                setIsAutoPlay(true)
-              }
-            }}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all cursor-pointer ${
-              isAutoPlay
-                ? 'btn-retro text-cream'
-                : 'bg-white/[0.03] text-cream-muted hover:text-cream border border-primary/10'
-            }`}
-          >
-            {isAutoPlay ? convert('退出跟唱') : convert('跟唱')}
-          </button>
+          <>
+            <button
+              onClick={handlePlaySong}
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all cursor-pointer ${
+                isPlayingSong
+                  ? 'btn-retro text-cream'
+                  : 'bg-white/[0.03] text-cream-muted hover:text-cream border border-primary/10'
+              }`}
+            >
+              {isPlayingSong ? convert('停止') : convert('原唱')}
+            </button>
+            <button
+              onClick={() => {
+                if (isAutoPlay) {
+                  setIsAutoPlay(false)
+                } else {
+                  setIsAutoPlay(true)
+                }
+              }}
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all cursor-pointer ${
+                isAutoPlay
+                  ? 'btn-retro text-cream'
+                  : 'bg-white/[0.03] text-cream-muted hover:text-cream border border-primary/10'
+              }`}
+            >
+              {isAutoPlay ? convert('退出跟唱') : convert('跟唱')}
+            </button>
+          </>
         )}
       </div>
 
@@ -74,14 +126,21 @@ export function SongContent({ song }: SongContentProps) {
             lyrics={song.lyrics}
             isAutoPlay={isAutoPlay}
             onAutoPlayEnd={() => setIsAutoPlay(false)}
-            onPlayLine={(index, audioPath) => setCurrentAudio(audioPath)}
+            onPlayLine={handlePlayLine}
+            activeIndex={activeLineIndex}
           />
         ) : (
           <WordList lyrics={song.lyrics} />
         )}
       </div>
 
-      {mode === 'lyrics' && <AudioPlayer src={currentAudio} />}
+      {mode === 'lyrics' && (
+        <AudioPlayer
+          src={currentAudio}
+          onTimeUpdate={handleAudioTimeUpdate}
+          onEnded={handleAudioEnded}
+        />
+      )}
 
       <div className="flex justify-between mt-12 pt-8 border-t border-primary/10">
         {prev ? (
