@@ -22,7 +22,9 @@ export function LyricsView({ songId, lyrics, isAutoPlay, onAutoPlayEnd, onPlayLi
 
   const playLine = (index: number) => {
     setCurrentIndex(index)
-    const sentenceAudioPath = `/audio/sentences/${songId}_${String(index).padStart(2, '0')}.mp3`
+    const audioIdx = (lyrics[index] as any).audioIndex
+    const idx = typeof audioIdx === 'number' ? audioIdx : index
+    const sentenceAudioPath = `/audio/sentences/${songId}_${String(idx).padStart(2, '0')}.mp3`
     onPlayLine?.(index, sentenceAudioPath)
 
     const lineElement = document.getElementById(`line-${index}`)
