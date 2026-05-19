@@ -11,7 +11,9 @@ interface AudioPlayerProps {
 
 export function AudioPlayer({ src, onEnded, onTimeUpdate }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null)
+  const progressBarRef = useRef<HTMLDivElement>(null)
   const endedRef = useRef(false)
+  const seekingRef = useRef(false)
   const [isPlaying, setIsPlaying] = useState(false)
   const [progress, setProgress] = useState(0)
   const [duration, setDuration] = useState(0)
@@ -26,6 +28,7 @@ export function AudioPlayer({ src, onEnded, onTimeUpdate }: AudioPlayerProps) {
   useEffect(() => {
     if (src && audioRef.current) {
       endedRef.current = false
+      seekingRef.current = false
       setProgress(0)
       setDuration(0)
       audioRef.current.src = src
@@ -50,14 +53,37 @@ export function AudioPlayer({ src, onEnded, onTimeUpdate }: AudioPlayerProps) {
     setIsPlaying(!isPlaying)
   }
 
-  const handleSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const time = parseFloat(e.target.value)
-    if (audioRef.current) {
-      endedRef.current = false
-      audioRef.current.currentTime = time
-    }
+  const seekToPosition = useCallback((clientX: number) => {
+    if (!progressBarRef.current || !audioRef.current || duration <= 0) return
+    const rect = progressBarRef.current.getBoundingClientRect()
+    const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width))
+    const time = ratio * duration
+    endedRef.current = false
+    seekingRef.current = true
+    audioRef.current.currentTime = time
     setProgress(time)
-  }
+    setTimeout(() => { seekingRef.current = false }, 300)
+  }, [duration])
+
+  const handleBarClick = useCallback((e: React.MouseEvent) => {
+    seekToPosition(e.clientX)
+  }, [seekToPosition])
+
+  const handleBarPointerDown = useCallback((e: React.PointerEvent) => {
+    // Only handle left click
+    if (e.button !== 0) return
+    seekToPosition(e.clientX)
+
+    const onPointerMove = (ev: PointerEvent) => {
+      seekToPosition(ev.clientX)
+    }
+    const onPointerUp = () => {
+      document.removeEventListener('pointermove', onPointerMove)
+      document.removeEventListener('pointerup', onPointerUp)
+    }
+    document.addEventListener('pointermove', onPointerMove)
+    document.addEventListener('pointerup', onPointerUp)
+  }, [seekToPosition])
 
   const percent = duration > 0 ? (progress / duration) * 100 : 0
 
@@ -71,7 +97,7 @@ export function AudioPlayer({ src, onEnded, onTimeUpdate }: AudioPlayerProps) {
           }
         }}
         onTimeUpdate={() => {
-          if (audioRef.current && !endedRef.current) {
+          if (audioRef.current && !endedRef.current && !seekingRef.current) {
             const ct = audioRef.current.currentTime
             setProgress(ct)
             onTimeUpdate?.(ct)
@@ -94,20 +120,20 @@ export function AudioPlayer({ src, onEnded, onTimeUpdate }: AudioPlayerProps) {
 
         <div className="flex-1 flex items-center gap-2">
           <span className="text-xs text-cream-muted w-10 text-right">{formatTime(progress)}</span>
-          <div className="flex-1 relative h-6 flex items-center">
+          <div
+            ref={progressBarRef}
+            className="flex-1 relative h-6 flex items-center cursor-pointer select-none touch-none"
+            onClick={handleBarClick}
+            onPointerDown={handleBarPointerDown}
+          >
             <div className="absolute w-full h-1 bg-white/10 rounded-full" />
             <div
               className="absolute h-1 bg-primary rounded-full transition-none shadow-[0_0_6px_rgba(196,30,58,0.4)]"
               style={{ width: `${percent}%` }}
             />
-            <input
-              type="range"
-              min={0}
-              max={duration || 1}
-              step={0.01}
-              value={progress}
-              onChange={handleSeek}
-              className="absolute w-full h-1 appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:relative [&::-webkit-slider-thumb]:z-10"
+            <div
+              className="absolute w-3 h-3 rounded-full bg-primary shadow-[0_0_6px_rgba(196,30,58,0.4)]"
+              style={{ left: `calc(${percent}% - 6px)` }}
             />
           </div>
           <span className="text-xs text-cream-muted w-10">{formatTime(duration)}</span>
