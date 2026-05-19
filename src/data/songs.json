@@ -4272,6 +4272,87 @@
         "startTime": 19.02
       },
       {
+        "cantonese": "就当普天之下情人节 只得数秒",
+        "jyutping": "zau6 dong13 pou2 tin1 zi1 haa6 cing4 jan4 zit3 zi2 dak1 sou2/sou3 miu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "就",
+            "jyutping": "zau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau6.mp3"
+          },
+          {
+            "cantonese": "当",
+            "jyutping": "dong13",
+            "mandarin": "",
+            "audioPath": "/audio/words/dong13.mp3"
+          },
+          {
+            "cantonese": "普",
+            "jyutping": "pou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/pou2.mp3"
+          },
+          {
+            "cantonese": "天",
+            "jyutping": "tin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/tin1.mp3"
+          },
+          {
+            "cantonese": "之",
+            "jyutping": "zi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi1.mp3"
+          },
+          {
+            "cantonese": "下",
+            "jyutping": "haa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/haa6.mp3"
+          },
+          {
+            "cantonese": "情",
+            "jyutping": "cing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cing4.mp3"
+          },
+          {
+            "cantonese": "人",
+            "jyutping": "jan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan4.mp3"
+          },
+          {
+            "cantonese": "节",
+            "jyutping": "zit3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zit3.mp3"
+          },
+          {
+            "cantonese": "只",
+            "jyutping": "zi2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi2.mp3"
+          },
+          {
+            "cantonese": "得",
+            "jyutping": "dak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dak1.mp3"
+          },
+          {
+            "cantonese": "数秒",
+            "jyutping": "sou2/sou3 miu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/sou2-sou3-miu5.mp3"
+          }
+        ],
+        "audioIndex": 6,
+        "startTime": 22.13
+      },
+      {
         "cantonese": "多得你还会肯承认逝去的吸引",
         "jyutping": "do1 dak1 nei5 waan4 wui hang2 sing4 jing6 sai6 heoi3 dik1 kap1 jan5",
         "mandarin": "",
@@ -4355,7 +4436,94 @@
             "audioPath": "/audio/words/jan5.mp3"
           }
         ],
-        "audioIndex": 6,
+        "audioIndex": 7,
+        "startTime": 36.81
+      },
+      {
+        "cantonese": "多得你还会肯承认逝去的吸引",
+        "jyutping": "do1 dak1 nei5 waan4 wui hang2 sing4 jing6 sai6 heoi3 dik1 kap1 jan5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "多",
+            "jyutping": "do1",
+            "mandarin": "",
+            "audioPath": "/audio/words/do1.mp3"
+          },
+          {
+            "cantonese": "得",
+            "jyutping": "dak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dak1.mp3"
+          },
+          {
+            "cantonese": "你",
+            "jyutping": "nei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/nei5.mp3"
+          },
+          {
+            "cantonese": "还",
+            "jyutping": "waan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/waan4.mp3"
+          },
+          {
+            "cantonese": "会",
+            "jyutping": "wui",
+            "mandarin": "",
+            "audioPath": "/audio/words/wui.mp3"
+          },
+          {
+            "cantonese": "肯",
+            "jyutping": "hang2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hang2.mp3"
+          },
+          {
+            "cantonese": "承",
+            "jyutping": "sing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/sing4.mp3"
+          },
+          {
+            "cantonese": "认",
+            "jyutping": "jing6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jing6.mp3"
+          },
+          {
+            "cantonese": "逝",
+            "jyutping": "sai6",
+            "mandarin": "",
+            "audioPath": "/audio/words/sai6.mp3"
+          },
+          {
+            "cantonese": "去",
+            "jyutping": "heoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/heoi3.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "吸",
+            "jyutping": "kap1",
+            "mandarin": "",
+            "audioPath": "/audio/words/kap1.mp3"
+          },
+          {
+            "cantonese": "引",
+            "jyutping": "jan5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan5.mp3"
+          }
+        ],
+        "audioIndex": 8,
         "startTime": 39.82
       },
       {
@@ -4406,7 +4574,7 @@
             "audioPath": "/audio/words/jan4.mp3"
           }
         ],
-        "audioIndex": 7,
+        "audioIndex": 9,
         "startTime": 43.29
       },
       {
@@ -4463,7 +4631,7 @@
             "audioPath": "/audio/words/han6.mp3"
           }
         ],
-        "audioIndex": 8,
+        "audioIndex": 10,
         "startTime": 50.81
       },
       {
@@ -4520,7 +4688,7 @@
             "audioPath": "/audio/words/haam6.mp3"
           }
         ],
-        "audioIndex": 9,
+        "audioIndex": 11,
         "startTime": 56.42
       },
       {
@@ -4601,7 +4769,88 @@
             "audioPath": "/audio/words/fan3.mp3"
           }
         ],
-        "audioIndex": 10,
+        "audioIndex": 12,
+        "startTime": 61.5
+      },
+      {
+        "cantonese": "分手了还有心 毋忘受伤的宝训",
+        "jyutping": "fan1/fan6 sau2 liu5 waan4 jau5 sam1 mou4 mong4 sau6 soeng1 dik1 bou2 fan3",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "分手",
+            "jyutping": "fan1/fan6 sau2",
+            "mandarin": "",
+            "audioPath": "/audio/words/fan1-fan6-sau2.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          },
+          {
+            "cantonese": "还",
+            "jyutping": "waan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/waan4.mp3"
+          },
+          {
+            "cantonese": "有",
+            "jyutping": "jau5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau5.mp3"
+          },
+          {
+            "cantonese": "心",
+            "jyutping": "sam1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sam1.mp3"
+          },
+          {
+            "cantonese": "毋",
+            "jyutping": "mou4",
+            "mandarin": "",
+            "audioPath": "/audio/words/mou4.mp3"
+          },
+          {
+            "cantonese": "忘",
+            "jyutping": "mong4",
+            "mandarin": "",
+            "audioPath": "/audio/words/mong4.mp3"
+          },
+          {
+            "cantonese": "受",
+            "jyutping": "sau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/sau6.mp3"
+          },
+          {
+            "cantonese": "伤",
+            "jyutping": "soeng1",
+            "mandarin": "",
+            "audioPath": "/audio/words/soeng1.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "宝",
+            "jyutping": "bou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/bou2.mp3"
+          },
+          {
+            "cantonese": "训",
+            "jyutping": "fan3",
+            "mandarin": "",
+            "audioPath": "/audio/words/fan3.mp3"
+          }
+        ],
+        "audioIndex": 13,
         "startTime": 64.43
       },
       {
@@ -4652,7 +4901,7 @@
             "audioPath": "/audio/words/jan4.mp3"
           }
         ],
-        "audioIndex": 11,
+        "audioIndex": 14,
         "startTime": 67.88
       },
       {
@@ -4733,7 +4982,88 @@
             "audioPath": "/audio/words/sam1.mp3"
           }
         ],
-        "audioIndex": 12,
+        "audioIndex": 15,
+        "startTime": 75.12
+      },
+      {
+        "cantonese": "沿途寻食物 全为了绵羊开心",
+        "jyutping": "jyun4 tou4 cam4 sik6 mat6 cyun4 wai46 liu5 min4 joeng4 hoi1 sam1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "沿",
+            "jyutping": "jyun4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyun4.mp3"
+          },
+          {
+            "cantonese": "途",
+            "jyutping": "tou4",
+            "mandarin": "",
+            "audioPath": "/audio/words/tou4.mp3"
+          },
+          {
+            "cantonese": "寻",
+            "jyutping": "cam4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cam4.mp3"
+          },
+          {
+            "cantonese": "食",
+            "jyutping": "sik6",
+            "mandarin": "",
+            "audioPath": "/audio/words/sik6.mp3"
+          },
+          {
+            "cantonese": "物",
+            "jyutping": "mat6",
+            "mandarin": "",
+            "audioPath": "/audio/words/mat6.mp3"
+          },
+          {
+            "cantonese": "全",
+            "jyutping": "cyun4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cyun4.mp3"
+          },
+          {
+            "cantonese": "为",
+            "jyutping": "wai46",
+            "mandarin": "",
+            "audioPath": "/audio/words/wai46.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          },
+          {
+            "cantonese": "绵",
+            "jyutping": "min4",
+            "mandarin": "",
+            "audioPath": "/audio/words/min4.mp3"
+          },
+          {
+            "cantonese": "羊",
+            "jyutping": "joeng4",
+            "mandarin": "",
+            "audioPath": "/audio/words/joeng4.mp3"
+          },
+          {
+            "cantonese": "开",
+            "jyutping": "hoi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hoi1.mp3"
+          },
+          {
+            "cantonese": "心",
+            "jyutping": "sam1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sam1.mp3"
+          }
+        ],
+        "audioIndex": 16,
         "startTime": 77.11
       },
       {
@@ -4808,8 +5138,449 @@
             "audioPath": "/audio/words/saang1.mp3"
           }
         ],
-        "audioIndex": 13,
+        "audioIndex": 17,
         "startTime": 80.23
+      },
+      {
+        "cantonese": "美好的 沉淀了",
+        "jyutping": "mei5 hou2 dik1 cam4 din6 liu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "美",
+            "jyutping": "mei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/mei5.mp3"
+          },
+          {
+            "cantonese": "好",
+            "jyutping": "hou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hou2.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "沉",
+            "jyutping": "cam4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cam4.mp3"
+          },
+          {
+            "cantonese": "淀",
+            "jyutping": "din6",
+            "mandarin": "",
+            "audioPath": "/audio/words/din6.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          }
+        ],
+        "audioIndex": 18,
+        "startTime": 89.29
+      },
+      {
+        "cantonese": "没有火花不要烧",
+        "jyutping": "mut6 jau5 fo2 faa1 bat1 jiu3 siu1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "没",
+            "jyutping": "mut6",
+            "mandarin": "",
+            "audioPath": "/audio/words/mut6.mp3"
+          },
+          {
+            "cantonese": "有",
+            "jyutping": "jau5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau5.mp3"
+          },
+          {
+            "cantonese": "火",
+            "jyutping": "fo2",
+            "mandarin": "",
+            "audioPath": "/audio/words/fo2.mp3"
+          },
+          {
+            "cantonese": "花",
+            "jyutping": "faa1",
+            "mandarin": "",
+            "audioPath": "/audio/words/faa1.mp3"
+          },
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "要",
+            "jyutping": "jiu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu3.mp3"
+          },
+          {
+            "cantonese": "烧",
+            "jyutping": "siu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu1.mp3"
+          }
+        ],
+        "audioIndex": 19,
+        "startTime": 92.1
+      },
+      {
+        "cantonese": "爱过的 成熟了",
+        "jyutping": "oi3 gwo3 dik1 sing4 suk6 liu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "爱",
+            "jyutping": "oi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/oi3.mp3"
+          },
+          {
+            "cantonese": "过",
+            "jyutping": "gwo3",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwo3.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "成",
+            "jyutping": "sing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/sing4.mp3"
+          },
+          {
+            "cantonese": "熟",
+            "jyutping": "suk6",
+            "mandarin": "",
+            "audioPath": "/audio/words/suk6.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          }
+        ],
+        "audioIndex": 20,
+        "startTime": 95.19
+      },
+      {
+        "cantonese": "犯错只因失恋太少",
+        "jyutping": "faan6/faan2 co3/cok3 zi2 jan1 sat1 lyun2 taai3 siu23",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "犯错",
+            "jyutping": "faan6/faan2 co3/cok3",
+            "mandarin": "",
+            "audioPath": "/audio/words/faan6-faan2-co3-cok3.mp3"
+          },
+          {
+            "cantonese": "只",
+            "jyutping": "zi2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi2.mp3"
+          },
+          {
+            "cantonese": "因",
+            "jyutping": "jan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan1.mp3"
+          },
+          {
+            "cantonese": "失",
+            "jyutping": "sat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sat1.mp3"
+          },
+          {
+            "cantonese": "恋",
+            "jyutping": "lyun2",
+            "mandarin": "",
+            "audioPath": "/audio/words/lyun2.mp3"
+          },
+          {
+            "cantonese": "太",
+            "jyutping": "taai3",
+            "mandarin": "",
+            "audioPath": "/audio/words/taai3.mp3"
+          },
+          {
+            "cantonese": "少",
+            "jyutping": "siu23",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu23.mp3"
+          }
+        ],
+        "audioIndex": 21,
+        "startTime": 98.31
+      },
+      {
+        "cantonese": "要每一根火柴全为这一刻燃烧",
+        "jyutping": "jiu3 mui5 jat1 gan1 fo2 caai4 cyun4 wai46 ze5 jat1 hak1 jin4 siu1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "要",
+            "jyutping": "jiu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu3.mp3"
+          },
+          {
+            "cantonese": "每",
+            "jyutping": "mui5",
+            "mandarin": "",
+            "audioPath": "/audio/words/mui5.mp3"
+          },
+          {
+            "cantonese": "一",
+            "jyutping": "jat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "根",
+            "jyutping": "gan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gan1.mp3"
+          },
+          {
+            "cantonese": "火",
+            "jyutping": "fo2",
+            "mandarin": "",
+            "audioPath": "/audio/words/fo2.mp3"
+          },
+          {
+            "cantonese": "柴",
+            "jyutping": "caai4",
+            "mandarin": "",
+            "audioPath": "/audio/words/caai4.mp3"
+          },
+          {
+            "cantonese": "全",
+            "jyutping": "cyun4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cyun4.mp3"
+          },
+          {
+            "cantonese": "为",
+            "jyutping": "wai46",
+            "mandarin": "",
+            "audioPath": "/audio/words/wai46.mp3"
+          },
+          {
+            "cantonese": "这",
+            "jyutping": "ze5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ze5.mp3"
+          },
+          {
+            "cantonese": "一",
+            "jyutping": "jat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "刻",
+            "jyutping": "hak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hak1.mp3"
+          },
+          {
+            "cantonese": "燃",
+            "jyutping": "jin4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jin4.mp3"
+          },
+          {
+            "cantonese": "烧",
+            "jyutping": "siu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu1.mp3"
+          }
+        ],
+        "audioIndex": 22,
+        "startTime": 101.74
+      },
+      {
+        "cantonese": "就当普天之下情人节 只得数秒",
+        "jyutping": "zau6 dong13 pou2 tin1 zi1 haa6 cing4 jan4 zit3 zi2 dak1 sou2/sou3 miu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "就",
+            "jyutping": "zau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau6.mp3"
+          },
+          {
+            "cantonese": "当",
+            "jyutping": "dong13",
+            "mandarin": "",
+            "audioPath": "/audio/words/dong13.mp3"
+          },
+          {
+            "cantonese": "普",
+            "jyutping": "pou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/pou2.mp3"
+          },
+          {
+            "cantonese": "天",
+            "jyutping": "tin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/tin1.mp3"
+          },
+          {
+            "cantonese": "之",
+            "jyutping": "zi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi1.mp3"
+          },
+          {
+            "cantonese": "下",
+            "jyutping": "haa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/haa6.mp3"
+          },
+          {
+            "cantonese": "情",
+            "jyutping": "cing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cing4.mp3"
+          },
+          {
+            "cantonese": "人",
+            "jyutping": "jan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan4.mp3"
+          },
+          {
+            "cantonese": "节",
+            "jyutping": "zit3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zit3.mp3"
+          },
+          {
+            "cantonese": "只",
+            "jyutping": "zi2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi2.mp3"
+          },
+          {
+            "cantonese": "得",
+            "jyutping": "dak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dak1.mp3"
+          },
+          {
+            "cantonese": "数秒",
+            "jyutping": "sou2/sou3 miu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/sou2-sou3-miu5.mp3"
+          }
+        ],
+        "audioIndex": 23,
+        "startTime": 107.9
+      },
+      {
+        "cantonese": "就当普天之下情人节 只得数秒",
+        "jyutping": "zau6 dong13 pou2 tin1 zi1 haa6 cing4 jan4 zit3 zi2 dak1 sou2/sou3 miu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "就",
+            "jyutping": "zau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau6.mp3"
+          },
+          {
+            "cantonese": "当",
+            "jyutping": "dong13",
+            "mandarin": "",
+            "audioPath": "/audio/words/dong13.mp3"
+          },
+          {
+            "cantonese": "普",
+            "jyutping": "pou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/pou2.mp3"
+          },
+          {
+            "cantonese": "天",
+            "jyutping": "tin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/tin1.mp3"
+          },
+          {
+            "cantonese": "之",
+            "jyutping": "zi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi1.mp3"
+          },
+          {
+            "cantonese": "下",
+            "jyutping": "haa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/haa6.mp3"
+          },
+          {
+            "cantonese": "情",
+            "jyutping": "cing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cing4.mp3"
+          },
+          {
+            "cantonese": "人",
+            "jyutping": "jan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan4.mp3"
+          },
+          {
+            "cantonese": "节",
+            "jyutping": "zit3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zit3.mp3"
+          },
+          {
+            "cantonese": "只",
+            "jyutping": "zi2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi2.mp3"
+          },
+          {
+            "cantonese": "得",
+            "jyutping": "dak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dak1.mp3"
+          },
+          {
+            "cantonese": "数秒",
+            "jyutping": "sou2/sou3 miu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/sou2-sou3-miu5.mp3"
+          }
+        ],
+        "audioIndex": 24,
+        "startTime": 111.06
       },
       {
         "cantonese": "天黑了 还有灯",
@@ -4853,8 +5624,53 @@
             "audioPath": "/audio/words/dang1.mp3"
           }
         ],
-        "audioIndex": 14,
+        "audioIndex": 25,
         "startTime": 127.19
+      },
+      {
+        "cantonese": "天黑了 还有灯",
+        "jyutping": "tin1 hak1 liu5 waan4 jau5 dang1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "天",
+            "jyutping": "tin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/tin1.mp3"
+          },
+          {
+            "cantonese": "黑",
+            "jyutping": "hak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hak1.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          },
+          {
+            "cantonese": "还",
+            "jyutping": "waan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/waan4.mp3"
+          },
+          {
+            "cantonese": "有",
+            "jyutping": "jau5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau5.mp3"
+          },
+          {
+            "cantonese": "灯",
+            "jyutping": "dang1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dang1.mp3"
+          }
+        ],
+        "audioIndex": 26,
+        "startTime": 128.6
       },
       {
         "cantonese": "还有热恋者拥吻",
@@ -4904,7 +5720,7 @@
             "audioPath": "/audio/words/man5.mp3"
           }
         ],
-        "audioIndex": 15,
+        "audioIndex": 27,
         "startTime": 130.07
       },
       {
@@ -4961,7 +5777,7 @@
             "audioPath": "/audio/words/jan4.mp3"
           }
         ],
-        "audioIndex": 16,
+        "audioIndex": 28,
         "startTime": 133.33
       },
       {
@@ -5024,7 +5840,70 @@
             "audioPath": "/audio/words/dung6-paak3-geng1-ging1-sam1.mp3"
           }
         ],
-        "audioIndex": 17,
+        "audioIndex": 29,
+        "startTime": 140.24
+      },
+      {
+        "cantonese": "为旧日幸运 投入到动魄惊心",
+        "jyutping": "wai46 gau6 jat6 hang6 wan6 tau4 jap6 dou3 dung6 paak3 geng1/ging1 sam1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "为",
+            "jyutping": "wai46",
+            "mandarin": "",
+            "audioPath": "/audio/words/wai46.mp3"
+          },
+          {
+            "cantonese": "旧",
+            "jyutping": "gau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/gau6.mp3"
+          },
+          {
+            "cantonese": "日",
+            "jyutping": "jat6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat6.mp3"
+          },
+          {
+            "cantonese": "幸",
+            "jyutping": "hang6",
+            "mandarin": "",
+            "audioPath": "/audio/words/hang6.mp3"
+          },
+          {
+            "cantonese": "运",
+            "jyutping": "wan6",
+            "mandarin": "",
+            "audioPath": "/audio/words/wan6.mp3"
+          },
+          {
+            "cantonese": "投",
+            "jyutping": "tau4",
+            "mandarin": "",
+            "audioPath": "/audio/words/tau4.mp3"
+          },
+          {
+            "cantonese": "入",
+            "jyutping": "jap6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jap6.mp3"
+          },
+          {
+            "cantonese": "到",
+            "jyutping": "dou3",
+            "mandarin": "",
+            "audioPath": "/audio/words/dou3.mp3"
+          },
+          {
+            "cantonese": "动魄惊心",
+            "jyutping": "dung6 paak3 geng1/ging1 sam1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dung6-paak3-geng1-ging1-sam1.mp3"
+          }
+        ],
+        "audioIndex": 30,
         "startTime": 142.21
       },
       {
@@ -5099,8 +5978,524 @@
             "audioPath": "/audio/words/ban2.mp3"
           }
         ],
-        "audioIndex": 18,
+        "audioIndex": 31,
+        "startTime": 145.21
+      },
+      {
+        "cantonese": "绝不能成为 愉快的牺牲品",
+        "jyutping": "zyut6 bat1 nang4 sing4 wai46 jyu4 faai3 dik1 hei1 saang1 ban2",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "绝",
+            "jyutping": "zyut6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zyut6.mp3"
+          },
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "能",
+            "jyutping": "nang4",
+            "mandarin": "",
+            "audioPath": "/audio/words/nang4.mp3"
+          },
+          {
+            "cantonese": "成",
+            "jyutping": "sing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/sing4.mp3"
+          },
+          {
+            "cantonese": "为",
+            "jyutping": "wai46",
+            "mandarin": "",
+            "audioPath": "/audio/words/wai46.mp3"
+          },
+          {
+            "cantonese": "愉",
+            "jyutping": "jyu4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu4.mp3"
+          },
+          {
+            "cantonese": "快",
+            "jyutping": "faai3",
+            "mandarin": "",
+            "audioPath": "/audio/words/faai3.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "牺",
+            "jyutping": "hei1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hei1.mp3"
+          },
+          {
+            "cantonese": "牲",
+            "jyutping": "saang1",
+            "mandarin": "",
+            "audioPath": "/audio/words/saang1.mp3"
+          },
+          {
+            "cantonese": "品",
+            "jyutping": "ban2",
+            "mandarin": "",
+            "audioPath": "/audio/words/ban2.mp3"
+          }
+        ],
+        "audioIndex": 32,
         "startTime": 147.46
+      },
+      {
+        "cantonese": "美好的 沉淀了",
+        "jyutping": "mei5 hou2 dik1 cam4 din6 liu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "美",
+            "jyutping": "mei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/mei5.mp3"
+          },
+          {
+            "cantonese": "好",
+            "jyutping": "hou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hou2.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "沉",
+            "jyutping": "cam4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cam4.mp3"
+          },
+          {
+            "cantonese": "淀",
+            "jyutping": "din6",
+            "mandarin": "",
+            "audioPath": "/audio/words/din6.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          }
+        ],
+        "audioIndex": 33,
+        "startTime": 153.86
+      },
+      {
+        "cantonese": "没有火花不要烧",
+        "jyutping": "mut6 jau5 fo2 faa1 bat1 jiu3 siu1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "没",
+            "jyutping": "mut6",
+            "mandarin": "",
+            "audioPath": "/audio/words/mut6.mp3"
+          },
+          {
+            "cantonese": "有",
+            "jyutping": "jau5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau5.mp3"
+          },
+          {
+            "cantonese": "火",
+            "jyutping": "fo2",
+            "mandarin": "",
+            "audioPath": "/audio/words/fo2.mp3"
+          },
+          {
+            "cantonese": "花",
+            "jyutping": "faa1",
+            "mandarin": "",
+            "audioPath": "/audio/words/faa1.mp3"
+          },
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "要",
+            "jyutping": "jiu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu3.mp3"
+          },
+          {
+            "cantonese": "烧",
+            "jyutping": "siu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu1.mp3"
+          }
+        ],
+        "audioIndex": 34,
+        "startTime": 156.63
+      },
+      {
+        "cantonese": "爱过的 成熟了",
+        "jyutping": "oi3 gwo3 dik1 sing4 suk6 liu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "爱",
+            "jyutping": "oi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/oi3.mp3"
+          },
+          {
+            "cantonese": "过",
+            "jyutping": "gwo3",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwo3.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "成",
+            "jyutping": "sing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/sing4.mp3"
+          },
+          {
+            "cantonese": "熟",
+            "jyutping": "suk6",
+            "mandarin": "",
+            "audioPath": "/audio/words/suk6.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          }
+        ],
+        "audioIndex": 35,
+        "startTime": 159.48
+      },
+      {
+        "cantonese": "犯错只因失恋太少",
+        "jyutping": "faan6/faan2 co3/cok3 zi2 jan1 sat1 lyun2 taai3 siu23",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "犯错",
+            "jyutping": "faan6/faan2 co3/cok3",
+            "mandarin": "",
+            "audioPath": "/audio/words/faan6-faan2-co3-cok3.mp3"
+          },
+          {
+            "cantonese": "只",
+            "jyutping": "zi2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi2.mp3"
+          },
+          {
+            "cantonese": "因",
+            "jyutping": "jan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan1.mp3"
+          },
+          {
+            "cantonese": "失",
+            "jyutping": "sat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sat1.mp3"
+          },
+          {
+            "cantonese": "恋",
+            "jyutping": "lyun2",
+            "mandarin": "",
+            "audioPath": "/audio/words/lyun2.mp3"
+          },
+          {
+            "cantonese": "太",
+            "jyutping": "taai3",
+            "mandarin": "",
+            "audioPath": "/audio/words/taai3.mp3"
+          },
+          {
+            "cantonese": "少",
+            "jyutping": "siu23",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu23.mp3"
+          }
+        ],
+        "audioIndex": 36,
+        "startTime": 162.47
+      },
+      {
+        "cantonese": "要每一根火柴全为这一刻燃烧",
+        "jyutping": "jiu3 mui5 jat1 gan1 fo2 caai4 cyun4 wai46 ze5 jat1 hak1 jin4 siu1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "要",
+            "jyutping": "jiu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu3.mp3"
+          },
+          {
+            "cantonese": "每",
+            "jyutping": "mui5",
+            "mandarin": "",
+            "audioPath": "/audio/words/mui5.mp3"
+          },
+          {
+            "cantonese": "一",
+            "jyutping": "jat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "根",
+            "jyutping": "gan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gan1.mp3"
+          },
+          {
+            "cantonese": "火",
+            "jyutping": "fo2",
+            "mandarin": "",
+            "audioPath": "/audio/words/fo2.mp3"
+          },
+          {
+            "cantonese": "柴",
+            "jyutping": "caai4",
+            "mandarin": "",
+            "audioPath": "/audio/words/caai4.mp3"
+          },
+          {
+            "cantonese": "全",
+            "jyutping": "cyun4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cyun4.mp3"
+          },
+          {
+            "cantonese": "为",
+            "jyutping": "wai46",
+            "mandarin": "",
+            "audioPath": "/audio/words/wai46.mp3"
+          },
+          {
+            "cantonese": "这",
+            "jyutping": "ze5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ze5.mp3"
+          },
+          {
+            "cantonese": "一",
+            "jyutping": "jat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "刻",
+            "jyutping": "hak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hak1.mp3"
+          },
+          {
+            "cantonese": "燃",
+            "jyutping": "jin4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jin4.mp3"
+          },
+          {
+            "cantonese": "烧",
+            "jyutping": "siu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu1.mp3"
+          }
+        ],
+        "audioIndex": 37,
+        "startTime": 165.72
+      },
+      {
+        "cantonese": "就当普天之下情人节 只得数秒",
+        "jyutping": "zau6 dong13 pou2 tin1 zi1 haa6 cing4 jan4 zit3 zi2 dak1 sou2/sou3 miu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "就",
+            "jyutping": "zau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau6.mp3"
+          },
+          {
+            "cantonese": "当",
+            "jyutping": "dong13",
+            "mandarin": "",
+            "audioPath": "/audio/words/dong13.mp3"
+          },
+          {
+            "cantonese": "普",
+            "jyutping": "pou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/pou2.mp3"
+          },
+          {
+            "cantonese": "天",
+            "jyutping": "tin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/tin1.mp3"
+          },
+          {
+            "cantonese": "之",
+            "jyutping": "zi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi1.mp3"
+          },
+          {
+            "cantonese": "下",
+            "jyutping": "haa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/haa6.mp3"
+          },
+          {
+            "cantonese": "情",
+            "jyutping": "cing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cing4.mp3"
+          },
+          {
+            "cantonese": "人",
+            "jyutping": "jan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan4.mp3"
+          },
+          {
+            "cantonese": "节",
+            "jyutping": "zit3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zit3.mp3"
+          },
+          {
+            "cantonese": "只",
+            "jyutping": "zi2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi2.mp3"
+          },
+          {
+            "cantonese": "得",
+            "jyutping": "dak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dak1.mp3"
+          },
+          {
+            "cantonese": "数秒",
+            "jyutping": "sou2/sou3 miu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/sou2-sou3-miu5.mp3"
+          }
+        ],
+        "audioIndex": 38,
+        "startTime": 171.59
+      },
+      {
+        "cantonese": "就当普天之下情人节 只得数秒",
+        "jyutping": "zau6 dong13 pou2 tin1 zi1 haa6 cing4 jan4 zit3 zi2 dak1 sou2/sou3 miu5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "就",
+            "jyutping": "zau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau6.mp3"
+          },
+          {
+            "cantonese": "当",
+            "jyutping": "dong13",
+            "mandarin": "",
+            "audioPath": "/audio/words/dong13.mp3"
+          },
+          {
+            "cantonese": "普",
+            "jyutping": "pou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/pou2.mp3"
+          },
+          {
+            "cantonese": "天",
+            "jyutping": "tin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/tin1.mp3"
+          },
+          {
+            "cantonese": "之",
+            "jyutping": "zi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi1.mp3"
+          },
+          {
+            "cantonese": "下",
+            "jyutping": "haa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/haa6.mp3"
+          },
+          {
+            "cantonese": "情",
+            "jyutping": "cing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cing4.mp3"
+          },
+          {
+            "cantonese": "人",
+            "jyutping": "jan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan4.mp3"
+          },
+          {
+            "cantonese": "节",
+            "jyutping": "zit3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zit3.mp3"
+          },
+          {
+            "cantonese": "只",
+            "jyutping": "zi2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zi2.mp3"
+          },
+          {
+            "cantonese": "得",
+            "jyutping": "dak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dak1.mp3"
+          },
+          {
+            "cantonese": "数秒",
+            "jyutping": "sou2/sou3 miu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/sou2-sou3-miu5.mp3"
+          }
+        ],
+        "audioIndex": 39,
+        "startTime": 174.47
       },
       {
         "cantonese": "擦光所有火柴难令气氛像从前闪耀",
@@ -5192,7 +6587,7 @@
             "audioPath": "/audio/words/jiu6.mp3"
           }
         ],
-        "audioIndex": 19,
+        "audioIndex": 40,
         "startTime": 180.24
       },
       {
@@ -5285,7 +6680,7 @@
             "audioPath": "/audio/words/waan2-wun6-waan4-siu3.mp3"
           }
         ],
-        "audioIndex": 20,
+        "audioIndex": 41,
         "startTime": 186.64
       }
     ],
@@ -5358,7 +6753,7 @@
             "audioPath": "/audio/words/tong4.mp3"
           }
         ],
-        "startTime": 12.27,
+        "startTime": 10.04,
         "audioIndex": 0
       },
       {
@@ -5496,7 +6891,7 @@
             "audioPath": "/audio/words/gok3.mp3"
           }
         ],
-        "startTime": 21.97,
+        "startTime": 19.55,
         "audioIndex": 2
       },
       {
@@ -5832,8 +7227,158 @@
             "audioPath": "/audio/words/waan6-gok3-gaau3.mp3"
           }
         ],
-        "startTime": 44.95,
+        "startTime": 42.22,
         "audioIndex": 6
+      },
+      {
+        "cantonese": "shall we talk",
+        "jyutping": "          ",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "s",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "h",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "w",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "e",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "t",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "k",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          }
+        ],
+        "audioIndex": 7,
+        "startTime": 49.19
+      },
+      {
+        "cantonese": "shall we talk",
+        "jyutping": "          ",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "s",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "h",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "w",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "e",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "t",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "k",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          }
+        ],
+        "audioIndex": 8,
+        "startTime": 49.19
       },
       {
         "cantonese": "就当重新手拖手去上学堂",
@@ -5902,7 +7447,7 @@
           }
         ],
         "startTime": 52.02,
-        "audioIndex": 7
+        "audioIndex": 9
       },
       {
         "cantonese": "陪我讲 陪我讲出我们最后何以生疏",
@@ -5994,8 +7539,8 @@
             "audioPath": "/audio/words/sang1-saang1-so1.mp3"
           }
         ],
-        "startTime": 63.28,
-        "audioIndex": 8
+        "startTime": 60.44,
+        "audioIndex": 10
       },
       {
         "cantonese": "谁怕讲 谁会可悲得过孤独探戈",
@@ -6081,8 +7626,8 @@
             "audioPath": "/audio/words/gwo1.mp3"
           }
         ],
-        "startTime": 67.42,
-        "audioIndex": 9
+        "startTime": 66.11,
+        "audioIndex": 11
       },
       {
         "cantonese": "难得 可以同座 何以 要忌讳赤裸",
@@ -6162,8 +7707,8 @@
             "audioPath": "/audio/words/lo2.mp3"
           }
         ],
-        "startTime": 74.81,
-        "audioIndex": 10
+        "startTime": 72.03,
+        "audioIndex": 12
       },
       {
         "cantonese": "如果心声真有疗效 谁怕暴露更多",
@@ -6250,7 +7795,7 @@
           }
         ],
         "startTime": 77.57,
-        "audioIndex": 11
+        "audioIndex": 13
       },
       {
         "cantonese": "你别怕我",
@@ -6283,7 +7828,7 @@
           }
         ],
         "startTime": 82.98,
-        "audioIndex": 12
+        "audioIndex": 14
       },
       {
         "cantonese": "荧幕发光 无论什么都看",
@@ -6351,8 +7896,8 @@
             "audioPath": "/audio/words/hon3.mp3"
           }
         ],
-        "startTime": 91.34,
-        "audioIndex": 13
+        "startTime": 89.07,
+        "audioIndex": 15
       },
       {
         "cantonese": "情人在分手边缘只敢喝汤",
@@ -6421,7 +7966,7 @@
           }
         ],
         "startTime": 94.07,
-        "audioIndex": 14
+        "audioIndex": 16
       },
       {
         "cantonese": "若沉默似金 还谈什么恋爱",
@@ -6495,8 +8040,8 @@
             "audioPath": "/audio/words/oi3.mp3"
           }
         ],
-        "startTime": 102.24,
-        "audioIndex": 15
+        "startTime": 99.51,
+        "audioIndex": 17
       },
       {
         "cantonese": "宁愿在发声机器面前笑着忙",
@@ -6571,7 +8116,7 @@
           }
         ],
         "startTime": 105.02,
-        "audioIndex": 16
+        "audioIndex": 18
       },
       {
         "cantonese": "成人只寄望收获 情人只听见承诺",
@@ -6658,7 +8203,7 @@
           }
         ],
         "startTime": 110.43,
-        "audioIndex": 17
+        "audioIndex": 19
       },
       {
         "cantonese": "为何都不大懂得努力珍惜对方",
@@ -6745,7 +8290,7 @@
           }
         ],
         "startTime": 115.9,
-        "audioIndex": 18
+        "audioIndex": 20
       },
       {
         "cantonese": "螳螂面对蟋蟀 回响也如同幻觉",
@@ -6825,8 +8370,158 @@
             "audioPath": "/audio/words/waan6-gok3-gaau3.mp3"
           }
         ],
-        "startTime": 124.09,
-        "audioIndex": 19
+        "startTime": 121.36,
+        "audioIndex": 21
+      },
+      {
+        "cantonese": "shall we talk",
+        "jyutping": "          ",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "s",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "h",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "w",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "e",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "t",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "k",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          }
+        ],
+        "audioIndex": 22,
+        "startTime": 49.19
+      },
+      {
+        "cantonese": "shall we talk",
+        "jyutping": "          ",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "s",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "h",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "w",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "e",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "t",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "k",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          }
+        ],
+        "audioIndex": 23,
+        "startTime": 49.19
       },
       {
         "cantonese": "就算牙关开始打震 别说谎",
@@ -6901,7 +8596,7 @@
           }
         ],
         "startTime": 129.15,
-        "audioIndex": 20
+        "audioIndex": 24
       },
       {
         "cantonese": "陪我讲 陪我亲身正视眼泪谁跌得多",
@@ -6999,8 +8694,8 @@
             "audioPath": "/audio/words/do1.mp3"
           }
         ],
-        "startTime": 159.55,
-        "audioIndex": 21
+        "startTime": 158.14,
+        "audioIndex": 25
       },
       {
         "cantonese": "无法讲 除非彼此已失去了能力触摸",
@@ -7092,8 +8787,8 @@
             "audioPath": "/audio/words/cuk1-zuk1-mo2.mp3"
           }
         ],
-        "startTime": 165.34,
-        "audioIndex": 22
+        "startTime": 163.75,
+        "audioIndex": 26
       },
       {
         "cantonese": "铃声 可以宁静 难过 却避不过",
@@ -7162,7 +8857,7 @@
           }
         ],
         "startTime": 170.0,
-        "audioIndex": 23
+        "audioIndex": 27
       },
       {
         "cantonese": "如果沉默太沉重 别要轻轻带过",
@@ -7231,7 +8926,7 @@
           }
         ],
         "startTime": 175.56,
-        "audioIndex": 24
+        "audioIndex": 28
       },
       {
         "cantonese": "明月光 为何未照地堂",
@@ -7293,8 +8988,8 @@
             "audioPath": "/audio/words/tong4.mp3"
           }
         ],
-        "startTime": 190.82,
-        "audioIndex": 25
+        "startTime": 188.35,
+        "audioIndex": 29
       },
       {
         "cantonese": "孩儿在公司很忙 不需喝汤",
@@ -7369,7 +9064,145 @@
           }
         ],
         "startTime": 193.5,
-        "audioIndex": 26
+        "audioIndex": 30
+      },
+      {
+        "cantonese": "and shall we talk",
+        "jyutping": "             ",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "n",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "d",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "s",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "h",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "w",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "e",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "t",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "a",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "l",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          },
+          {
+            "cantonese": "k",
+            "jyutping": "",
+            "mandarin": "",
+            "audioPath": "/audio/words/.mp3"
+          }
+        ],
+        "audioIndex": 31,
+        "startTime": 198.96
+      },
+      {
+        "cantonese": "斜阳白赶一趟",
+        "jyutping": "ce4 joeng4 baak6 gon2 jat1 tong3",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "斜",
+            "jyutping": "ce4",
+            "mandarin": "",
+            "audioPath": "/audio/words/ce4.mp3"
+          },
+          {
+            "cantonese": "阳",
+            "jyutping": "joeng4",
+            "mandarin": "",
+            "audioPath": "/audio/words/joeng4.mp3"
+          },
+          {
+            "cantonese": "白",
+            "jyutping": "baak6",
+            "mandarin": "",
+            "audioPath": "/audio/words/baak6.mp3"
+          },
+          {
+            "cantonese": "赶",
+            "jyutping": "gon2",
+            "mandarin": "",
+            "audioPath": "/audio/words/gon2.mp3"
+          },
+          {
+            "cantonese": "一",
+            "jyutping": "jat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "趟",
+            "jyutping": "tong3",
+            "mandarin": "",
+            "audioPath": "/audio/words/tong3.mp3"
+          }
+        ],
+        "audioIndex": 32,
+        "startTime": 201.5
       },
       {
         "cantonese": "沉默令我听得见叶儿声声降",
@@ -7432,7 +9265,7 @@
           }
         ],
         "startTime": 204.13,
-        "audioIndex": 27
+        "audioIndex": 33
       }
     ],
     "difficulty": "medium",
@@ -8216,8 +10049,8 @@
         "startTime": 114.46
       },
       {
-        "cantonese": "到处还是 涂鸦笔记",
-        "jyutping": "dou3 cyu35 waan4 si6 tou4 aa1 bat1 gei3",
+        "cantonese": "到处还是图鸦笔记",
+        "jyutping": "dou3 cyu5 waan4 si6 tou4 aa1 bat1 gei3",
         "mandarin": "",
         "words": [
           {
@@ -8228,9 +10061,9 @@
           },
           {
             "cantonese": "处",
-            "jyutping": "cyu35",
+            "jyutping": "cyu5",
             "mandarin": "",
-            "audioPath": "/audio/words/cyu35.mp3"
+            "audioPath": "/audio/words/cyu5.mp3"
           },
           {
             "cantonese": "还",
@@ -8245,7 +10078,7 @@
             "audioPath": "/audio/words/si6.mp3"
           },
           {
-            "cantonese": "涂",
+            "cantonese": "图",
             "jyutping": "tou4",
             "mandarin": "",
             "audioPath": "/audio/words/tou4.mp3"
@@ -8269,11 +10102,12 @@
             "audioPath": "/audio/words/gei3.mp3"
           }
         ],
-        "audioIndex": 13
+        "audioIndex": 13,
+        "startTime": 120.69
       },
       {
-        "cantonese": "就像我未 抛低你",
-        "jyutping": "zau6 zoeng6 ngo5 mei6 paau1 dai1 nei5",
+        "cantonese": "就像我未抛底你",
+        "jyutping": "zau6 zoeng6 ngo5 mei6 paau1 dai2 nei5",
         "mandarin": "",
         "words": [
           {
@@ -8307,10 +10141,10 @@
             "audioPath": "/audio/words/paau1.mp3"
           },
           {
-            "cantonese": "低",
-            "jyutping": "dai1",
+            "cantonese": "底",
+            "jyutping": "dai2",
             "mandarin": "",
-            "audioPath": "/audio/words/dai1.mp3"
+            "audioPath": "/audio/words/dai2.mp3"
           },
           {
             "cantonese": "你",
@@ -8319,7 +10153,908 @@
             "audioPath": "/audio/words/nei5.mp3"
           }
         ],
-        "audioIndex": 14
+        "audioIndex": 14,
+        "startTime": 126.94
+      },
+      {
+        "cantonese": "遇着什么 烦恼",
+        "jyutping": "jyu6 zoek6/ sam6 mo1 faan4 nou5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "遇着",
+            "jyutping": "jyu6 zoek6/",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu6-zoek6-.mp3"
+          },
+          {
+            "cantonese": "什",
+            "jyutping": "sam6",
+            "mandarin": "",
+            "audioPath": "/audio/words/sam6.mp3"
+          },
+          {
+            "cantonese": "么",
+            "jyutping": "mo1",
+            "mandarin": "",
+            "audioPath": "/audio/words/mo1.mp3"
+          },
+          {
+            "cantonese": "烦",
+            "jyutping": "faan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/faan4.mp3"
+          },
+          {
+            "cantonese": "恼",
+            "jyutping": "nou5",
+            "mandarin": "",
+            "audioPath": "/audio/words/nou5.mp3"
+          }
+        ],
+        "audioIndex": 15,
+        "startTime": 133.34
+      },
+      {
+        "cantonese": "想跟我说 都可听到",
+        "jyutping": "soeng2 gan1 ngo5 syut3 dou1 ho2 ting1/teng1 dou3",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "想",
+            "jyutping": "soeng2",
+            "mandarin": "",
+            "audioPath": "/audio/words/soeng2.mp3"
+          },
+          {
+            "cantonese": "跟",
+            "jyutping": "gan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gan1.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "说",
+            "jyutping": "syut3",
+            "mandarin": "",
+            "audioPath": "/audio/words/syut3.mp3"
+          },
+          {
+            "cantonese": "都",
+            "jyutping": "dou1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dou1.mp3"
+          },
+          {
+            "cantonese": "可",
+            "jyutping": "ho2",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho2.mp3"
+          },
+          {
+            "cantonese": "听到",
+            "jyutping": "ting1/teng1 dou3",
+            "mandarin": "",
+            "audioPath": "/audio/words/ting1-teng1-dou3.mp3"
+          }
+        ],
+        "audioIndex": 16,
+        "startTime": 139.55
+      },
+      {
+        "cantonese": "翻到有趣 图画",
+        "jyutping": "faan1 dou3 jau5 ceoi3 tou4 waa2/waak6",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "翻",
+            "jyutping": "faan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/faan1.mp3"
+          },
+          {
+            "cantonese": "到",
+            "jyutping": "dou3",
+            "mandarin": "",
+            "audioPath": "/audio/words/dou3.mp3"
+          },
+          {
+            "cantonese": "有",
+            "jyutping": "jau5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau5.mp3"
+          },
+          {
+            "cantonese": "趣",
+            "jyutping": "ceoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/ceoi3.mp3"
+          },
+          {
+            "cantonese": "图画",
+            "jyutping": "tou4 waa2/waak6",
+            "mandarin": "",
+            "audioPath": "/audio/words/tou4-waa2-waak6.mp3"
+          }
+        ],
+        "audioIndex": 17,
+        "startTime": 145.68
+      },
+      {
+        "cantonese": "何妨大笑 让妙事亦被我看到",
+        "jyutping": "ho4 fong4 daai6 siu3 joeng6 miu6 si6 jik6 bei6/ ngo5 hon3 dou3",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "何",
+            "jyutping": "ho4",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho4.mp3"
+          },
+          {
+            "cantonese": "妨",
+            "jyutping": "fong4",
+            "mandarin": "",
+            "audioPath": "/audio/words/fong4.mp3"
+          },
+          {
+            "cantonese": "大",
+            "jyutping": "daai6",
+            "mandarin": "",
+            "audioPath": "/audio/words/daai6.mp3"
+          },
+          {
+            "cantonese": "笑",
+            "jyutping": "siu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu3.mp3"
+          },
+          {
+            "cantonese": "让",
+            "jyutping": "joeng6",
+            "mandarin": "",
+            "audioPath": "/audio/words/joeng6.mp3"
+          },
+          {
+            "cantonese": "妙",
+            "jyutping": "miu6",
+            "mandarin": "",
+            "audioPath": "/audio/words/miu6.mp3"
+          },
+          {
+            "cantonese": "事",
+            "jyutping": "si6",
+            "mandarin": "",
+            "audioPath": "/audio/words/si6.mp3"
+          },
+          {
+            "cantonese": "亦",
+            "jyutping": "jik6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jik6.mp3"
+          },
+          {
+            "cantonese": "被",
+            "jyutping": "bei6/",
+            "mandarin": "",
+            "audioPath": "/audio/words/bei6-.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "看",
+            "jyutping": "hon3",
+            "mandarin": "",
+            "audioPath": "/audio/words/hon3.mp3"
+          },
+          {
+            "cantonese": "到",
+            "jyutping": "dou3",
+            "mandarin": "",
+            "audioPath": "/audio/words/dou3.mp3"
+          }
+        ],
+        "audioIndex": 18,
+        "startTime": 151.9
+      },
+      {
+        "cantonese": "游玩时 开心一点 不必挂念我",
+        "jyutping": "jau4 waan2/wun6/waan4 si4 hoi1 sam1 jat1 dim2 bat1 bit1 gwaa3 nim6 ngo5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "游玩",
+            "jyutping": "jau4 waan2/wun6/waan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau4-waan2-wun6-waan4.mp3"
+          },
+          {
+            "cantonese": "时",
+            "jyutping": "si4",
+            "mandarin": "",
+            "audioPath": "/audio/words/si4.mp3"
+          },
+          {
+            "cantonese": "开",
+            "jyutping": "hoi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hoi1.mp3"
+          },
+          {
+            "cantonese": "心",
+            "jyutping": "sam1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sam1.mp3"
+          },
+          {
+            "cantonese": "一",
+            "jyutping": "jat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "点",
+            "jyutping": "dim2",
+            "mandarin": "",
+            "audioPath": "/audio/words/dim2.mp3"
+          },
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "必",
+            "jyutping": "bit1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bit1.mp3"
+          },
+          {
+            "cantonese": "挂",
+            "jyutping": "gwaa3",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwaa3.mp3"
+          },
+          {
+            "cantonese": "念",
+            "jyutping": "nim6",
+            "mandarin": "",
+            "audioPath": "/audio/words/nim6.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          }
+        ],
+        "audioIndex": 19,
+        "startTime": 159.19
+      },
+      {
+        "cantonese": "来好好给我活着 就似最初",
+        "jyutping": "loi4 hou2 hou2 kap1 ngo5 wut6 zoek6/ zau6 ci5 zeoi3 co1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "来",
+            "jyutping": "loi4",
+            "mandarin": "",
+            "audioPath": "/audio/words/loi4.mp3"
+          },
+          {
+            "cantonese": "好",
+            "jyutping": "hou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hou2.mp3"
+          },
+          {
+            "cantonese": "好",
+            "jyutping": "hou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hou2.mp3"
+          },
+          {
+            "cantonese": "给",
+            "jyutping": "kap1",
+            "mandarin": "",
+            "audioPath": "/audio/words/kap1.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "活着",
+            "jyutping": "wut6 zoek6/",
+            "mandarin": "",
+            "audioPath": "/audio/words/wut6-zoek6-.mp3"
+          },
+          {
+            "cantonese": "就",
+            "jyutping": "zau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau6.mp3"
+          },
+          {
+            "cantonese": "似",
+            "jyutping": "ci5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ci5.mp3"
+          },
+          {
+            "cantonese": "最",
+            "jyutping": "zeoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zeoi3.mp3"
+          },
+          {
+            "cantonese": "初",
+            "jyutping": "co1",
+            "mandarin": "",
+            "audioPath": "/audio/words/co1.mp3"
+          }
+        ],
+        "audioIndex": 20,
+        "startTime": 167.09
+      },
+      {
+        "cantonese": "仍然在呼吸都应该 要庆贺",
+        "jyutping": "jing4 jin4 zoi6 fu1 kap1 dou1 jing13 goi1 jiu3 hing3 ho6",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "仍",
+            "jyutping": "jing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jing4.mp3"
+          },
+          {
+            "cantonese": "然",
+            "jyutping": "jin4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jin4.mp3"
+          },
+          {
+            "cantonese": "在",
+            "jyutping": "zoi6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zoi6.mp3"
+          },
+          {
+            "cantonese": "呼",
+            "jyutping": "fu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/fu1.mp3"
+          },
+          {
+            "cantonese": "吸",
+            "jyutping": "kap1",
+            "mandarin": "",
+            "audioPath": "/audio/words/kap1.mp3"
+          },
+          {
+            "cantonese": "都",
+            "jyutping": "dou1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dou1.mp3"
+          },
+          {
+            "cantonese": "应",
+            "jyutping": "jing13",
+            "mandarin": "",
+            "audioPath": "/audio/words/jing13.mp3"
+          },
+          {
+            "cantonese": "该",
+            "jyutping": "goi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/goi1.mp3"
+          },
+          {
+            "cantonese": "要",
+            "jyutping": "jiu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu3.mp3"
+          },
+          {
+            "cantonese": "庆",
+            "jyutping": "hing3",
+            "mandarin": "",
+            "audioPath": "/audio/words/hing3.mp3"
+          },
+          {
+            "cantonese": "贺",
+            "jyutping": "ho6",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho6.mp3"
+          }
+        ],
+        "audioIndex": 21,
+        "startTime": 174.6
+      },
+      {
+        "cantonese": "如果想哭 可试试对嘉宾满座",
+        "jyutping": "jyu4 gwo2 soeng2 huk1 ho2 si3 si3 deoi3 gaa1 ban1 mun5 zo6",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "如",
+            "jyutping": "jyu4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu4.mp3"
+          },
+          {
+            "cantonese": "果",
+            "jyutping": "gwo2",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwo2.mp3"
+          },
+          {
+            "cantonese": "想",
+            "jyutping": "soeng2",
+            "mandarin": "",
+            "audioPath": "/audio/words/soeng2.mp3"
+          },
+          {
+            "cantonese": "哭",
+            "jyutping": "huk1",
+            "mandarin": "",
+            "audioPath": "/audio/words/huk1.mp3"
+          },
+          {
+            "cantonese": "可",
+            "jyutping": "ho2",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho2.mp3"
+          },
+          {
+            "cantonese": "试",
+            "jyutping": "si3",
+            "mandarin": "",
+            "audioPath": "/audio/words/si3.mp3"
+          },
+          {
+            "cantonese": "试",
+            "jyutping": "si3",
+            "mandarin": "",
+            "audioPath": "/audio/words/si3.mp3"
+          },
+          {
+            "cantonese": "对",
+            "jyutping": "deoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/deoi3.mp3"
+          },
+          {
+            "cantonese": "嘉",
+            "jyutping": "gaa1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gaa1.mp3"
+          },
+          {
+            "cantonese": "宾",
+            "jyutping": "ban1",
+            "mandarin": "",
+            "audioPath": "/audio/words/ban1.mp3"
+          },
+          {
+            "cantonese": "满",
+            "jyutping": "mun5",
+            "mandarin": "",
+            "audioPath": "/audio/words/mun5.mp3"
+          },
+          {
+            "cantonese": "座",
+            "jyutping": "zo6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zo6.mp3"
+          }
+        ],
+        "audioIndex": 22,
+        "startTime": 178.82
+      },
+      {
+        "cantonese": "说个笑话 纪念我",
+        "jyutping": "syut3 go3 siu3 waa6 gei2/gei3 nim6 ngo5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "说",
+            "jyutping": "syut3",
+            "mandarin": "",
+            "audioPath": "/audio/words/syut3.mp3"
+          },
+          {
+            "cantonese": "个",
+            "jyutping": "go3",
+            "mandarin": "",
+            "audioPath": "/audio/words/go3.mp3"
+          },
+          {
+            "cantonese": "笑",
+            "jyutping": "siu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu3.mp3"
+          },
+          {
+            "cantonese": "话",
+            "jyutping": "waa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/waa6.mp3"
+          },
+          {
+            "cantonese": "纪念",
+            "jyutping": "gei2/gei3 nim6",
+            "mandarin": "",
+            "audioPath": "/audio/words/gei2-gei3-nim6.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          }
+        ],
+        "audioIndex": 23,
+        "startTime": 184.25
+      },
+      {
+        "cantonese": "游玩时 开心一点 不必挂念我",
+        "jyutping": "jau4 waan2/wun6/waan4 si4 hoi1 sam1 jat1 dim2 bat1 bit1 gwaa3 nim6 ngo5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "游玩",
+            "jyutping": "jau4 waan2/wun6/waan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau4-waan2-wun6-waan4.mp3"
+          },
+          {
+            "cantonese": "时",
+            "jyutping": "si4",
+            "mandarin": "",
+            "audioPath": "/audio/words/si4.mp3"
+          },
+          {
+            "cantonese": "开",
+            "jyutping": "hoi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hoi1.mp3"
+          },
+          {
+            "cantonese": "心",
+            "jyutping": "sam1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sam1.mp3"
+          },
+          {
+            "cantonese": "一",
+            "jyutping": "jat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "点",
+            "jyutping": "dim2",
+            "mandarin": "",
+            "audioPath": "/audio/words/dim2.mp3"
+          },
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "必",
+            "jyutping": "bit1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bit1.mp3"
+          },
+          {
+            "cantonese": "挂",
+            "jyutping": "gwaa3",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwaa3.mp3"
+          },
+          {
+            "cantonese": "念",
+            "jyutping": "nim6",
+            "mandarin": "",
+            "audioPath": "/audio/words/nim6.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          }
+        ],
+        "audioIndex": 24,
+        "startTime": 212.07
+      },
+      {
+        "cantonese": "来好好给我活着 就似最初",
+        "jyutping": "loi4 hou2 hou2 kap1 ngo5 wut6 zoek6/ zau6 ci5 zeoi3 co1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "来",
+            "jyutping": "loi4",
+            "mandarin": "",
+            "audioPath": "/audio/words/loi4.mp3"
+          },
+          {
+            "cantonese": "好",
+            "jyutping": "hou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hou2.mp3"
+          },
+          {
+            "cantonese": "好",
+            "jyutping": "hou2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hou2.mp3"
+          },
+          {
+            "cantonese": "给",
+            "jyutping": "kap1",
+            "mandarin": "",
+            "audioPath": "/audio/words/kap1.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "活着",
+            "jyutping": "wut6 zoek6/",
+            "mandarin": "",
+            "audioPath": "/audio/words/wut6-zoek6-.mp3"
+          },
+          {
+            "cantonese": "就",
+            "jyutping": "zau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau6.mp3"
+          },
+          {
+            "cantonese": "似",
+            "jyutping": "ci5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ci5.mp3"
+          },
+          {
+            "cantonese": "最",
+            "jyutping": "zeoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zeoi3.mp3"
+          },
+          {
+            "cantonese": "初",
+            "jyutping": "co1",
+            "mandarin": "",
+            "audioPath": "/audio/words/co1.mp3"
+          }
+        ],
+        "audioIndex": 25,
+        "startTime": 219.2
+      },
+      {
+        "cantonese": "仍然在呼吸都应该 要庆贺",
+        "jyutping": "jing4 jin4 zoi6 fu1 kap1 dou1 jing13 goi1 jiu3 hing3 ho6",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "仍",
+            "jyutping": "jing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jing4.mp3"
+          },
+          {
+            "cantonese": "然",
+            "jyutping": "jin4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jin4.mp3"
+          },
+          {
+            "cantonese": "在",
+            "jyutping": "zoi6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zoi6.mp3"
+          },
+          {
+            "cantonese": "呼",
+            "jyutping": "fu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/fu1.mp3"
+          },
+          {
+            "cantonese": "吸",
+            "jyutping": "kap1",
+            "mandarin": "",
+            "audioPath": "/audio/words/kap1.mp3"
+          },
+          {
+            "cantonese": "都",
+            "jyutping": "dou1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dou1.mp3"
+          },
+          {
+            "cantonese": "应",
+            "jyutping": "jing13",
+            "mandarin": "",
+            "audioPath": "/audio/words/jing13.mp3"
+          },
+          {
+            "cantonese": "该",
+            "jyutping": "goi1",
+            "mandarin": "",
+            "audioPath": "/audio/words/goi1.mp3"
+          },
+          {
+            "cantonese": "要",
+            "jyutping": "jiu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu3.mp3"
+          },
+          {
+            "cantonese": "庆",
+            "jyutping": "hing3",
+            "mandarin": "",
+            "audioPath": "/audio/words/hing3.mp3"
+          },
+          {
+            "cantonese": "贺",
+            "jyutping": "ho6",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho6.mp3"
+          }
+        ],
+        "audioIndex": 26,
+        "startTime": 223.9
+      },
+      {
+        "cantonese": "如果想哭 可试试对嘉宾满座",
+        "jyutping": "jyu4 gwo2 soeng2 huk1 ho2 si3 si3 deoi3 gaa1 ban1 mun5 zo6",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "如",
+            "jyutping": "jyu4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu4.mp3"
+          },
+          {
+            "cantonese": "果",
+            "jyutping": "gwo2",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwo2.mp3"
+          },
+          {
+            "cantonese": "想",
+            "jyutping": "soeng2",
+            "mandarin": "",
+            "audioPath": "/audio/words/soeng2.mp3"
+          },
+          {
+            "cantonese": "哭",
+            "jyutping": "huk1",
+            "mandarin": "",
+            "audioPath": "/audio/words/huk1.mp3"
+          },
+          {
+            "cantonese": "可",
+            "jyutping": "ho2",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho2.mp3"
+          },
+          {
+            "cantonese": "试",
+            "jyutping": "si3",
+            "mandarin": "",
+            "audioPath": "/audio/words/si3.mp3"
+          },
+          {
+            "cantonese": "试",
+            "jyutping": "si3",
+            "mandarin": "",
+            "audioPath": "/audio/words/si3.mp3"
+          },
+          {
+            "cantonese": "对",
+            "jyutping": "deoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/deoi3.mp3"
+          },
+          {
+            "cantonese": "嘉",
+            "jyutping": "gaa1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gaa1.mp3"
+          },
+          {
+            "cantonese": "宾",
+            "jyutping": "ban1",
+            "mandarin": "",
+            "audioPath": "/audio/words/ban1.mp3"
+          },
+          {
+            "cantonese": "满",
+            "jyutping": "mun5",
+            "mandarin": "",
+            "audioPath": "/audio/words/mun5.mp3"
+          },
+          {
+            "cantonese": "座",
+            "jyutping": "zo6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zo6.mp3"
+          }
+        ],
+        "audioIndex": 27,
+        "startTime": 226.08
+      },
+      {
+        "cantonese": "说个笑话 纪念我",
+        "jyutping": "syut3 go3 siu3 waa6 gei2/gei3 nim6 ngo5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "说",
+            "jyutping": "syut3",
+            "mandarin": "",
+            "audioPath": "/audio/words/syut3.mp3"
+          },
+          {
+            "cantonese": "个",
+            "jyutping": "go3",
+            "mandarin": "",
+            "audioPath": "/audio/words/go3.mp3"
+          },
+          {
+            "cantonese": "笑",
+            "jyutping": "siu3",
+            "mandarin": "",
+            "audioPath": "/audio/words/siu3.mp3"
+          },
+          {
+            "cantonese": "话",
+            "jyutping": "waa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/waa6.mp3"
+          },
+          {
+            "cantonese": "纪念",
+            "jyutping": "gei2/gei3 nim6",
+            "mandarin": "",
+            "audioPath": "/audio/words/gei2-gei3-nim6.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          }
+        ],
+        "audioIndex": 28,
+        "startTime": 230.84
       }
     ],
     "difficulty": "easy",
@@ -8964,7 +11699,7 @@
             "audioPath": "/audio/words/lei5.mp3"
           }
         ],
-        "startTime": 82.68,
+        "startTime": 152.85,
         "audioIndex": 9
       },
       {
@@ -9033,7 +11768,7 @@
             "audioPath": "/audio/words/dei6.mp3"
           }
         ],
-        "startTime": 90.41,
+        "startTime": 161.0,
         "audioIndex": 10
       },
       {
@@ -9114,7 +11849,7 @@
             "audioPath": "/audio/words/lei5.mp3"
           }
         ],
-        "startTime": 97.76,
+        "startTime": 167.96,
         "audioIndex": 11
       },
       {
@@ -9189,7 +11924,7 @@
             "audioPath": "/audio/words/bei6.mp3"
           }
         ],
-        "startTime": 105.22,
+        "startTime": 222.42,
         "audioIndex": 12
       },
       {
@@ -9270,7 +12005,7 @@
             "audioPath": "/audio/words/nei5.mp3"
           }
         ],
-        "startTime": 113.03,
+        "startTime": 182.83,
         "audioIndex": 13
       },
       {
@@ -10178,8 +12913,8 @@
     "year": 2002,
     "lyrics": [
       {
-        "cantonese": "仍然没有 遇到",
-        "jyutping": "jing4 jin4 mut6 jau5 jyu6 dou3",
+        "cantonese": "仍然没有 遇到 那位跟我绝配的恋人",
+        "jyutping": "jing4 jin4 mut6 jau5 jyu6 dou3 naa5 wai6 gan1 ngo5 zyut6 pui3 dik1 lyun2 jan4",
         "mandarin": "",
         "words": [
           {
@@ -10217,14 +12952,68 @@
             "jyutping": "dou3",
             "mandarin": "",
             "audioPath": "/audio/words/dou3.mp3"
+          },
+          {
+            "cantonese": "那",
+            "jyutping": "naa5",
+            "mandarin": "",
+            "audioPath": "/audio/words/naa5.mp3"
+          },
+          {
+            "cantonese": "位",
+            "jyutping": "wai6",
+            "mandarin": "",
+            "audioPath": "/audio/words/wai6.mp3"
+          },
+          {
+            "cantonese": "跟",
+            "jyutping": "gan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gan1.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "绝",
+            "jyutping": "zyut6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zyut6.mp3"
+          },
+          {
+            "cantonese": "配",
+            "jyutping": "pui3",
+            "mandarin": "",
+            "audioPath": "/audio/words/pui3.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "恋",
+            "jyutping": "lyun2",
+            "mandarin": "",
+            "audioPath": "/audio/words/lyun2.mp3"
+          },
+          {
+            "cantonese": "人",
+            "jyutping": "jan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan4.mp3"
           }
         ],
-        "startTime": 24.8,
-        "audioIndex": 0
+        "audioIndex": 0,
+        "startTime": 24.8
       },
       {
-        "cantonese": "你根本也未有出现",
-        "jyutping": "nei5 gan1 bun2 jaa5 mei6 jau5 ceot1 jin6",
+        "cantonese": "你根本也 未有出现 还是已然 逝去",
+        "jyutping": "nei5 gan1 bun2 jaa5 mei6 jau5 ceot1 jin6 waan4 si6 ji5 jin4 sai6 heoi3",
         "mandarin": "",
         "words": [
           {
@@ -10274,10 +13063,46 @@
             "jyutping": "jin6",
             "mandarin": "",
             "audioPath": "/audio/words/jin6.mp3"
+          },
+          {
+            "cantonese": "还",
+            "jyutping": "waan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/waan4.mp3"
+          },
+          {
+            "cantonese": "是",
+            "jyutping": "si6",
+            "mandarin": "",
+            "audioPath": "/audio/words/si6.mp3"
+          },
+          {
+            "cantonese": "已",
+            "jyutping": "ji5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ji5.mp3"
+          },
+          {
+            "cantonese": "然",
+            "jyutping": "jin4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jin4.mp3"
+          },
+          {
+            "cantonese": "逝",
+            "jyutping": "sai6",
+            "mandarin": "",
+            "audioPath": "/audio/words/sai6.mp3"
+          },
+          {
+            "cantonese": "去",
+            "jyutping": "heoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/heoi3.mp3"
           }
         ],
-        "startTime": 33.9,
-        "audioIndex": 1
+        "audioIndex": 1,
+        "startTime": 33.9
       },
       {
         "cantonese": "怀疑在某一个",
@@ -10388,8 +13213,8 @@
         "audioIndex": 3
       },
       {
-        "cantonese": "存在过 一位等我爱的某人",
-        "jyutping": "cyun4 zoi6 gwo3 jat1 wai6 dang2 ngo5 oi3 dik1 mau5 jan4",
+        "cantonese": "存在过 一位等我爱的某人夜夜为我失眠",
+        "jyutping": "cyun4 zoi6 gwo3 jat1 wai6 dang2 ngo5 oi3 dik1 mau5 jan4 je6 je6 wai6 ngo5 sat1 min4",
         "mandarin": "",
         "words": [
           {
@@ -10457,14 +13282,50 @@
             "jyutping": "jan4",
             "mandarin": "",
             "audioPath": "/audio/words/jan4.mp3"
+          },
+          {
+            "cantonese": "夜",
+            "jyutping": "je6",
+            "mandarin": "",
+            "audioPath": "/audio/words/je6.mp3"
+          },
+          {
+            "cantonese": "夜",
+            "jyutping": "je6",
+            "mandarin": "",
+            "audioPath": "/audio/words/je6.mp3"
+          },
+          {
+            "cantonese": "为",
+            "jyutping": "wai6",
+            "mandarin": "",
+            "audioPath": "/audio/words/wai6.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "失",
+            "jyutping": "sat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sat1.mp3"
+          },
+          {
+            "cantonese": "眠",
+            "jyutping": "min4",
+            "mandarin": "",
+            "audioPath": "/audio/words/min4.mp3"
           }
         ],
-        "startTime": 50.8,
-        "audioIndex": 4
+        "audioIndex": 4,
+        "startTime": 50.8
       },
       {
-        "cantonese": "从来未相识 已不在",
-        "jyutping": "cung4 loi4 mei6 soeng13 sik1 ji5 bat1 zoi6",
+        "cantonese": "从来未相识 已不在 这个人",
+        "jyutping": "cung4 loi4 mei6 soeng1 sik1 ji5 bat1 zoi6 ze5 go3 jan4",
         "mandarin": "",
         "words": [
           {
@@ -10487,9 +13348,9 @@
           },
           {
             "cantonese": "相",
-            "jyutping": "soeng13",
+            "jyutping": "soeng1",
             "mandarin": "",
-            "audioPath": "/audio/words/soeng13.mp3"
+            "audioPath": "/audio/words/soeng1.mp3"
           },
           {
             "cantonese": "识",
@@ -10514,16 +13375,58 @@
             "jyutping": "zoi6",
             "mandarin": "",
             "audioPath": "/audio/words/zoi6.mp3"
+          },
+          {
+            "cantonese": "这",
+            "jyutping": "ze5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ze5.mp3"
+          },
+          {
+            "cantonese": "个",
+            "jyutping": "go3",
+            "mandarin": "",
+            "audioPath": "/audio/words/go3.mp3"
+          },
+          {
+            "cantonese": "人",
+            "jyutping": "jan4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jan4.mp3"
           }
         ],
         "startTime": 60.5,
         "audioIndex": 5
       },
       {
-        "cantonese": "却像个虚构角色",
-        "jyutping": "koek3 zoeng6 go3 heoi1 kau3/gau3 gok3 sik1",
+        "cantonese": "极其实在 却像个 虚构角色",
+        "jyutping": "gik6 kei4 sat6 zoi6 koek3 zoeng6 go3 heoi1 kau3 gok3 sik1",
         "mandarin": "",
         "words": [
+          {
+            "cantonese": "极",
+            "jyutping": "gik6",
+            "mandarin": "",
+            "audioPath": "/audio/words/gik6.mp3"
+          },
+          {
+            "cantonese": "其",
+            "jyutping": "kei4",
+            "mandarin": "",
+            "audioPath": "/audio/words/kei4.mp3"
+          },
+          {
+            "cantonese": "实",
+            "jyutping": "sat6",
+            "mandarin": "",
+            "audioPath": "/audio/words/sat6.mp3"
+          },
+          {
+            "cantonese": "在",
+            "jyutping": "zoi6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zoi6.mp3"
+          },
           {
             "cantonese": "却",
             "jyutping": "koek3",
@@ -10543,10 +13446,16 @@
             "audioPath": "/audio/words/go3.mp3"
           },
           {
-            "cantonese": "虚构",
-            "jyutping": "heoi1 kau3/gau3",
+            "cantonese": "虚",
+            "jyutping": "heoi1",
             "mandarin": "",
-            "audioPath": "/audio/words/heoi1-kau3-gau3.mp3"
+            "audioPath": "/audio/words/heoi1.mp3"
+          },
+          {
+            "cantonese": "构",
+            "jyutping": "kau3",
+            "mandarin": "",
+            "audioPath": "/audio/words/kau3.mp3"
           },
           {
             "cantonese": "角",
@@ -10565,8 +13474,8 @@
         "audioIndex": 6
       },
       {
-        "cantonese": "莫非今生 原定陪我来",
-        "jyutping": "mok6 fei1 gam1 sang1/saang1 jyun4 ding6 pui4 ngo5 loi4",
+        "cantonese": "莫非今生 原定陪我来 却去了 错误时代",
+        "jyutping": "mok6 fei1 gam1 saang1 jyun4 ding6 pui4 ngo5 loi4 koek3 heoi3 liu5 cok3 ng6 si4 doi6",
         "mandarin": "",
         "words": [
           {
@@ -10582,10 +13491,16 @@
             "audioPath": "/audio/words/fei1.mp3"
           },
           {
-            "cantonese": "今生",
-            "jyutping": "gam1 sang1/saang1",
+            "cantonese": "今",
+            "jyutping": "gam1",
             "mandarin": "",
-            "audioPath": "/audio/words/gam1-sang1-saang1.mp3"
+            "audioPath": "/audio/words/gam1.mp3"
+          },
+          {
+            "cantonese": "生",
+            "jyutping": "saang1",
+            "mandarin": "",
+            "audioPath": "/audio/words/saang1.mp3"
           },
           {
             "cantonese": "原",
@@ -10616,10 +13531,52 @@
             "jyutping": "loi4",
             "mandarin": "",
             "audioPath": "/audio/words/loi4.mp3"
+          },
+          {
+            "cantonese": "却",
+            "jyutping": "koek3",
+            "mandarin": "",
+            "audioPath": "/audio/words/koek3.mp3"
+          },
+          {
+            "cantonese": "去",
+            "jyutping": "heoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/heoi3.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          },
+          {
+            "cantonese": "错",
+            "jyutping": "cok3",
+            "mandarin": "",
+            "audioPath": "/audio/words/cok3.mp3"
+          },
+          {
+            "cantonese": "误",
+            "jyutping": "ng6",
+            "mandarin": "",
+            "audioPath": "/audio/words/ng6.mp3"
+          },
+          {
+            "cantonese": "时",
+            "jyutping": "si4",
+            "mandarin": "",
+            "audioPath": "/audio/words/si4.mp3"
+          },
+          {
+            "cantonese": "代",
+            "jyutping": "doi6",
+            "mandarin": "",
+            "audioPath": "/audio/words/doi6.mp3"
           }
         ],
-        "startTime": 69.9,
-        "audioIndex": 7
+        "audioIndex": 7,
+        "startTime": 69.9
       },
       {
         "cantonese": "情人若 寂寥地 出生在 1874",
@@ -10685,8 +13642,8 @@
         "audioIndex": 8
       },
       {
-        "cantonese": "刚刚早一百年 一个世纪",
-        "jyutping": "gong1 gong1 zou2 jat1 baak3 nin4 jat1 go3 sai3 gei2/gei3",
+        "cantonese": "刚刚早 一百年 一个世纪",
+        "jyutping": "gong1 gong1 zou2 jat1 baak3 nin4 jat1 go3 sai3 gei2",
         "mandarin": "",
         "words": [
           {
@@ -10738,18 +13695,24 @@
             "audioPath": "/audio/words/go3.mp3"
           },
           {
-            "cantonese": "世纪",
-            "jyutping": "sai3 gei2/gei3",
+            "cantonese": "世",
+            "jyutping": "sai3",
             "mandarin": "",
-            "audioPath": "/audio/words/sai3-gei2-gei3.mp3"
+            "audioPath": "/audio/words/sai3.mp3"
+          },
+          {
+            "cantonese": "纪",
+            "jyutping": "gei2",
+            "mandarin": "",
+            "audioPath": "/audio/words/gei2.mp3"
           }
         ],
         "startTime": 85.2,
         "audioIndex": 9
       },
       {
-        "cantonese": "是否终身都这样 顽强地等",
-        "jyutping": "si6 fau2 zung1 san1 dou1 ze5 joeng6 waan4 koeng4/koeng5/goeng6 dei6 dang2",
+        "cantonese": "是否终身 都这样 顽强地等",
+        "jyutping": "si6 pei2 zung1 san1 dou1 ze5 joeng6 waan4 koeng5 dei6 dang2",
         "mandarin": "",
         "words": [
           {
@@ -10760,9 +13723,9 @@
           },
           {
             "cantonese": "否",
-            "jyutping": "fau2",
+            "jyutping": "pei2",
             "mandarin": "",
-            "audioPath": "/audio/words/fau2.mp3"
+            "audioPath": "/audio/words/pei2.mp3"
           },
           {
             "cantonese": "终",
@@ -10795,10 +13758,16 @@
             "audioPath": "/audio/words/joeng6.mp3"
           },
           {
-            "cantonese": "顽强",
-            "jyutping": "waan4 koeng4/koeng5/goeng6",
+            "cantonese": "顽",
+            "jyutping": "waan4",
             "mandarin": "",
-            "audioPath": "/audio/words/waan4-koeng4-koeng5-goeng6.mp3"
+            "audioPath": "/audio/words/waan4.mp3"
+          },
+          {
+            "cantonese": "强",
+            "jyutping": "koeng5",
+            "mandarin": "",
+            "audioPath": "/audio/words/koeng5.mp3"
           },
           {
             "cantonese": "地",
@@ -10817,8 +13786,8 @@
         "audioIndex": 10
       },
       {
-        "cantonese": "雨季会 降临赤地",
-        "jyutping": "jyu5 gwai3 wui gong3/hong4 lam4 cek3 dei6",
+        "cantonese": "雨季会 降临赤地",
+        "jyutping": "jyu5 gwai3 wui6 gong3 lam4 cek3 dei6",
         "mandarin": "",
         "words": [
           {
@@ -10835,15 +13804,21 @@
           },
           {
             "cantonese": "会",
-            "jyutping": "wui",
+            "jyutping": "wui6",
             "mandarin": "",
-            "audioPath": "/audio/words/wui.mp3"
+            "audioPath": "/audio/words/wui6.mp3"
           },
           {
-            "cantonese": "降临",
-            "jyutping": "gong3/hong4 lam4",
+            "cantonese": "降",
+            "jyutping": "gong3",
             "mandarin": "",
-            "audioPath": "/audio/words/gong3-hong4-lam4.mp3"
+            "audioPath": "/audio/words/gong3.mp3"
+          },
+          {
+            "cantonese": "临",
+            "jyutping": "lam4",
+            "mandarin": "",
+            "audioPath": "/audio/words/lam4.mp3"
           },
           {
             "cantonese": "赤",
@@ -11000,8 +13975,8 @@
         "audioIndex": 13
       },
       {
-        "cantonese": "仍可 同生 共死",
-        "jyutping": "jing4 ho2 tung4 sang1/saang1 gung6 sei2",
+        "cantonese": "仍可 同生 共死",
+        "jyutping": "jing4 hak1 tung4 saang1 gung6 sei2",
         "mandarin": "",
         "words": [
           {
@@ -11012,9 +13987,9 @@
           },
           {
             "cantonese": "可",
-            "jyutping": "ho2",
+            "jyutping": "hak1",
             "mandarin": "",
-            "audioPath": "/audio/words/ho2.mp3"
+            "audioPath": "/audio/words/hak1.mp3"
           },
           {
             "cantonese": "同",
@@ -11024,9 +13999,9 @@
           },
           {
             "cantonese": "生",
-            "jyutping": "sang1/saang1",
+            "jyutping": "saang1",
             "mandarin": "",
-            "audioPath": "/audio/words/sang1-saang1.mp3"
+            "audioPath": "/audio/words/saang1.mp3"
           },
           {
             "cantonese": "共",
@@ -11041,8 +14016,8 @@
             "audioPath": "/audio/words/sei2.mp3"
           }
         ],
-        "startTime": 113.3,
-        "audioIndex": 14
+        "audioIndex": 14,
+        "startTime": 113.3
       },
       {
         "cantonese": "从来未相识 已不在 这个人",
@@ -11195,10 +14170,64 @@
         "audioIndex": 16
       },
       {
-        "cantonese": "却去了 错误时代",
-        "jyutping": "koek3 heoi3 liu5 co3/cok3 ng6 si4 doi6",
+        "cantonese": "莫非今生 原定陪我来 却去了 错误时代",
+        "jyutping": "mok6 fei1 gam1 saang1 jyun4 ding6 pui4 ngo5 loi4 koek3 heoi3 liu5 cok3 ng6 si4 doi6",
         "mandarin": "",
         "words": [
+          {
+            "cantonese": "莫",
+            "jyutping": "mok6",
+            "mandarin": "",
+            "audioPath": "/audio/words/mok6.mp3"
+          },
+          {
+            "cantonese": "非",
+            "jyutping": "fei1",
+            "mandarin": "",
+            "audioPath": "/audio/words/fei1.mp3"
+          },
+          {
+            "cantonese": "今",
+            "jyutping": "gam1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gam1.mp3"
+          },
+          {
+            "cantonese": "生",
+            "jyutping": "saang1",
+            "mandarin": "",
+            "audioPath": "/audio/words/saang1.mp3"
+          },
+          {
+            "cantonese": "原",
+            "jyutping": "jyun4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyun4.mp3"
+          },
+          {
+            "cantonese": "定",
+            "jyutping": "ding6",
+            "mandarin": "",
+            "audioPath": "/audio/words/ding6.mp3"
+          },
+          {
+            "cantonese": "陪",
+            "jyutping": "pui4",
+            "mandarin": "",
+            "audioPath": "/audio/words/pui4.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "来",
+            "jyutping": "loi4",
+            "mandarin": "",
+            "audioPath": "/audio/words/loi4.mp3"
+          },
           {
             "cantonese": "却",
             "jyutping": "koek3",
@@ -11218,10 +14247,16 @@
             "audioPath": "/audio/words/liu5.mp3"
           },
           {
-            "cantonese": "错误",
-            "jyutping": "co3/cok3 ng6",
+            "cantonese": "错",
+            "jyutping": "cok3",
             "mandarin": "",
-            "audioPath": "/audio/words/co3-cok3-ng6.mp3"
+            "audioPath": "/audio/words/cok3.mp3"
+          },
+          {
+            "cantonese": "误",
+            "jyutping": "ng6",
+            "mandarin": "",
+            "audioPath": "/audio/words/ng6.mp3"
           },
           {
             "cantonese": "时",
@@ -11236,8 +14271,8 @@
             "audioPath": "/audio/words/doi6.mp3"
           }
         ],
-        "startTime": 160.7,
-        "audioIndex": 17
+        "audioIndex": 17,
+        "startTime": 160.7
       },
       {
         "cantonese": "情人若 寂寥地 出生在 1874",
@@ -11561,15 +14596,21 @@
         "audioIndex": 22
       },
       {
-        "cantonese": "邂逅你 看守你 一起老死",
-        "jyutping": "haai6/haai5 hau6 nei5 hon3 sau2 nei5 jat1 hei2 lou5 sei2",
+        "cantonese": "邂逅你 看守你 一起老死",
+        "jyutping": "haai5 hau6 nei5 hon3 sau2 nei5 jat1 hei2 lou5 sei2",
         "mandarin": "",
         "words": [
           {
-            "cantonese": "邂逅",
-            "jyutping": "haai6/haai5 hau6",
+            "cantonese": "邂",
+            "jyutping": "haai5",
             "mandarin": "",
-            "audioPath": "/audio/words/haai6-haai5-hau6.mp3"
+            "audioPath": "/audio/words/haai5.mp3"
+          },
+          {
+            "cantonese": "逅",
+            "jyutping": "hau6",
+            "mandarin": "",
+            "audioPath": "/audio/words/hau6.mp3"
           },
           {
             "cantonese": "你",
@@ -11620,12 +14661,12 @@
             "audioPath": "/audio/words/sei2.mp3"
           }
         ],
-        "startTime": 195.7,
-        "audioIndex": 23
+        "audioIndex": 23,
+        "startTime": 195.7
       },
       {
-        "cantonese": "若果不可 相约在 和平地方",
-        "jyutping": "joek6 gwo2 bat1 ho2 soeng13 joek3 zoi6 wo4 ping4 dei6 fong1",
+        "cantonese": "若果不可 相约在 和平地方",
+        "jyutping": "joek6 gwo2 bat1 hak1 soeng1 joek3 zoi6 wo4 ping4 dei6 fong1",
         "mandarin": "",
         "words": [
           {
@@ -11648,15 +14689,15 @@
           },
           {
             "cantonese": "可",
-            "jyutping": "ho2",
+            "jyutping": "hak1",
             "mandarin": "",
-            "audioPath": "/audio/words/ho2.mp3"
+            "audioPath": "/audio/words/hak1.mp3"
           },
           {
             "cantonese": "相",
-            "jyutping": "soeng13",
+            "jyutping": "soeng1",
             "mandarin": "",
-            "audioPath": "/audio/words/soeng13.mp3"
+            "audioPath": "/audio/words/soeng1.mp3"
           },
           {
             "cantonese": "约",
@@ -11695,12 +14736,12 @@
             "audioPath": "/audio/words/fong1.mp3"
           }
         ],
-        "startTime": 200.1,
-        "audioIndex": 24
+        "audioIndex": 24,
+        "startTime": 200.1
       },
       {
-        "cantonese": "也与你 畅游战地",
-        "jyutping": "jaa5 jyu5 nei5 coeng3 jau4 zin3 dei6",
+        "cantonese": "也与你 畅游战地",
+        "jyutping": "jaa5 jyu6 nei5 coeng3 jau4 zin3 dei6",
         "mandarin": "",
         "words": [
           {
@@ -11711,9 +14752,9 @@
           },
           {
             "cantonese": "与",
-            "jyutping": "jyu5",
+            "jyutping": "jyu6",
             "mandarin": "",
-            "audioPath": "/audio/words/jyu5.mp3"
+            "audioPath": "/audio/words/jyu6.mp3"
           },
           {
             "cantonese": "你",
@@ -11746,8 +14787,8 @@
             "audioPath": "/audio/words/dei6.mp3"
           }
         ],
-        "startTime": 204.6,
-        "audioIndex": 25
+        "audioIndex": 25,
+        "startTime": 204.6
       },
       {
         "cantonese": "为何未 及时地 出生在 1874",
@@ -11882,8 +14923,8 @@
         "audioIndex": 27
       },
       {
-        "cantonese": "漫天烽火 失散在 同年代中",
-        "jyutping": "maan6 tin1 fung1 fo2 sat1 saan2/saan3 zoi6 tung4 nin4 doi6 zung1",
+        "cantonese": "漫天烽火 失散在 同年代中",
+        "jyutping": "maan6 tin1 fung1 fo2 sat1 saan3 zoi6 tung4 nin4 doi6 zung1",
         "mandarin": "",
         "words": [
           {
@@ -11911,10 +14952,16 @@
             "audioPath": "/audio/words/fo2.mp3"
           },
           {
-            "cantonese": "失散",
-            "jyutping": "sat1 saan2/saan3",
+            "cantonese": "失",
+            "jyutping": "sat1",
             "mandarin": "",
-            "audioPath": "/audio/words/sat1-saan2-saan3.mp3"
+            "audioPath": "/audio/words/sat1.mp3"
+          },
+          {
+            "cantonese": "散",
+            "jyutping": "saan3",
+            "mandarin": "",
+            "audioPath": "/audio/words/saan3.mp3"
           },
           {
             "cantonese": "在",
@@ -11947,12 +14994,12 @@
             "audioPath": "/audio/words/zung1.mp3"
           }
         ],
-        "startTime": 217.6,
-        "audioIndex": 28
+        "audioIndex": 28,
+        "startTime": 217.6
       },
       {
-        "cantonese": "仍可 同生 共死",
-        "jyutping": "jing4 ho2 tung4 sang1/saang1 gung6 sei2",
+        "cantonese": "仍可 同生 共死",
+        "jyutping": "jing4 hak1 tung4 saang1 gung6 sei2",
         "mandarin": "",
         "words": [
           {
@@ -11963,9 +15010,9 @@
           },
           {
             "cantonese": "可",
-            "jyutping": "ho2",
+            "jyutping": "hak1",
             "mandarin": "",
-            "audioPath": "/audio/words/ho2.mp3"
+            "audioPath": "/audio/words/hak1.mp3"
           },
           {
             "cantonese": "同",
@@ -11975,9 +15022,9 @@
           },
           {
             "cantonese": "生",
-            "jyutping": "sang1/saang1",
+            "jyutping": "saang1",
             "mandarin": "",
-            "audioPath": "/audio/words/sang1-saang1.mp3"
+            "audioPath": "/audio/words/saang1.mp3"
           },
           {
             "cantonese": "共",
@@ -11992,8 +15039,8 @@
             "audioPath": "/audio/words/sei2.mp3"
           }
         ],
-        "startTime": 221.8,
-        "audioIndex": 29
+        "audioIndex": 29,
+        "startTime": 221.8
       }
     ],
     "difficulty": "medium",
@@ -14014,8 +17061,8 @@
     "year": 2003,
     "lyrics": [
       {
-        "cantonese": "爱上了 看见你 如何不懂谦卑",
-        "jyutping": "oi3 soeng56 liu5 hon3 gin3 nei5 jyu4 ho4 bat1 dung2 him1 bei1",
+        "cantonese": "爱上了 看见你",
+        "jyutping": "oi3 soeng6 liu5 hon3 gin3 nei5",
         "mandarin": "",
         "words": [
           {
@@ -14026,9 +17073,9 @@
           },
           {
             "cantonese": "上",
-            "jyutping": "soeng56",
+            "jyutping": "soeng6",
             "mandarin": "",
-            "audioPath": "/audio/words/soeng56.mp3"
+            "audioPath": "/audio/words/soeng6.mp3"
           },
           {
             "cantonese": "了",
@@ -14053,7 +17100,16 @@
             "jyutping": "nei5",
             "mandarin": "",
             "audioPath": "/audio/words/nei5.mp3"
-          },
+          }
+        ],
+        "audioIndex": 0,
+        "startTime": 13.63
+      },
+      {
+        "cantonese": "如何不懂谦卑",
+        "jyutping": "jyu4 ho4 bat1 dung2 him1 bei1",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "如",
             "jyutping": "jyu4",
@@ -14091,12 +17147,12 @@
             "audioPath": "/audio/words/bei1.mp3"
           }
         ],
-        "audioIndex": 0,
-        "startTime": 13.63
+        "audioIndex": 1,
+        "startTime": 15.23
       },
       {
-        "cantonese": "去讲心中理想 不会俗气",
-        "jyutping": "heoi3 gong2 sam1 zung1 lei5 soeng2 bat1 wui zuk6 hei3",
+        "cantonese": "去讲心中理想",
+        "jyutping": "heoi3 gong2 sam1 zung3 lei5 soeng2",
         "mandarin": "",
         "words": [
           {
@@ -14119,9 +17175,9 @@
           },
           {
             "cantonese": "中",
-            "jyutping": "zung1",
+            "jyutping": "zung3",
             "mandarin": "",
-            "audioPath": "/audio/words/zung1.mp3"
+            "audioPath": "/audio/words/zung3.mp3"
           },
           {
             "cantonese": "理",
@@ -14134,7 +17190,16 @@
             "jyutping": "soeng2",
             "mandarin": "",
             "audioPath": "/audio/words/soeng2.mp3"
-          },
+          }
+        ],
+        "audioIndex": 2,
+        "startTime": 16.89
+      },
+      {
+        "cantonese": "不会俗气",
+        "jyutping": "bat1 wui5 zuk6 hei3",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "不",
             "jyutping": "bat1",
@@ -14143,9 +17208,9 @@
           },
           {
             "cantonese": "会",
-            "jyutping": "wui",
+            "jyutping": "wui5",
             "mandarin": "",
-            "audioPath": "/audio/words/wui.mp3"
+            "audioPath": "/audio/words/wui5.mp3"
           },
           {
             "cantonese": "俗",
@@ -14160,12 +17225,12 @@
             "audioPath": "/audio/words/hei3.mp3"
           }
         ],
-        "audioIndex": 1,
-        "startTime": 16.89
+        "audioIndex": 3,
+        "startTime": 19.55
       },
       {
-        "cantonese": "犹如看得见晨曦 才能欢天喜地",
-        "jyutping": "jau4 jyu4 hon3 dak1 gin3 san4 hei1 coi4 nang4 fun1 tin1 hei2 dei6",
+        "cantonese": "犹如看得见晨曦",
+        "jyutping": "jau4 jyu4 hon3 dak1 gin3 san4 hei1",
         "mandarin": "",
         "words": [
           {
@@ -14209,7 +17274,16 @@
             "jyutping": "hei1",
             "mandarin": "",
             "audioPath": "/audio/words/hei1.mp3"
-          },
+          }
+        ],
+        "audioIndex": 4,
+        "startTime": 22.11
+      },
+      {
+        "cantonese": "才能欢天喜地",
+        "jyutping": "coi4 nang4 fun1 tin1 hei2 dei6",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "才",
             "jyutping": "coi4",
@@ -14247,12 +17321,12 @@
             "audioPath": "/audio/words/dei6.mp3"
           }
         ],
-        "audioIndex": 2,
-        "startTime": 22.11
+        "audioIndex": 5,
+        "startTime": 25.52
       },
       {
-        "cantonese": "抱着你 我每次 回来多少惊喜",
-        "jyutping": "pou5 zoek6/ nei5 ngo5 mui5 ci3 wui4 loi4 do1 siu23 geng1/ging1 hei2",
+        "cantonese": "抱着你 我每次",
+        "jyutping": "pou5 zoek6 nei5 ngo5 mui5 ci3",
         "mandarin": "",
         "words": [
           {
@@ -14263,9 +17337,9 @@
           },
           {
             "cantonese": "着",
-            "jyutping": "zoek6/",
+            "jyutping": "zoek6",
             "mandarin": "",
-            "audioPath": "/audio/words/zoek6-.mp3"
+            "audioPath": "/audio/words/zoek6.mp3"
           },
           {
             "cantonese": "你",
@@ -14290,7 +17364,16 @@
             "jyutping": "ci3",
             "mandarin": "",
             "audioPath": "/audio/words/ci3.mp3"
-          },
+          }
+        ],
+        "audioIndex": 6,
+        "startTime": 27.35
+      },
+      {
+        "cantonese": "回来多少惊喜",
+        "jyutping": "wui4 loi4 do1 siu3 geng1 hei2",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "回",
             "jyutping": "wui4",
@@ -14311,23 +17394,29 @@
           },
           {
             "cantonese": "少",
-            "jyutping": "siu23",
+            "jyutping": "siu3",
             "mandarin": "",
-            "audioPath": "/audio/words/siu23.mp3"
+            "audioPath": "/audio/words/siu3.mp3"
           },
           {
-            "cantonese": "惊喜",
-            "jyutping": "geng1/ging1 hei2",
+            "cantonese": "惊",
+            "jyutping": "geng1",
             "mandarin": "",
-            "audioPath": "/audio/words/geng1-ging1-hei2.mp3"
+            "audioPath": "/audio/words/geng1.mp3"
+          },
+          {
+            "cantonese": "喜",
+            "jyutping": "hei2",
+            "mandarin": "",
+            "audioPath": "/audio/words/hei2.mp3"
           }
         ],
-        "audioIndex": 3,
-        "startTime": 27.35
+        "audioIndex": 7,
+        "startTime": 28.91
       },
       {
-        "cantonese": "也许一生太短 陪着你",
-        "jyutping": "jaa5 heoi2 jat1 sang1/saang1 taai3 dyun2 pui4 zoek6/ nei5",
+        "cantonese": "也许一生太短",
+        "jyutping": "jaa5 heoi2 jat1 sang1 taai3 dyun2",
         "mandarin": "",
         "words": [
           {
@@ -14343,10 +17432,16 @@
             "audioPath": "/audio/words/heoi2.mp3"
           },
           {
-            "cantonese": "一生",
-            "jyutping": "jat1 sang1/saang1",
+            "cantonese": "一",
+            "jyutping": "jat1",
             "mandarin": "",
-            "audioPath": "/audio/words/jat1-sang1-saang1.mp3"
+            "audioPath": "/audio/words/jat1.mp3"
+          },
+          {
+            "cantonese": "生",
+            "jyutping": "sang1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sang1.mp3"
           },
           {
             "cantonese": "太",
@@ -14359,7 +17454,16 @@
             "jyutping": "dyun2",
             "mandarin": "",
             "audioPath": "/audio/words/dyun2.mp3"
-          },
+          }
+        ],
+        "audioIndex": 8,
+        "startTime": 30.64
+      },
+      {
+        "cantonese": "陪着你",
+        "jyutping": "pui4 zoek6 nei5",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "陪",
             "jyutping": "pui4",
@@ -14368,9 +17472,9 @@
           },
           {
             "cantonese": "着",
-            "jyutping": "zoek6/",
+            "jyutping": "zoek6",
             "mandarin": "",
-            "audioPath": "/audio/words/zoek6-.mp3"
+            "audioPath": "/audio/words/zoek6.mp3"
           },
           {
             "cantonese": "你",
@@ -14379,8 +17483,8 @@
             "audioPath": "/audio/words/nei5.mp3"
           }
         ],
-        "audioIndex": 4,
-        "startTime": 30.64
+        "audioIndex": 9,
+        "startTime": 33.24
       },
       {
         "cantonese": "情感有若行李",
@@ -14418,7 +17522,7 @@
             "audioPath": "/audio/words/hang4-hang6-hong4-lei5.mp3"
           }
         ],
-        "audioIndex": 5,
+        "audioIndex": 10,
         "startTime": 35.81
       },
       {
@@ -14469,12 +17573,12 @@
             "audioPath": "/audio/words/lei5.mp3"
           }
         ],
-        "audioIndex": 6,
+        "audioIndex": 11,
         "startTime": 39.17
       },
       {
-        "cantonese": "天气不似预期 但要走 总要飞",
-        "jyutping": "tin1 hei3 bat1 ci5 jyu6 kei4 daan6 jiu3 zau2 zung2 jiu3 fei1",
+        "cantonese": "天气不似预期",
+        "jyutping": "tin1 hei3 bat1 ci5 jyu6 kei4",
         "mandarin": "",
         "words": [
           {
@@ -14512,7 +17616,16 @@
             "jyutping": "kei4",
             "mandarin": "",
             "audioPath": "/audio/words/kei4.mp3"
-          },
+          }
+        ],
+        "audioIndex": 12,
+        "startTime": 42.25
+      },
+      {
+        "cantonese": "但要走 总要飞",
+        "jyutping": "daan6 jiu1 zau2 zung2 jiu1 fei1",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "但",
             "jyutping": "daan6",
@@ -14521,9 +17634,9 @@
           },
           {
             "cantonese": "要",
-            "jyutping": "jiu3",
+            "jyutping": "jiu1",
             "mandarin": "",
-            "audioPath": "/audio/words/jiu3.mp3"
+            "audioPath": "/audio/words/jiu1.mp3"
           },
           {
             "cantonese": "走",
@@ -14539,9 +17652,9 @@
           },
           {
             "cantonese": "要",
-            "jyutping": "jiu3",
+            "jyutping": "jiu1",
             "mandarin": "",
-            "audioPath": "/audio/words/jiu3.mp3"
+            "audioPath": "/audio/words/jiu1.mp3"
           },
           {
             "cantonese": "飞",
@@ -14550,12 +17663,12 @@
             "audioPath": "/audio/words/fei1.mp3"
           }
         ],
-        "audioIndex": 7,
-        "startTime": 42.25
+        "audioIndex": 13,
+        "startTime": 45.28
       },
       {
-        "cantonese": "道别不可再等你 不管有没有机",
-        "jyutping": "dou6 bit6 bat1 ho2 zoi3 dang2 nei5 bat1 gun2 jau5 mut6 jau5 gei1",
+        "cantonese": "道别不可再等你",
+        "jyutping": "dou6 bit3 bat1 hak1 zoi3 dang2 nei5",
         "mandarin": "",
         "words": [
           {
@@ -14566,9 +17679,9 @@
           },
           {
             "cantonese": "别",
-            "jyutping": "bit6",
+            "jyutping": "bit3",
             "mandarin": "",
-            "audioPath": "/audio/words/bit6.mp3"
+            "audioPath": "/audio/words/bit3.mp3"
           },
           {
             "cantonese": "不",
@@ -14578,9 +17691,9 @@
           },
           {
             "cantonese": "可",
-            "jyutping": "ho2",
+            "jyutping": "hak1",
             "mandarin": "",
-            "audioPath": "/audio/words/ho2.mp3"
+            "audioPath": "/audio/words/hak1.mp3"
           },
           {
             "cantonese": "再",
@@ -14599,7 +17712,16 @@
             "jyutping": "nei5",
             "mandarin": "",
             "audioPath": "/audio/words/nei5.mp3"
-          },
+          }
+        ],
+        "audioIndex": 14,
+        "startTime": 49.09
+      },
+      {
+        "cantonese": "不管有没有机",
+        "jyutping": "bat1 gun2 jau5 mut6 jau5 gei1",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "不",
             "jyutping": "bat1",
@@ -14637,8 +17759,8 @@
             "audioPath": "/audio/words/gei1.mp3"
           }
         ],
-        "audioIndex": 8,
-        "startTime": 49.09
+        "audioIndex": 15,
+        "startTime": 52.99
       },
       {
         "cantonese": "给我体贴入微",
@@ -14682,12 +17804,12 @@
             "audioPath": "/audio/words/mei4.mp3"
           }
         ],
-        "audioIndex": 9,
+        "audioIndex": 16,
         "startTime": 55.89
       },
       {
-        "cantonese": "但你手 如明日便要远离",
-        "jyutping": "daan6 nei5 sau2 jyu4 ming4 jat6 bin6 jiu3 jyun5 lei4",
+        "cantonese": "但你手",
+        "jyutping": "daan6 nei5 sau2",
         "mandarin": "",
         "words": [
           {
@@ -14707,7 +17829,16 @@
             "jyutping": "sau2",
             "mandarin": "",
             "audioPath": "/audio/words/sau2.mp3"
-          },
+          }
+        ],
+        "audioIndex": 17,
+        "startTime": 58.95
+      },
+      {
+        "cantonese": "如明日便要远离",
+        "jyutping": "jyu4 ming4 jat6 bin6 jiu1 jyun6 lei4",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "如",
             "jyutping": "jyu4",
@@ -14734,15 +17865,15 @@
           },
           {
             "cantonese": "要",
-            "jyutping": "jiu3",
+            "jyutping": "jiu1",
             "mandarin": "",
-            "audioPath": "/audio/words/jiu3.mp3"
+            "audioPath": "/audio/words/jiu1.mp3"
           },
           {
             "cantonese": "远",
-            "jyutping": "jyun5",
+            "jyutping": "jyun6",
             "mandarin": "",
-            "audioPath": "/audio/words/jyun5.mp3"
+            "audioPath": "/audio/words/jyun6.mp3"
           },
           {
             "cantonese": "离",
@@ -14751,12 +17882,12 @@
             "audioPath": "/audio/words/lei4.mp3"
           }
         ],
-        "audioIndex": 10,
+        "audioIndex": 18,
         "startTime": 60.66
       },
       {
-        "cantonese": "愿你可以 留下共我曾愉快的忆记",
-        "jyutping": "jyun6 nei5 ho2 ji5 lau4 haa6 gung6 ngo5 cang4 jyu4 faai3 dik1 jik1 gei3",
+        "cantonese": "愿你可以",
+        "jyutping": "jyun6 nei5 hak1 ji5",
         "mandarin": "",
         "words": [
           {
@@ -14773,16 +17904,25 @@
           },
           {
             "cantonese": "可",
-            "jyutping": "ho2",
+            "jyutping": "hak1",
             "mandarin": "",
-            "audioPath": "/audio/words/ho2.mp3"
+            "audioPath": "/audio/words/hak1.mp3"
           },
           {
             "cantonese": "以",
             "jyutping": "ji5",
             "mandarin": "",
             "audioPath": "/audio/words/ji5.mp3"
-          },
+          }
+        ],
+        "audioIndex": 19,
+        "startTime": 63.67
+      },
+      {
+        "cantonese": "留下共我曾愉快的忆记",
+        "jyutping": "lau4 haa6 gung6 ngo5 cang4 jyu4 faai3 dik1 jik1 gei3",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "留",
             "jyutping": "lau4",
@@ -14844,7 +17984,7 @@
             "audioPath": "/audio/words/gei3.mp3"
           }
         ],
-        "audioIndex": 11,
+        "audioIndex": 20,
         "startTime": 65.31
       },
       {
@@ -14895,7 +18035,7 @@
             "audioPath": "/audio/words/mei5.mp3"
           }
         ],
-        "audioIndex": 12,
+        "audioIndex": 21,
         "startTime": 70.93
       },
       {
@@ -14964,12 +18104,12 @@
             "audioPath": "/audio/words/nei5.mp3"
           }
         ],
-        "audioIndex": 13,
+        "audioIndex": 22,
         "startTime": 74.41
       },
       {
-        "cantonese": "再见了 背向你 眉头多少伤悲",
-        "jyutping": "zoi3 gin3 liu5 bui6 hoeng3 nei5 mei4 tau4 do1 siu23 soeng1 bei1",
+        "cantonese": "再见了 背向你",
+        "jyutping": "zoi3 gin3 liu5 bui3 hoeng3 nei5",
         "mandarin": "",
         "words": [
           {
@@ -14992,9 +18132,9 @@
           },
           {
             "cantonese": "背",
-            "jyutping": "bui6",
+            "jyutping": "bui3",
             "mandarin": "",
-            "audioPath": "/audio/words/bui6.mp3"
+            "audioPath": "/audio/words/bui3.mp3"
           },
           {
             "cantonese": "向",
@@ -15007,7 +18147,16 @@
             "jyutping": "nei5",
             "mandarin": "",
             "audioPath": "/audio/words/nei5.mp3"
-          },
+          }
+        ],
+        "audioIndex": 23,
+        "startTime": 92.44
+      },
+      {
+        "cantonese": "眉头多少伤悲",
+        "jyutping": "mei4 tau4 do1 siu3 soeng1 bei1",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "眉",
             "jyutping": "mei4",
@@ -15028,9 +18177,9 @@
           },
           {
             "cantonese": "少",
-            "jyutping": "siu23",
+            "jyutping": "siu3",
             "mandarin": "",
-            "audioPath": "/audio/words/siu23.mp3"
+            "audioPath": "/audio/words/siu3.mp3"
           },
           {
             "cantonese": "伤",
@@ -15045,12 +18194,12 @@
             "audioPath": "/audio/words/bei1.mp3"
           }
         ],
-        "audioIndex": 14,
-        "startTime": 92.44
+        "audioIndex": 24,
+        "startTime": 94.06
       },
       {
-        "cantonese": "也许不必再讲 所有道理",
-        "jyutping": "jaa5 heoi2 bat1 bit1 zoi3 gong2 so2 jau5 dou6 lei5",
+        "cantonese": "也许不必再讲",
+        "jyutping": "jaa5 heoi2 bat1 bit1 zoi3 gong2",
         "mandarin": "",
         "words": [
           {
@@ -15088,7 +18237,16 @@
             "jyutping": "gong2",
             "mandarin": "",
             "audioPath": "/audio/words/gong2.mp3"
-          },
+          }
+        ],
+        "audioIndex": 25,
+        "startTime": 95.82
+      },
+      {
+        "cantonese": "所有道理",
+        "jyutping": "so2 jau5 dou6 lei5",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "所",
             "jyutping": "so2",
@@ -15114,12 +18272,12 @@
             "audioPath": "/audio/words/lei5.mp3"
           }
         ],
-        "audioIndex": 15,
-        "startTime": 95.82
+        "audioIndex": 26,
+        "startTime": 98.36
       },
       {
-        "cantonese": "何时放松我自己 才能花天酒地",
-        "jyutping": "ho4 si4 fong3 sung1 ngo5 zi6 gei2 coi4 nang4 faa1 tin1 zau2 dei6",
+        "cantonese": "何时放松我自己",
+        "jyutping": "ho4 si4 fong3 sung1 ngo5 zi6 gei2",
         "mandarin": "",
         "words": [
           {
@@ -15163,7 +18321,16 @@
             "jyutping": "gei2",
             "mandarin": "",
             "audioPath": "/audio/words/gei2.mp3"
-          },
+          }
+        ],
+        "audioIndex": 27,
+        "startTime": 100.91
+      },
+      {
+        "cantonese": "才能花天酒地",
+        "jyutping": "coi4 nang4 faa1 tin1 zau2 dei6",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "才",
             "jyutping": "coi4",
@@ -15201,12 +18368,12 @@
             "audioPath": "/audio/words/dei6.mp3"
           }
         ],
-        "audioIndex": 16,
-        "startTime": 100.91
+        "audioIndex": 28,
+        "startTime": 104.35
       },
       {
-        "cantonese": "抱着你 我说过 如何一起高飞",
-        "jyutping": "pou5 zoek6/ nei5 ngo5 syut3 gwo3 jyu4 ho4 jat1 hei2 gou1 fei1",
+        "cantonese": "抱着你 我说过",
+        "jyutping": "pou5 zoek6 nei5 ngo5 syut3 gwo3",
         "mandarin": "",
         "words": [
           {
@@ -15217,9 +18384,9 @@
           },
           {
             "cantonese": "着",
-            "jyutping": "zoek6/",
+            "jyutping": "zoek6",
             "mandarin": "",
-            "audioPath": "/audio/words/zoek6-.mp3"
+            "audioPath": "/audio/words/zoek6.mp3"
           },
           {
             "cantonese": "你",
@@ -15244,7 +18411,16 @@
             "jyutping": "gwo3",
             "mandarin": "",
             "audioPath": "/audio/words/gwo3.mp3"
-          },
+          }
+        ],
+        "audioIndex": 29,
+        "startTime": 106.14
+      },
+      {
+        "cantonese": "如何一起高飞",
+        "jyutping": "jyu4 ho4 jat1 hei2 gou1 fei1",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "如",
             "jyutping": "jyu4",
@@ -15282,12 +18458,12 @@
             "audioPath": "/audio/words/fei1.mp3"
           }
         ],
-        "audioIndex": 17,
-        "startTime": 106.14
+        "audioIndex": 30,
+        "startTime": 107.78
       },
       {
-        "cantonese": "这天只想带走 还是你",
-        "jyutping": "ze5 tin1 zi2 soeng2 daai3 zau2 waan4 si6 nei5",
+        "cantonese": "这天只想带走",
+        "jyutping": "ze5 tin1 zi2 soeng2 daai3 zau2",
         "mandarin": "",
         "words": [
           {
@@ -15325,7 +18501,16 @@
             "jyutping": "zau2",
             "mandarin": "",
             "audioPath": "/audio/words/zau2.mp3"
-          },
+          }
+        ],
+        "audioIndex": 31,
+        "startTime": 109.48
+      },
+      {
+        "cantonese": "还是你",
+        "jyutping": "waan4 si6 nei5",
+        "mandarin": "",
+        "words": [
           {
             "cantonese": "还",
             "jyutping": "waan4",
@@ -15345,8 +18530,8 @@
             "audioPath": "/audio/words/nei5.mp3"
           }
         ],
-        "audioIndex": 18,
-        "startTime": 109.48
+        "audioIndex": 32,
+        "startTime": 112.03
       },
       {
         "cantonese": "如重温往日游记",
@@ -15390,7 +18575,7 @@
             "audioPath": "/audio/words/gei3.mp3"
           }
         ],
-        "audioIndex": 19,
+        "audioIndex": 33,
         "startTime": 114.64
       },
       {
@@ -15447,8 +18632,539 @@
             "audioPath": "/audio/words/hei3.mp3"
           }
         ],
-        "audioIndex": 20,
+        "audioIndex": 34,
         "startTime": 118.13
+      },
+      {
+        "cantonese": "天气不似预期",
+        "jyutping": "tin1 hei3 bat1 ci5 jyu6 kei4",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "天",
+            "jyutping": "tin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/tin1.mp3"
+          },
+          {
+            "cantonese": "气",
+            "jyutping": "hei3",
+            "mandarin": "",
+            "audioPath": "/audio/words/hei3.mp3"
+          },
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "似",
+            "jyutping": "ci5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ci5.mp3"
+          },
+          {
+            "cantonese": "预",
+            "jyutping": "jyu6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu6.mp3"
+          },
+          {
+            "cantonese": "期",
+            "jyutping": "kei4",
+            "mandarin": "",
+            "audioPath": "/audio/words/kei4.mp3"
+          }
+        ],
+        "audioIndex": 35,
+        "startTime": 145.11
+      },
+      {
+        "cantonese": "但要走 总要飞",
+        "jyutping": "daan6 jiu1 zau2 zung2 jiu1 fei1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "但",
+            "jyutping": "daan6",
+            "mandarin": "",
+            "audioPath": "/audio/words/daan6.mp3"
+          },
+          {
+            "cantonese": "要",
+            "jyutping": "jiu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu1.mp3"
+          },
+          {
+            "cantonese": "走",
+            "jyutping": "zau2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zau2.mp3"
+          },
+          {
+            "cantonese": "总",
+            "jyutping": "zung2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zung2.mp3"
+          },
+          {
+            "cantonese": "要",
+            "jyutping": "jiu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu1.mp3"
+          },
+          {
+            "cantonese": "飞",
+            "jyutping": "fei1",
+            "mandarin": "",
+            "audioPath": "/audio/words/fei1.mp3"
+          }
+        ],
+        "audioIndex": 36,
+        "startTime": 148.08
+      },
+      {
+        "cantonese": "道别不可再等你",
+        "jyutping": "dou6 bit3 bat1 hak1 zoi3 dang2 nei5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "道",
+            "jyutping": "dou6",
+            "mandarin": "",
+            "audioPath": "/audio/words/dou6.mp3"
+          },
+          {
+            "cantonese": "别",
+            "jyutping": "bit3",
+            "mandarin": "",
+            "audioPath": "/audio/words/bit3.mp3"
+          },
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "可",
+            "jyutping": "hak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hak1.mp3"
+          },
+          {
+            "cantonese": "再",
+            "jyutping": "zoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zoi3.mp3"
+          },
+          {
+            "cantonese": "等",
+            "jyutping": "dang2",
+            "mandarin": "",
+            "audioPath": "/audio/words/dang2.mp3"
+          },
+          {
+            "cantonese": "你",
+            "jyutping": "nei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/nei5.mp3"
+          }
+        ],
+        "audioIndex": 37,
+        "startTime": 151.88
+      },
+      {
+        "cantonese": "不管有没有机",
+        "jyutping": "bat1 gun2 jau5 mut6 jau5 gei1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "不",
+            "jyutping": "bat1",
+            "mandarin": "",
+            "audioPath": "/audio/words/bat1.mp3"
+          },
+          {
+            "cantonese": "管",
+            "jyutping": "gun2",
+            "mandarin": "",
+            "audioPath": "/audio/words/gun2.mp3"
+          },
+          {
+            "cantonese": "有",
+            "jyutping": "jau5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau5.mp3"
+          },
+          {
+            "cantonese": "没",
+            "jyutping": "mut6",
+            "mandarin": "",
+            "audioPath": "/audio/words/mut6.mp3"
+          },
+          {
+            "cantonese": "有",
+            "jyutping": "jau5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jau5.mp3"
+          },
+          {
+            "cantonese": "机",
+            "jyutping": "gei1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gei1.mp3"
+          }
+        ],
+        "audioIndex": 38,
+        "startTime": 155.83
+      },
+      {
+        "cantonese": "给我体贴入微",
+        "jyutping": "kap1 ngo5 tai2 tip3 jap6 mei4",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "给",
+            "jyutping": "kap1",
+            "mandarin": "",
+            "audioPath": "/audio/words/kap1.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "体",
+            "jyutping": "tai2",
+            "mandarin": "",
+            "audioPath": "/audio/words/tai2.mp3"
+          },
+          {
+            "cantonese": "贴",
+            "jyutping": "tip3",
+            "mandarin": "",
+            "audioPath": "/audio/words/tip3.mp3"
+          },
+          {
+            "cantonese": "入",
+            "jyutping": "jap6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jap6.mp3"
+          },
+          {
+            "cantonese": "微",
+            "jyutping": "mei4",
+            "mandarin": "",
+            "audioPath": "/audio/words/mei4.mp3"
+          }
+        ],
+        "audioIndex": 39,
+        "startTime": 158.81
+      },
+      {
+        "cantonese": "但你手",
+        "jyutping": "daan6 nei5 sau2",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "但",
+            "jyutping": "daan6",
+            "mandarin": "",
+            "audioPath": "/audio/words/daan6.mp3"
+          },
+          {
+            "cantonese": "你",
+            "jyutping": "nei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/nei5.mp3"
+          },
+          {
+            "cantonese": "手",
+            "jyutping": "sau2",
+            "mandarin": "",
+            "audioPath": "/audio/words/sau2.mp3"
+          }
+        ],
+        "audioIndex": 40,
+        "startTime": 161.74
+      },
+      {
+        "cantonese": "如明日便要远离",
+        "jyutping": "jyu4 ming4 jat6 bin6 jiu1 jyun6 lei4",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "如",
+            "jyutping": "jyu4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu4.mp3"
+          },
+          {
+            "cantonese": "明",
+            "jyutping": "ming4",
+            "mandarin": "",
+            "audioPath": "/audio/words/ming4.mp3"
+          },
+          {
+            "cantonese": "日",
+            "jyutping": "jat6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jat6.mp3"
+          },
+          {
+            "cantonese": "便",
+            "jyutping": "bin6",
+            "mandarin": "",
+            "audioPath": "/audio/words/bin6.mp3"
+          },
+          {
+            "cantonese": "要",
+            "jyutping": "jiu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jiu1.mp3"
+          },
+          {
+            "cantonese": "远",
+            "jyutping": "jyun6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyun6.mp3"
+          },
+          {
+            "cantonese": "离",
+            "jyutping": "lei4",
+            "mandarin": "",
+            "audioPath": "/audio/words/lei4.mp3"
+          }
+        ],
+        "audioIndex": 41,
+        "startTime": 163.43
+      },
+      {
+        "cantonese": "愿你可以",
+        "jyutping": "jyun6 nei5 hak1 ji5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "愿",
+            "jyutping": "jyun6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyun6.mp3"
+          },
+          {
+            "cantonese": "你",
+            "jyutping": "nei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/nei5.mp3"
+          },
+          {
+            "cantonese": "可",
+            "jyutping": "hak1",
+            "mandarin": "",
+            "audioPath": "/audio/words/hak1.mp3"
+          },
+          {
+            "cantonese": "以",
+            "jyutping": "ji5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ji5.mp3"
+          }
+        ],
+        "audioIndex": 42,
+        "startTime": 166.51
+      },
+      {
+        "cantonese": "留下共我曾愉快的忆记",
+        "jyutping": "lau4 haa6 gung6 ngo5 cang4 jyu4 faai3 dik1 jik1 gei3",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "留",
+            "jyutping": "lau4",
+            "mandarin": "",
+            "audioPath": "/audio/words/lau4.mp3"
+          },
+          {
+            "cantonese": "下",
+            "jyutping": "haa6",
+            "mandarin": "",
+            "audioPath": "/audio/words/haa6.mp3"
+          },
+          {
+            "cantonese": "共",
+            "jyutping": "gung6",
+            "mandarin": "",
+            "audioPath": "/audio/words/gung6.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "曾",
+            "jyutping": "cang4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cang4.mp3"
+          },
+          {
+            "cantonese": "愉",
+            "jyutping": "jyu4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu4.mp3"
+          },
+          {
+            "cantonese": "快",
+            "jyutping": "faai3",
+            "mandarin": "",
+            "audioPath": "/audio/words/faai3.mp3"
+          },
+          {
+            "cantonese": "的",
+            "jyutping": "dik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/dik1.mp3"
+          },
+          {
+            "cantonese": "忆",
+            "jyutping": "jik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/jik1.mp3"
+          },
+          {
+            "cantonese": "记",
+            "jyutping": "gei3",
+            "mandarin": "",
+            "audioPath": "/audio/words/gei3.mp3"
+          }
+        ],
+        "audioIndex": 43,
+        "startTime": 168.02
+      },
+      {
+        "cantonese": "当世事再没完美",
+        "jyutping": "dong13 sai3 si6 zoi3 mut6 jyun4 mei5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "当",
+            "jyutping": "dong13",
+            "mandarin": "",
+            "audioPath": "/audio/words/dong13.mp3"
+          },
+          {
+            "cantonese": "世",
+            "jyutping": "sai3",
+            "mandarin": "",
+            "audioPath": "/audio/words/sai3.mp3"
+          },
+          {
+            "cantonese": "事",
+            "jyutping": "si6",
+            "mandarin": "",
+            "audioPath": "/audio/words/si6.mp3"
+          },
+          {
+            "cantonese": "再",
+            "jyutping": "zoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/zoi3.mp3"
+          },
+          {
+            "cantonese": "没",
+            "jyutping": "mut6",
+            "mandarin": "",
+            "audioPath": "/audio/words/mut6.mp3"
+          },
+          {
+            "cantonese": "完",
+            "jyutping": "jyun4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyun4.mp3"
+          },
+          {
+            "cantonese": "美",
+            "jyutping": "mei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/mei5.mp3"
+          }
+        ],
+        "audioIndex": 44,
+        "startTime": 173.82
+      },
+      {
+        "cantonese": "可远在岁月如歌中找你",
+        "jyutping": "ho2 jyun5 zoi6 seoi3 jyut6 jyu4 go1 zung1 zaau2 nei5",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "可",
+            "jyutping": "ho2",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho2.mp3"
+          },
+          {
+            "cantonese": "远",
+            "jyutping": "jyun5",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyun5.mp3"
+          },
+          {
+            "cantonese": "在",
+            "jyutping": "zoi6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zoi6.mp3"
+          },
+          {
+            "cantonese": "岁",
+            "jyutping": "seoi3",
+            "mandarin": "",
+            "audioPath": "/audio/words/seoi3.mp3"
+          },
+          {
+            "cantonese": "月",
+            "jyutping": "jyut6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyut6.mp3"
+          },
+          {
+            "cantonese": "如",
+            "jyutping": "jyu4",
+            "mandarin": "",
+            "audioPath": "/audio/words/jyu4.mp3"
+          },
+          {
+            "cantonese": "歌",
+            "jyutping": "go1",
+            "mandarin": "",
+            "audioPath": "/audio/words/go1.mp3"
+          },
+          {
+            "cantonese": "中",
+            "jyutping": "zung1",
+            "mandarin": "",
+            "audioPath": "/audio/words/zung1.mp3"
+          },
+          {
+            "cantonese": "找",
+            "jyutping": "zaau2",
+            "mandarin": "",
+            "audioPath": "/audio/words/zaau2.mp3"
+          },
+          {
+            "cantonese": "你",
+            "jyutping": "nei5",
+            "mandarin": "",
+            "audioPath": "/audio/words/nei5.mp3"
+          }
+        ],
+        "audioIndex": 45,
+        "startTime": 177.2
       }
     ],
     "difficulty": "easy",
@@ -15550,7 +19266,7 @@
             "audioPath": "/audio/words/gin6.mp3"
           }
         ],
-        "startTime": 3.57,
+        "startTime": 3.115,
         "audioIndex": 0
       },
       {
@@ -15631,7 +19347,7 @@
             "audioPath": "/audio/words/gaan13-dyun6-dyun3-tyun5.mp3"
           }
         ],
-        "startTime": 10.41,
+        "startTime": 10.181,
         "audioIndex": 1
       },
       {
@@ -15724,7 +19440,7 @@
             "audioPath": "/audio/words/gin1.mp3"
           }
         ],
-        "startTime": 17.28,
+        "startTime": 17.035,
         "audioIndex": 2
       },
       {
@@ -15805,7 +19521,7 @@
             "audioPath": "/audio/words/tin1.mp3"
           }
         ],
-        "startTime": 24.32,
+        "startTime": 24.028,
         "audioIndex": 3
       },
       {
@@ -15874,7 +19590,7 @@
             "audioPath": "/audio/words/min6.mp3"
           }
         ],
-        "startTime": 30.49,
+        "startTime": 30.27,
         "audioIndex": 4
       },
       {
@@ -15931,8 +19647,83 @@
             "audioPath": "/audio/words/gwo3.mp3"
           }
         ],
-        "startTime": 36.09,
+        "startTime": 35.79,
         "audioIndex": 5
+      },
+      {
+        "cantonese": "十面埋伏过 孤单感更赤裸",
+        "jyutping": "sap6 min6 maai4 fuk6 gwo3 gu1 daan1 gam2 gang13 cek3 lo2",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "十",
+            "jyutping": "sap6",
+            "mandarin": "",
+            "audioPath": "/audio/words/sap6.mp3"
+          },
+          {
+            "cantonese": "面",
+            "jyutping": "min6",
+            "mandarin": "",
+            "audioPath": "/audio/words/min6.mp3"
+          },
+          {
+            "cantonese": "埋",
+            "jyutping": "maai4",
+            "mandarin": "",
+            "audioPath": "/audio/words/maai4.mp3"
+          },
+          {
+            "cantonese": "伏",
+            "jyutping": "fuk6",
+            "mandarin": "",
+            "audioPath": "/audio/words/fuk6.mp3"
+          },
+          {
+            "cantonese": "过",
+            "jyutping": "gwo3",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwo3.mp3"
+          },
+          {
+            "cantonese": "孤",
+            "jyutping": "gu1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gu1.mp3"
+          },
+          {
+            "cantonese": "单",
+            "jyutping": "daan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/daan1.mp3"
+          },
+          {
+            "cantonese": "感",
+            "jyutping": "gam2",
+            "mandarin": "",
+            "audioPath": "/audio/words/gam2.mp3"
+          },
+          {
+            "cantonese": "更",
+            "jyutping": "gang13",
+            "mandarin": "",
+            "audioPath": "/audio/words/gang13.mp3"
+          },
+          {
+            "cantonese": "赤",
+            "jyutping": "cek3",
+            "mandarin": "",
+            "audioPath": "/audio/words/cek3.mp3"
+          },
+          {
+            "cantonese": "裸",
+            "jyutping": "lo2",
+            "mandarin": "",
+            "audioPath": "/audio/words/lo2.mp3"
+          }
+        ],
+        "startTime": 39.198,
+        "audioIndex": 6
       },
       {
         "cantonese": "总差一点点先可以再会面",
@@ -16000,22 +19791,22 @@
             "audioPath": "/audio/words/min6.mp3"
           }
         ],
-        "startTime": 44.33,
-        "audioIndex": 6
+        "startTime": 44.22,
+        "audioIndex": 7
       },
       {
-        "cantonese": "彷彿应该一早见过 但直行直过",
-        "jyutping": "fong2 fat1 jing3 goi1 jat1 zou2 gin3 gwo3 daan6 zik6 hang6 zik6 gwo3",
+        "cantonese": "仿佛 应该 一早 见过",
+        "jyutping": "fong2 fat1 jing3 goi1 jat1 zou2 gin3 gwo3",
         "mandarin": "",
         "words": [
           {
-            "cantonese": "彷",
+            "cantonese": "仿",
             "jyutping": "fong2",
             "mandarin": "",
             "audioPath": "/audio/words/fong2.mp3"
           },
           {
-            "cantonese": "彿",
+            "cantonese": "佛",
             "jyutping": "fat1",
             "mandarin": "",
             "audioPath": "/audio/words/fat1.mp3"
@@ -16055,40 +19846,10 @@
             "jyutping": "gwo3",
             "mandarin": "",
             "audioPath": "/audio/words/gwo3.mp3"
-          },
-          {
-            "cantonese": "但",
-            "jyutping": "daan6",
-            "mandarin": "",
-            "audioPath": "/audio/words/daan6.mp3"
-          },
-          {
-            "cantonese": "直",
-            "jyutping": "zik6",
-            "mandarin": "",
-            "audioPath": "/audio/words/zik6.mp3"
-          },
-          {
-            "cantonese": "行",
-            "jyutping": "hang6",
-            "mandarin": "",
-            "audioPath": "/audio/words/hang6.mp3"
-          },
-          {
-            "cantonese": "直",
-            "jyutping": "zik6",
-            "mandarin": "",
-            "audioPath": "/audio/words/zik6.mp3"
-          },
-          {
-            "cantonese": "过",
-            "jyutping": "gwo3",
-            "mandarin": "",
-            "audioPath": "/audio/words/gwo3.mp3"
           }
         ],
-        "startTime": 50.0,
-        "audioIndex": 7
+        "audioIndex": 8,
+        "startTime": 49.655
       },
       {
         "cantonese": "只差一个眼波 将彼此错过",
@@ -16150,8 +19911,8 @@
             "audioPath": "/audio/words/co3-cok3-gwo3.mp3"
           }
         ],
-        "startTime": 55.66,
-        "audioIndex": 8
+        "startTime": 53.183,
+        "audioIndex": 9
       },
       {
         "cantonese": "迟两秒搭上地下铁 能与你碰上么",
@@ -16243,8 +20004,8 @@
             "audioPath": "/audio/words/mo1.mp3"
           }
         ],
-        "startTime": 66.02,
-        "audioIndex": 9
+        "startTime": 66.015,
+        "audioIndex": 10
       },
       {
         "cantonese": "如提前十步入电梯 谁又被错过",
@@ -16324,8 +20085,8 @@
             "audioPath": "/audio/words/co3-cok3-gwo3.mp3"
           }
         ],
-        "startTime": 72.95,
-        "audioIndex": 10
+        "startTime": 72.654,
+        "audioIndex": 11
       },
       {
         "cantonese": "和某某从来未预约 为何能见更多",
@@ -16417,8 +20178,8 @@
             "audioPath": "/audio/words/do1.mp3"
           }
         ],
-        "startTime": 79.85,
-        "audioIndex": 11
+        "startTime": 79.554,
+        "audioIndex": 12
       },
       {
         "cantonese": "全城来撞你 但最后处处有险阻",
@@ -16504,8 +20265,8 @@
             "audioPath": "/audio/words/zo2.mp3"
           }
         ],
-        "startTime": 86.85,
-        "audioIndex": 12
+        "startTime": 86.528,
+        "audioIndex": 13
       },
       {
         "cantonese": "只差一点点即可以再会面",
@@ -16573,8 +20334,65 @@
             "audioPath": "/audio/words/min6.mp3"
           }
         ],
-        "startTime": 93.0,
-        "audioIndex": 13
+        "startTime": 92.766,
+        "audioIndex": 14
+      },
+      {
+        "cantonese": "可惜偏偏刚刚擦过",
+        "jyutping": "ho2 sik1 pin1 pin1 gong1 gong1 caat3 gwo3",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "可",
+            "jyutping": "ho2",
+            "mandarin": "",
+            "audioPath": "/audio/words/ho2.mp3"
+          },
+          {
+            "cantonese": "惜",
+            "jyutping": "sik1",
+            "mandarin": "",
+            "audioPath": "/audio/words/sik1.mp3"
+          },
+          {
+            "cantonese": "偏",
+            "jyutping": "pin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/pin1.mp3"
+          },
+          {
+            "cantonese": "偏",
+            "jyutping": "pin1",
+            "mandarin": "",
+            "audioPath": "/audio/words/pin1.mp3"
+          },
+          {
+            "cantonese": "刚",
+            "jyutping": "gong1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gong1.mp3"
+          },
+          {
+            "cantonese": "刚",
+            "jyutping": "gong1",
+            "mandarin": "",
+            "audioPath": "/audio/words/gong1.mp3"
+          },
+          {
+            "cantonese": "擦",
+            "jyutping": "caat3",
+            "mandarin": "",
+            "audioPath": "/audio/words/caat3.mp3"
+          },
+          {
+            "cantonese": "过",
+            "jyutping": "gwo3",
+            "mandarin": "",
+            "audioPath": "/audio/words/gwo3.mp3"
+          }
+        ],
+        "startTime": 98.262,
+        "audioIndex": 15
       },
       {
         "cantonese": "十面埋伏过 孤单感更赤裸",
@@ -16648,8 +20466,8 @@
             "audioPath": "/audio/words/lo2.mp3"
           }
         ],
-        "startTime": 98.66,
-        "audioIndex": 14
+        "startTime": 101.817,
+        "audioIndex": 16
       },
       {
         "cantonese": "总差一点点先可以再会面",
@@ -16717,22 +20535,22 @@
             "audioPath": "/audio/words/min6.mp3"
           }
         ],
-        "startTime": 106.9,
-        "audioIndex": 15
+        "startTime": 106.675,
+        "audioIndex": 17
       },
       {
-        "cantonese": "彷彿应该一早见过 但直行直过",
-        "jyutping": "fong2 fat1 jing3 goi1 jat1 zou2 gin3 gwo3 daan6 zik6 hang6 zik6 gwo3",
+        "cantonese": "仿佛 应该 一早 见过",
+        "jyutping": "fong2 fat1 jing3 goi1 jat1 zou2 gin3 gwo3",
         "mandarin": "",
         "words": [
           {
-            "cantonese": "彷",
+            "cantonese": "仿",
             "jyutping": "fong2",
             "mandarin": "",
             "audioPath": "/audio/words/fong2.mp3"
           },
           {
-            "cantonese": "彿",
+            "cantonese": "佛",
             "jyutping": "fat1",
             "mandarin": "",
             "audioPath": "/audio/words/fat1.mp3"
@@ -16772,40 +20590,10 @@
             "jyutping": "gwo3",
             "mandarin": "",
             "audioPath": "/audio/words/gwo3.mp3"
-          },
-          {
-            "cantonese": "但",
-            "jyutping": "daan6",
-            "mandarin": "",
-            "audioPath": "/audio/words/daan6.mp3"
-          },
-          {
-            "cantonese": "直",
-            "jyutping": "zik6",
-            "mandarin": "",
-            "audioPath": "/audio/words/zik6.mp3"
-          },
-          {
-            "cantonese": "行",
-            "jyutping": "hang6",
-            "mandarin": "",
-            "audioPath": "/audio/words/hang6.mp3"
-          },
-          {
-            "cantonese": "直",
-            "jyutping": "zik6",
-            "mandarin": "",
-            "audioPath": "/audio/words/zik6.mp3"
-          },
-          {
-            "cantonese": "过",
-            "jyutping": "gwo3",
-            "mandarin": "",
-            "audioPath": "/audio/words/gwo3.mp3"
           }
         ],
-        "startTime": 112.68,
-        "audioIndex": 16
+        "audioIndex": 18,
+        "startTime": 112.12
       },
       {
         "cantonese": "只等一个眼波",
@@ -16849,8 +20637,8 @@
             "audioPath": "/audio/words/bo1.mp3"
           }
         ],
-        "startTime": 118.17,
-        "audioIndex": 17
+        "startTime": 115.672,
+        "audioIndex": 19
       },
       {
         "cantonese": "轨迹改变角度交错",
@@ -16900,65 +20688,65 @@
             "audioPath": "/audio/words/gaau1-co3-cok3.mp3"
           }
         ],
-        "startTime": 120.86,
-        "audioIndex": 18
+        "startTime": 120.765,
+        "audioIndex": 20
       },
       {
-        "cantonese": "天空闪过灿烂花火",
-        "jyutping": "tin1 hung1 sim2 gwo3 caan3 laan6 faa1 fo2",
+        "cantonese": "和你不再为爱奔波",
+        "jyutping": "wo4 nei5 bat1 zoi3 wai4 oi3 ban1 bo1",
         "mandarin": "",
         "words": [
           {
-            "cantonese": "天",
-            "jyutping": "tin1",
+            "cantonese": "和",
+            "jyutping": "wo4",
             "mandarin": "",
-            "audioPath": "/audio/words/tin1.mp3"
+            "audioPath": "/audio/words/wo4.mp3"
           },
           {
-            "cantonese": "空",
-            "jyutping": "hung1",
+            "cantonese": "你",
+            "jyutping": "nei5",
             "mandarin": "",
-            "audioPath": "/audio/words/hung1.mp3"
+            "audioPath": "/audio/words/nei5.mp3"
           },
           {
-            "cantonese": "闪",
-            "jyutping": "sim2",
+            "cantonese": "不",
+            "jyutping": "bat1",
             "mandarin": "",
-            "audioPath": "/audio/words/sim2.mp3"
+            "audioPath": "/audio/words/bat1.mp3"
           },
           {
-            "cantonese": "过",
-            "jyutping": "gwo3",
+            "cantonese": "再",
+            "jyutping": "zoi3",
             "mandarin": "",
-            "audioPath": "/audio/words/gwo3.mp3"
+            "audioPath": "/audio/words/zoi3.mp3"
           },
           {
-            "cantonese": "灿",
-            "jyutping": "caan3",
+            "cantonese": "为",
+            "jyutping": "wai4",
             "mandarin": "",
-            "audioPath": "/audio/words/caan3.mp3"
+            "audioPath": "/audio/words/wai4.mp3"
           },
           {
-            "cantonese": "烂",
-            "jyutping": "laan6",
+            "cantonese": "爱",
+            "jyutping": "oi3",
             "mandarin": "",
-            "audioPath": "/audio/words/laan6.mp3"
+            "audioPath": "/audio/words/oi3.mp3"
           },
           {
-            "cantonese": "花",
-            "jyutping": "faa1",
+            "cantonese": "奔",
+            "jyutping": "ban1",
             "mandarin": "",
-            "audioPath": "/audio/words/faa1.mp3"
+            "audioPath": "/audio/words/ban1.mp3"
           },
           {
-            "cantonese": "火",
-            "jyutping": "fo2",
+            "cantonese": "波",
+            "jyutping": "bo1",
             "mandarin": "",
-            "audioPath": "/audio/words/fo2.mp3"
+            "audioPath": "/audio/words/bo1.mp3"
           }
         ],
-        "startTime": 127.86,
-        "audioIndex": 19
+        "audioIndex": 21,
+        "startTime": 127.453
       },
       {
         "cantonese": "总差一点点先可以再会面",
@@ -17026,8 +20814,8 @@
             "audioPath": "/audio/words/min6.mp3"
           }
         ],
-        "startTime": 134.67,
-        "audioIndex": 20
+        "startTime": 134.643,
+        "audioIndex": 22
       },
       {
         "cantonese": "悔不当初轻轻放过",
@@ -17077,8 +20865,83 @@
             "audioPath": "/audio/words/gwo3.mp3"
           }
         ],
-        "startTime": 140.43,
-        "audioIndex": 21
+        "startTime": 140.023,
+        "audioIndex": 23
+      },
+      {
+        "cantonese": "现在惩罚我 分手分错了么",
+        "jyutping": "jin6 zoi6 cing4 fat6 ngo5 fan1 sau2 fan1 cok3 liu5 mo1",
+        "mandarin": "",
+        "words": [
+          {
+            "cantonese": "现",
+            "jyutping": "jin6",
+            "mandarin": "",
+            "audioPath": "/audio/words/jin6.mp3"
+          },
+          {
+            "cantonese": "在",
+            "jyutping": "zoi6",
+            "mandarin": "",
+            "audioPath": "/audio/words/zoi6.mp3"
+          },
+          {
+            "cantonese": "惩",
+            "jyutping": "cing4",
+            "mandarin": "",
+            "audioPath": "/audio/words/cing4.mp3"
+          },
+          {
+            "cantonese": "罚",
+            "jyutping": "fat6",
+            "mandarin": "",
+            "audioPath": "/audio/words/fat6.mp3"
+          },
+          {
+            "cantonese": "我",
+            "jyutping": "ngo5",
+            "mandarin": "",
+            "audioPath": "/audio/words/ngo5.mp3"
+          },
+          {
+            "cantonese": "分",
+            "jyutping": "fan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/fan1.mp3"
+          },
+          {
+            "cantonese": "手",
+            "jyutping": "sau2",
+            "mandarin": "",
+            "audioPath": "/audio/words/sau2.mp3"
+          },
+          {
+            "cantonese": "分",
+            "jyutping": "fan1",
+            "mandarin": "",
+            "audioPath": "/audio/words/fan1.mp3"
+          },
+          {
+            "cantonese": "错",
+            "jyutping": "cok3",
+            "mandarin": "",
+            "audioPath": "/audio/words/cok3.mp3"
+          },
+          {
+            "cantonese": "了",
+            "jyutping": "liu5",
+            "mandarin": "",
+            "audioPath": "/audio/words/liu5.mp3"
+          },
+          {
+            "cantonese": "么",
+            "jyutping": "mo1",
+            "mandarin": "",
+            "audioPath": "/audio/words/mo1.mp3"
+          }
+        ],
+        "audioIndex": 24,
+        "startTime": 143.417
       },
       {
         "cantonese": "分开一千天 天天盼再会面",
@@ -17146,8 +21009,8 @@
             "audioPath": "/audio/words/min6.mp3"
           }
         ],
-        "startTime": 148.65,
-        "audioIndex": 22
+        "startTime": 148.4,
+        "audioIndex": 25
       },
       {
         "cantonese": "只怕是你先找到我 但直行直过",
@@ -17233,8 +21096,8 @@
             "audioPath": "/audio/words/gwo3.mp3"
           }
         ],
-        "startTime": 154.35,
-        "audioIndex": 23
+        "startTime": 153.909,
+        "audioIndex": 26
       },
       {
         "cantonese": "天都帮你去躲 躲开不见我",
@@ -17308,8 +21171,8 @@
             "audioPath": "/audio/words/ngo5.mp3"
           }
         ],
-        "startTime": 160.01,
-        "audioIndex": 24
+        "startTime": 157.398,
+        "audioIndex": 27
       }
     ],
     "difficulty": "medium",
